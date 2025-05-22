@@ -1,0 +1,4178 @@
+[
+  {
+    "name": "Typisch Texelse Schapenboet",
+    "location": "Leemkuil 6, 1791 LC Den Burg, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 53.0437386,
+      "longitude": 4.8061972
+    }
+  },
+  {
+    "name": "Vleesveebedrijf / Vleesverkoop De Til",
+    "location": "Wittenweg 1, 7753 TC Dalerpeel, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Service grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 51770482",
+    "website": "http://www.rundvlees.nu/",
+    "coordinates": {
+      "latitude": 52.7008698,
+      "longitude": 6.6780148
+    }
+  },
+  {
+    "name": "Herders van Balloo",
+    "location": "Crabbeweg 2, 9458 TE Balloo, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 14467033",
+    "website": "https://www.herdersvanballoo.nl/",
+    "coordinates": {
+      "latitude": 53.0003611,
+      "longitude": 6.6374
+    }
+  },
+  {
+    "name": "Suydbroek boerderijwinkel",
+    "location": "Bisschopsweg 2, 7448 PK Haarle, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 30074276",
+    "website": "https://www.suydbroek.nl/",
+    "coordinates": {
+      "latitude": 52.3426485,
+      "longitude": 6.3631076
+    }
+  },
+  {
+    "name": "Schaapskudde Exloo",
+    "location": "Hoofdstraat 55, 7875 EP Exloo, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "http://www.schaapskuddeexloo.nl/",
+    "coordinates": {
+      "latitude": 52.8823849,
+      "longitude": 6.864026
+    }
+  },
+  {
+    "name": "Boer Snuverink",
+    "location": "Morshoekweg 31, 7552 PE Hengelo, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 85 888 6946",
+    "website": "http://www.boersnuverink.nl/",
+    "coordinates": {
+      "latitude": 52.2550049,
+      "longitude": 6.8278457
+    }
+  },
+  {
+    "name": "Schapenhouderij Wijbenga",
+    "location": "Suwâldsterdyk 6, 9255 LG Tytsjerk, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 511 431 831",
+    "website": null,
+    "coordinates": {
+      "latitude": 53.1977848,
+      "longitude": 5.9307282
+    }
+  },
+  {
+    "name": "Schapenhouderij Veldema",
+    "location": "Zeedijk 8, 9171 AM Blije, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 519 561 559",
+    "website": null,
+    "coordinates": {
+      "latitude": 53.3643245,
+      "longitude": 5.8601261
+    }
+  },
+  {
+    "name": "Schapenhouderij Verriet",
+    "location": "Kerkdijk 40, 6577 JL Erlecom, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 20744645",
+    "website": null,
+    "coordinates": {
+      "latitude": 51.8473979,
+      "longitude": 5.9445191
+    }
+  },
+  {
+    "name": "Schapenhouderij & Veehandel Bennen Been",
+    "location": "Friese Veldweg 16, 8398 ET Blesdijke, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 52.8201854,
+      "longitude": 6.0324677
+    }
+  },
+  {
+    "name": "Schaapskooi Bargerveen",
+    "location": "Ambachtsweg 4, 7765 BX Weiteveen, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://www.facebook.com/LSBKollingsveen",
+    "coordinates": {
+      "latitude": 52.676549,
+      "longitude": 7.0006007
+    }
+  },
+  {
+    "name": "De Fleckiehoeve",
+    "location": "Rheezerweg 115, 7795 DB Diffelen, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 52181045",
+    "website": "http://www.melktapdefleckiehoeve.nl/",
+    "coordinates": {
+      "latitude": 52.5352922,
+      "longitude": 6.5669964
+    }
+  },
+  {
+    "name": "Schapenhouderij Boekelo",
+    "location": "Leemdobben 5, 9551 AP Sellingen, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 599 322 802",
+    "website": null,
+    "coordinates": {
+      "latitude": 52.9550905,
+      "longitude": 7.1549316
+    }
+  },
+  {
+    "name": "De vrolijke Grazers",
+    "location": "Vuile Riete 4, 7925 PM Linde, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 22989915",
+    "website": "http://www.devrolijkegrazers.nl/",
+    "coordinates": {
+      "latitude": 52.6369456,
+      "longitude": 6.4577605
+    }
+  },
+  {
+    "name": "V.O.F. Van de Schapenhoeve",
+    "location": "Hupselseweg 31, 7151 GN Eibergen, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 545 840 035",
+    "website": "http://schapenhoeve.nl/",
+    "coordinates": {
+      "latitude": 52.0966518,
+      "longitude": 6.6407801
+    }
+  },
+  {
+    "name": "De Kooihoek",
+    "location": "Verwoldseweg 31, 7245 VX Laren, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 573 421 319",
+    "website": "http://www.dekooihoek.nl/",
+    "coordinates": {
+      "latitude": 52.1943027,
+      "longitude": 6.4069733
+    }
+  },
+  {
+    "name": "Grebbeveld Schapen &zo",
+    "location": "Langesteeg 21, 6721 NB Bennekom, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 40349079",
+    "website": "http://grebbeveld.nl/",
+    "coordinates": {
+      "latitude": 51.9989148,
+      "longitude": 5.6513802
+    }
+  },
+  {
+    "name": "Schapenhouderij Mansveld",
+    "location": "Boekweitenweg 3, 7974 HL Havelterberg, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 16662107",
+    "website": null,
+    "coordinates": {
+      "latitude": 52.7587576,
+      "longitude": 6.1857295
+    }
+  },
+  {
+    "name": "Biologische Schapenboerderij De Zeekraal",
+    "location": "Oosterend 17-A, 8897 HW Oosterend Terschelling, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 562 449 278",
+    "website": "http://www.dezeekraal.nl/",
+    "coordinates": {
+      "latitude": 53.4037784,
+      "longitude": 5.3748491
+    }
+  },
+  {
+    "name": "Alpaca Boerderij Zonneveld Alpaca's",
+    "location": "Kanaal Westzijde 2A, 7937 TL Tiendeveen, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 42672876",
+    "website": "https://www.zonneveldalpacas.nl/?utm_source=google+gmb&utm_medium=gmb&utm_campaign=google_gmb&utm_id=gmb+kliks",
+    "coordinates": {
+      "latitude": 52.76694,
+      "longitude": 6.54946
+    }
+  },
+  {
+    "name": "Biologische Schapenhouderij Lombok",
+    "location": "Beerninksweg 2, 7433 RN Schalkhaar, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Organic grazing",
+    "contact_email": "",
+    "contact_phone": "+31 570 530 117",
+    "website": "https://www.bslombok.nl/",
+    "coordinates": {
+      "latitude": 52.3054128,
+      "longitude": 6.2282864
+    }
+  },
+  {
+    "name": "Melktapperij Hoogboer",
+    "location": "Laagseweg 80, 7662 PA Hezingen, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 20635451",
+    "website": null,
+    "coordinates": {
+      "latitude": 52.4369141,
+      "longitude": 6.9277176
+    }
+  },
+  {
+    "name": "Schapenboerderij Westerweg Texel",
+    "location": "Westerweg 80, 1797 RH Den Hoorn Texel, Nederland",
+    "country": "Netherlands",
+    "region": "Noord-Holland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 222 319 263",
+    "website": "http://www.westerwegtexel.nl/",
+    "coordinates": {
+      "latitude": 53.0412736,
+      "longitude": 4.7479901
+    }
+  },
+  {
+    "name": "Schaapskooi Schaapskudde Ruinen",
+    "location": "Benderse 36, 7963 RA Ruinen, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://www.schaapskudderuinen.nl/",
+    "coordinates": {
+      "latitude": 52.7840966,
+      "longitude": 6.3816137
+    }
+  },
+  {
+    "name": "Boerderij-Camping Grenszicht SVR",
+    "location": "Radewijkerweg 70, 7791 RH Radewijk, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Rava",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 523 216 365",
+    "website": "https://www.grenszicht.nl/",
+    "coordinates": {
+      "latitude": 52.5647278,
+      "longitude": 6.7560447
+    }
+  },
+  {
+    "name": "Schapenboerderij Penninga",
+    "location": "Kalkwijk 76, 9603 TD Hoogezand, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 53.1326125,
+      "longitude": 6.7854873
+    }
+  },
+  {
+    "name": "Hoeve Bosman",
+    "location": "Posthoornweg 38, 7781 PK De Krim, Nederland",
+    "country": "Netherlands",
+    "region": "Noord-Holland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 25513897",
+    "website": "https://www.hoevebosman.nl/",
+    "coordinates": {
+      "latitude": 52.6438177,
+      "longitude": 6.5929579
+    }
+  },
+  {
+    "name": "Schapenstreek",
+    "location": "De Gouw 57A, 1614 MB Lutjebroek, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 10099447",
+    "website": "http://www.schapenstreek.nl/",
+    "coordinates": {
+      "latitude": 52.705626,
+      "longitude": 5.196616
+    }
+  },
+  {
+    "name": "Schapenboerderij Texel - Lammetjes knuffelen",
+    "location": "Pontweg 77, 1791 LA Den Burg, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 25128858",
+    "website": "http://www.schapenboerderijtexel.nl/",
+    "coordinates": {
+      "latitude": 53.041373,
+      "longitude": 4.7956199
+    }
+  },
+  {
+    "name": "Zorg- en Logeerboerderij. De Geitenmeijerij",
+    "location": "Noordeinde 27, 8428 HL Fochteloo, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 516 516 666",
+    "website": "http://www.degeitenmeijerij.frl/",
+    "coordinates": {
+      "latitude": 53.0029065,
+      "longitude": 6.328058
+    }
+  },
+  {
+    "name": "Kaasboerderij De Stelp",
+    "location": "Wolvegasterweg 49, 8421 PS Oldeberkoop, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 516 451 366",
+    "website": "http://www.dekaasboerderij.nl/",
+    "coordinates": {
+      "latitude": 52.9328536,
+      "longitude": 6.1187901
+    }
+  },
+  {
+    "name": "Alpaca Bontebok",
+    "location": "Tweede Compagnonsweg 10, 8415 AM Bontebok, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 29176307",
+    "website": "http://www.alpacabontebok.nl/",
+    "coordinates": {
+      "latitude": 52.9710093,
+      "longitude": 6.0648453
+    }
+  },
+  {
+    "name": "Duitse Herder Kennel Aus Felsbrockendorf",
+    "location": null,
+    "country": "Netherlands",
+    "region": "",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 15051195",
+    "website": "https://www.duitse-herder-kennel.nl/",
+    "coordinates": {
+      "latitude": 52.1909763,
+      "longitude": 5.2795551
+    }
+  },
+  {
+    "name": "Zorg&Natuur B.V.",
+    "location": "Klazingaweg 1, 8431 RD Oosterwolde, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "http://www.zorgnatuur.nl/",
+    "coordinates": {
+      "latitude": 52.999589,
+      "longitude": 6.3077328
+    }
+  },
+  {
+    "name": "Duitse herder kennel vom Twickelland.",
+    "location": "Duitse herder kennel vom Twickelland, Weerselosestraat 188, 7623 DT Borne, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 50508290",
+    "website": "http://www.vomtwickelland.nl/",
+    "coordinates": {
+      "latitude": 52.3091594,
+      "longitude": 6.7610613
+    }
+  },
+  {
+    "name": "Schaapskooi Balloo",
+    "location": "Crabbeweg 2, 9458 TE Balloo, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://www.herdersvanballoo.nl/",
+    "coordinates": {
+      "latitude": 53.0002901,
+      "longitude": 6.6373999
+    }
+  },
+  {
+    "name": "Schaapskudde Twente",
+    "location": "Oosteriksweg 26, 7663 TA Mander, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 24421779",
+    "website": "http://www.schaapskudde-twente.nl/",
+    "coordinates": {
+      "latitude": 52.4459366,
+      "longitude": 6.8476966
+    }
+  },
+  {
+    "name": "Weerribben Zuivel BV",
+    "location": "Veldhuisweg 9, 8362 VB Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 527 292 529",
+    "website": "http://www.weerribbenzuivel.nl/",
+    "coordinates": {
+      "latitude": 52.7494784,
+      "longitude": 5.9574674
+    }
+  },
+  {
+    "name": "Zorgboerderij De Gaegelpolle",
+    "location": "Duistereweg 30, 8431 VV Oosterwolde, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 516 512 417",
+    "website": "http://www.gaegelpolle.nl/",
+    "coordinates": {
+      "latitude": 52.9828768,
+      "longitude": 6.267623
+    }
+  },
+  {
+    "name": "Boeren in het Bos",
+    "location": "Bovenweg 23, 8422 DG Nijeberkoop, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 21246108",
+    "website": "https://www.boereninhetbos.nl/",
+    "coordinates": {
+      "latitude": 52.9555181,
+      "longitude": 6.1853319
+    }
+  },
+  {
+    "name": "De Stobbepoele",
+    "location": "Haerweg 3, 8424 SL Elsloo, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 516 441 690",
+    "website": "http://www.destobbepoele.nl/",
+    "coordinates": {
+      "latitude": 52.9562236,
+      "longitude": 6.2266398
+    }
+  },
+  {
+    "name": "Melktap Softijsautomaat Eierautomaat Kaasautomaat Rustpunt / Melk en Pluimveebedrijf Hunse",
+    "location": "Eursing 31, 9411 XB Beilen, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 11200231",
+    "website": "http://www.heide-ei.nl/",
+    "coordinates": {
+      "latitude": 52.8828842,
+      "longitude": 6.5266366
+    }
+  },
+  {
+    "name": "Schaapskooi Achter 't Zaand",
+    "location": "7991 NG Dwingeloo, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://www.nationaalpark-dwingelderveld.nl/uniek/schaapskudde-0/",
+    "coordinates": {
+      "latitude": 52.8133023,
+      "longitude": 6.411125
+    }
+  },
+  {
+    "name": "Nederlandse Schapen- en Geitenfokkers Organisatie",
+    "location": "De Ooijk, Ambacht 1a, 5301 KW Zaltbommel, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 418 561 712",
+    "website": "https://www.nsfo.nl/",
+    "coordinates": {
+      "latitude": 51.8067856,
+      "longitude": 5.2691616
+    }
+  },
+  {
+    "name": "Wylde Weide Landschapsbeheer",
+    "location": "Haudmare 5, 8457 CH Gersloot, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 52650727",
+    "website": "http://www.wyldeweide.nl/",
+    "coordinates": {
+      "latitude": 52.9997722,
+      "longitude": 5.9755648
+    }
+  },
+  {
+    "name": "Schapenhouderij Salverda",
+    "location": "Koeweg 9, 8715 JW Stavoren, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 10100113",
+    "website": null,
+    "coordinates": {
+      "latitude": 52.8848191,
+      "longitude": 5.3722462
+    }
+  },
+  {
+    "name": "Schapenhouderij Teerling",
+    "location": "Ommelanderweg 10, 9978 TC Hornhuizen, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 51634086",
+    "website": null,
+    "coordinates": {
+      "latitude": 53.3877029,
+      "longitude": 6.3509629
+    }
+  },
+  {
+    "name": "V.O.F. Schapenhouderij Mennen",
+    "location": "Centurioweg 5, 5759 PH Helenaveen, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 14683577",
+    "website": "http://www.schapenbegrazingmennen.nl/",
+    "coordinates": {
+      "latitude": 51.3941171,
+      "longitude": 5.9009242
+    }
+  },
+  {
+    "name": "Schapenhouderij Shop",
+    "location": "Doolstraat 7, 5641 JL Eindhoven, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 40 284 1302",
+    "website": "http://www.schapenhouderij.nl/",
+    "coordinates": {
+      "latitude": 51.4354867,
+      "longitude": 5.5314671
+    }
+  },
+  {
+    "name": "Biologische Boerderij \"de Pasop\"",
+    "location": "Tolstraat 6, 6999 DC Hummelo, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 314 381 921",
+    "website": "https://www.de-pasop-hummelo.nl/",
+    "coordinates": {
+      "latitude": 52.0192503,
+      "longitude": 6.2118938
+    }
+  },
+  {
+    "name": "Wijnhandel Schaapveld",
+    "location": "Pelikaanstraat 4A, 7201 DR Zutphen, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 575 514 427",
+    "website": "http://www.schaapveld.nl/",
+    "coordinates": {
+      "latitude": 52.1394694,
+      "longitude": 6.1976044
+    }
+  },
+  {
+    "name": "Melkveebedrijf Peek & Fokker",
+    "location": "Kuilsestraat 6, 6674 MD Herveld, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 10669155",
+    "website": "http://www.peekenfokker.nl/",
+    "coordinates": {
+      "latitude": 51.9302622,
+      "longitude": 5.7493791
+    }
+  },
+  {
+    "name": "Boerderijwinkel Erve 't Overweg - Melktap & Vlees",
+    "location": "Raalterweg 49, 7431 PA Diepenveen, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Ras",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 22401763",
+    "website": "http://facebook.com/BoerderijErveOverweg",
+    "coordinates": {
+      "latitude": 52.3125078,
+      "longitude": 6.2047368
+    }
+  },
+  {
+    "name": "Schapenservice Hurby",
+    "location": "Meijerinkstraat 40, 7202 LE Zutphen, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 23719068",
+    "website": "http://schapenservice-hurby.nl/",
+    "coordinates": {
+      "latitude": 52.163674,
+      "longitude": 6.205828
+    }
+  },
+  {
+    "name": "Stichting Schaapskudde Epe-Heerde",
+    "location": "Elburgerweg 33, 8181 EM Heerde, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 578 631 303",
+    "website": "http://www.schaapskudde-epe-heerde.nl/",
+    "coordinates": {
+      "latitude": 52.3858438,
+      "longitude": 5.9912019
+    }
+  },
+  {
+    "name": "Erve Hagman",
+    "location": "Grote Drijfweg 3, 7241 NM Lochem, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 17727099",
+    "website": "http://www.ervehagman.nl/",
+    "coordinates": {
+      "latitude": 52.175248,
+      "longitude": 6.447689
+    }
+  },
+  {
+    "name": "Schaapskooi",
+    "location": "Elburgerweg 33, 8181 Heerde, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "http://www.schaapskudde-epe-heerde.nl/",
+    "coordinates": {
+      "latitude": 52.3858615,
+      "longitude": 5.9912011
+    }
+  },
+  {
+    "name": "De Melkbrouwerij | Huis in 't Veld | Biologische Boerderij |",
+    "location": "Doldermansweg 1a, 7434 RD Lettele, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "http://www.melkbrouwerij.nl/",
+    "coordinates": {
+      "latitude": 52.2732635,
+      "longitude": 6.2554438
+    }
+  },
+  {
+    "name": "Schaapskooi Loenermark parkeerplaats",
+    "location": "Droefakkers 100, 7371 CP Loenen, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://loenenopdeveluwe.info/bezoekers/kunst-en-cultuur/de-schaapskooi/",
+    "coordinates": {
+      "latitude": 52.1006322,
+      "longitude": 5.9956028
+    }
+  },
+  {
+    "name": "Schaapskudde Zwolle",
+    "location": "Herfterlaan 2, 8024 PJ Zwolle, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 52.5072301,
+      "longitude": 6.1359964
+    }
+  },
+  {
+    "name": "Schaapskudde de Belhamel",
+    "location": "Werkseveldweg 2, 7231 PH Warnsveld, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 83209614",
+    "website": "http://www.schaapskuddedebelhamel.nl/",
+    "coordinates": {
+      "latitude": 52.1381024,
+      "longitude": 6.3229456
+    }
+  },
+  {
+    "name": "Stichting Rhedense Schaapskudde",
+    "location": "Heuvenseweg 11b, 6991 JE Rheden, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 30030813",
+    "website": "http://www.schaapskudde.nl/",
+    "coordinates": {
+      "latitude": 52.0195256,
+      "longitude": 6.0175252
+    }
+  },
+  {
+    "name": "Australian Shepherd Club Nederland (Ascn)",
+    "location": "De Vlaschaard, Nijverheidsweg 9, 4529 PP Eede, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Ras",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "http://www.ascn.nl/",
+    "coordinates": {
+      "latitude": 51.2524093,
+      "longitude": 3.4414353
+    }
+  },
+  {
+    "name": "Schapen Grazerij Bornerbroek",
+    "location": "Lange Voort 1, 7627 NG Bornerbroek, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Skudde",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 17692187",
+    "website": "http://www.schapengrazerij.nl/",
+    "coordinates": {
+      "latitude": 52.304454,
+      "longitude": 6.6476079
+    }
+  },
+  {
+    "name": "Stichting Schaapskudde Gemeente Nunspeet",
+    "location": "Stakenbergweg 6, 8075 RA Elspeet, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Skudde",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "http://www.schaapskudde-nunspeet.nl/",
+    "coordinates": {
+      "latitude": 52.2966667,
+      "longitude": 5.7833333
+    }
+  },
+  {
+    "name": "Schaapfulness | Teambuilding schapen drijven",
+    "location": "Vlieterweg 146, 3925 GD Scherpenzeel, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 343 447 743",
+    "website": "https://www.schaapfulness.nl/",
+    "coordinates": {
+      "latitude": 52.071175,
+      "longitude": 5.4852741
+    }
+  },
+  {
+    "name": "Bos & Schaap",
+    "location": "Oudedijk 10, 6596 MD Milsbeek, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 53602722",
+    "website": "http://www.bosenschaap.nl/",
+    "coordinates": {
+      "latitude": 51.7294003,
+      "longitude": 5.967964
+    }
+  },
+  {
+    "name": "Oudduitse herder",
+    "location": "Proosbroekweg 4-A, 5688 JH Oirschot, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 499 572 252",
+    "website": "http://www.vanchikaserf.nl/",
+    "coordinates": {
+      "latitude": 51.5033891,
+      "longitude": 5.280794
+    }
+  },
+  {
+    "name": "Herders Bed",
+    "location": "Kampdwarsweg 16, 3941 HB Doorn, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "http://www.herdersbed.nl/",
+    "coordinates": {
+      "latitude": 52.0371485,
+      "longitude": 5.344906
+    }
+  },
+  {
+    "name": "Duitse Herder Kennel vh CHAINPARK",
+    "location": "Kraaienstraat 16, 2623 HS Delft, Nederland",
+    "country": "Netherlands",
+    "region": "Zuid-Holland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 28235087",
+    "website": "http://www.gsdchain.nl/",
+    "coordinates": {
+      "latitude": 51.9818223,
+      "longitude": 4.3636141
+    }
+  },
+  {
+    "name": "Duitse herder kennel v.d Alameashoeve",
+    "location": "Scholtinkstraat 84, 7581 GS Losser, Nederland",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "flock_size": 250,
+    "breed": "Texel",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+31 6 39602014",
+    "website": "https://www.alameashoeve.nl/",
+    "coordinates": {
+      "latitude": 52.2601507,
+      "longitude": 7.0116476
+    }
+  },
+  {
+    "name": "Good Shepherd Services",
+    "location": "24 School St, Wolverhampton WV1 4LF, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "",
+    "coordinates": {
+      "latitude": 52.5845299,
+      "longitude": -2.1320171
+    }
+  },
+  {
+    "name": "Newlands Farm",
+    "location": "Port Talbot SA13 2PB, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "",
+    "coordinates": {
+      "latitude": 51.5413303,
+      "longitude": -3.7219942
+    }
+  },
+  {
+    "name": "Flock Events",
+    "location": "Works, Oldfield Ct, Windermere LA23 2HJ, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 7944 741577",
+    "website": "",
+    "coordinates": {
+      "latitude": 54.3744378,
+      "longitude": -2.9043908
+    }
+  },
+  {
+    "name": "Black Sheep Farms",
+    "location": "Tom-An-Oir, Invergarry PH35 4HR, United Kingdom",
+    "country": "United Kingdom",
+    "region": "Scotland",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 7535 880865",
+    "website": "https://www.blacksheepadventures.uk/",
+    "coordinates": {
+      "latitude": 57.0707707,
+      "longitude": -5.0070006
+    }
+  },
+  {
+    "name": "North Muasdale Farm",
+    "location": "North Muasdale Farm By, Tarbert PA29 6XD, United Kingdom",
+    "country": "United Kingdom",
+    "region": "Scotland",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1583 421231",
+    "website": "https://northmuasdalefarm.com/",
+    "coordinates": {
+      "latitude": 55.5967789,
+      "longitude": -5.6825686
+    }
+  },
+  {
+    "name": "Glenshane Country Farm",
+    "location": "5 Lisnamuck Hill, Maghera BT46 5LB, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 7979 860070",
+    "website": "http://www.glenshanecountryfarm.com/",
+    "coordinates": {
+      "latitude": 54.8436166,
+      "longitude": -6.7540908
+    }
+  },
+  {
+    "name": "Beau Swimming - Sheepwash Farm",
+    "location": "Whittington, Lichfield WS14 9JN, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1543 433822",
+    "website": "",
+    "coordinates": {
+      "latitude": 52.6712277,
+      "longitude": -1.7507375
+    }
+  },
+  {
+    "name": "Sheepdrove Organic Farm",
+    "location": "Warren Farm Sheepdrove Road, Sheepdrove Rd, Lambourn, Hungerford RG17 7UU, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1488 674747",
+    "website": "http://www.sheepdrove.com/",
+    "coordinates": {
+      "latitude": 51.5342908,
+      "longitude": -1.4848252
+    }
+  },
+  {
+    "name": "Pye Ash Farm",
+    "location": "Pye Ash Farm, Bosley, Macclesfield SK11 0PN, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "http://www.pyeashfarm.co.uk/",
+    "coordinates": {
+      "latitude": 53.1930071,
+      "longitude": -2.1311513
+    }
+  },
+  {
+    "name": "UK SHEEP GENETICS",
+    "location": "6 Fort Rd, Antrim, Carrickfergus BT38 9BS, United Kingdom",
+    "country": "United Kingdom",
+    "region": "Northern Ireland",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 7711 071290",
+    "website": "http://uksheepgenetics.com/",
+    "coordinates": {
+      "latitude": 54.7346048,
+      "longitude": -5.752527
+    }
+  },
+  {
+    "name": "Ni Dorset Horn & Poll Sheep Breeders",
+    "location": "155 Whitesides Rd, Ballymena BT42 2JG, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 7841 746705",
+    "website": "",
+    "coordinates": {
+      "latitude": 54.8297965,
+      "longitude": -6.3031028
+    }
+  },
+  {
+    "name": "Somerset Sheep Trekking",
+    "location": "Lower, Woodram Ln, Farm, Taunton TA3 7AR, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 7867 773580",
+    "website": "http://www.somersetsheeptrekking.co.uk/",
+    "coordinates": {
+      "latitude": 50.9653777,
+      "longitude": -3.10335
+    }
+  },
+  {
+    "name": "Working Sheepdogs",
+    "location": "Kingussie PH21 1LZ, United Kingdom",
+    "country": "United Kingdom",
+    "region": "Scotland",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 7888 314412",
+    "website": "https://workingsheepdogs.uk/",
+    "coordinates": {
+      "latitude": 57.1277503,
+      "longitude": -3.945814
+    }
+  },
+  {
+    "name": "Sheep’s farm",
+    "location": "Freda Gardham School, Rye TN31, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "",
+    "coordinates": {
+      "latitude": 50.9518941,
+      "longitude": 0.7419292
+    }
+  },
+  {
+    "name": "Killernie Wool-Shedding Sheep",
+    "location": "Killernie Farm, Saline KY12 9TT, United Kingdom",
+    "country": "United Kingdom",
+    "region": "Scotland",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "",
+    "coordinates": {
+      "latitude": 56.1174139,
+      "longitude": -3.5599303
+    }
+  },
+  {
+    "name": "Neville Farm Organic Lamb cow pig",
+    "location": "Neville Farm, Halstock, Yeovil BA22 9QU, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1935 388345",
+    "website": "http://www.nevillefarm.co.uk/",
+    "coordinates": {
+      "latitude": 50.8675996,
+      "longitude": -2.673592
+    }
+  },
+  {
+    "name": "Sheep Lair Farm",
+    "location": "Peterborough PE7 3SP, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "",
+    "coordinates": {
+      "latitude": 52.500333,
+      "longitude": -0.2993926
+    }
+  },
+  {
+    "name": "Butterlope Farm",
+    "location": "20 Bradkeel Rd, Plumbridge, Omagh BT79 8BJ, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 7840 194792",
+    "website": "http://butterlopefarm.co.uk/",
+    "coordinates": {
+      "latitude": 54.786487,
+      "longitude": -7.221344
+    }
+  },
+  {
+    "name": "Pusto Hill Farm",
+    "location": "Eel Pool Rd, Doncaster DN10 5DD, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 7831 353834",
+    "website": "http://www.pustohillfarm.co.uk/",
+    "coordinates": {
+      "latitude": 53.4034134,
+      "longitude": -0.9553093
+    }
+  },
+  {
+    "name": "Borough Farm",
+    "location": "Mortehoe, Woolacombe EX34 7HE, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1271 870056",
+    "website": "http://www.boroughfarm.co.uk/",
+    "coordinates": {
+      "latitude": 51.1791598,
+      "longitude": -4.1667258
+    }
+  },
+  {
+    "name": "Texel Sheep Society Ltd",
+    "location": "Unit 74 4th St, Stoneleigh, Kenilworth CV8 2LG, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 24 7669 6629",
+    "website": "http://www.texel.co.uk/",
+    "coordinates": {
+      "latitude": 52.3397237,
+      "longitude": -1.5245364
+    }
+  },
+  {
+    "name": "Eden Gotland Sheep",
+    "location": "Scalerigg Cottage, Renwick, Penrith CA10 1JE, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 7593 604185",
+    "website": "http://edengotlandsheep.co.uk/",
+    "coordinates": {
+      "latitude": 54.7813864,
+      "longitude": -2.6606019
+    }
+  },
+  {
+    "name": "Blaze Farm & The Potty Sheep",
+    "location": "Wildboarclough, Macclesfield SK11 0BL, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1260 227229",
+    "website": "http://www.blazefarm.com/",
+    "coordinates": {
+      "latitude": 53.2048628,
+      "longitude": -2.0385402
+    }
+  },
+  {
+    "name": "The Big Sheep & Little Cow",
+    "location": "Aiskew Watermill, Bedale DL8 1AW, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1677 422125",
+    "website": "https://www.bigsheeplittlecow.co.uk/",
+    "coordinates": {
+      "latitude": 54.287998,
+      "longitude": -1.585276
+    }
+  },
+  {
+    "name": "Middle England Farm Alpacas",
+    "location": "Aibrean Grange Redditch Road, Henley-in-Arden B95 5NY, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1564 654323",
+    "website": "http://www.middleenglandfarm.co.uk/",
+    "coordinates": {
+      "latitude": 52.3011913,
+      "longitude": -1.8404618
+    }
+  },
+  {
+    "name": "Mossy Meadow Farm - Sheep Farm",
+    "location": "Golborne Ln, High Legh, Knutsford WA16 0RD, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "https://www.facebook.com/profile.php?id=61555289218072",
+    "coordinates": {
+      "latitude": 53.3439789,
+      "longitude": -2.4751357
+    }
+  },
+  {
+    "name": "Cardigan Island Coastal Farm Park",
+    "location": "Gwbert, Cardigan SA43 1PR, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1239 623637",
+    "website": "http://www.cardiganisland.com/",
+    "coordinates": {
+      "latitude": 52.1228706,
+      "longitude": -4.6815407
+    }
+  },
+  {
+    "name": "Dyfed Shire Horse Farm",
+    "location": "Trelew, Eglwyswrw, Crymych SA41 3SY, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1239 891107",
+    "website": "http://dyfed-shires.co.uk/",
+    "coordinates": {
+      "latitude": 52.008945,
+      "longitude": -4.72146
+    }
+  },
+  {
+    "name": "Rosehill Farm",
+    "location": "Cardigan SA43 2LG, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 7800 738128",
+    "website": "",
+    "coordinates": {
+      "latitude": 52.075035,
+      "longitude": -4.6410012
+    }
+  },
+  {
+    "name": "Jacob Sheep Trekking and Farm Experience Days",
+    "location": "Aberhyddnant Organic Farm, Crai, Brecon LD3 8YS, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 7485 549968",
+    "website": "https://www.sheeptrekking.co.uk/",
+    "coordinates": {
+      "latitude": 51.9006656,
+      "longitude": -3.639888
+    }
+  },
+  {
+    "name": "Wenallt Farm Campsite",
+    "location": "Felindre Farchog, Crymych SA41 3UU, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1239 820373",
+    "website": "http://wenalltfarmcampsite.co.uk/",
+    "coordinates": {
+      "latitude": 52.0137198,
+      "longitude": -4.7619298
+    }
+  },
+  {
+    "name": "Flock Eventing Platform",
+    "location": "71-75 Shelton St, London WC2H 9JQ, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 100351270",
+    "website": "https://flockplatform.com/",
+    "coordinates": {
+      "latitude": 51.5149037,
+      "longitude": -0.1235842
+    }
+  },
+  {
+    "name": "Flocking Ltd",
+    "location": "Heanor Gate Industrial Estate, Unit 1 Heanor Gate Rd, Heanor DE75 7RJ, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1773 294142",
+    "website": "http://www.flockingltd.co.uk/",
+    "coordinates": {
+      "latitude": 53.0096463,
+      "longitude": -1.3678193
+    }
+  },
+  {
+    "name": "Auchentullich Farm Shop",
+    "location": "Arden, Alexandria G83 8RF, United Kingdom",
+    "country": "United Kingdom",
+    "region": "Scotland",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1389 850240",
+    "website": "http://www.facebook.com/auchentullichfarmshop",
+    "coordinates": {
+      "latitude": 56.0387825,
+      "longitude": -4.6449006
+    }
+  },
+  {
+    "name": "Sheepdrove Organic Farm & Green Events Venue",
+    "location": "Sheepdrove Rd, Lambourn, Hungerford RG17 7UU, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1488 674747",
+    "website": "https://sheepdrove.com/green-venue-hire/",
+    "coordinates": {
+      "latitude": 51.5338296,
+      "longitude": -1.4847144
+    }
+  },
+  {
+    "name": "Sheepdrove Sustainable Weddings",
+    "location": "Sheepdrove Rd, Lambourn, Hungerford RG17 7UU, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1488 674730",
+    "website": "https://sheepdrove.com/weddings-at-sheepdrove/",
+    "coordinates": {
+      "latitude": 51.5337543,
+      "longitude": -1.4851157
+    }
+  },
+  {
+    "name": "Good Shepherd Wolverhampton",
+    "location": "65 Waterloo Rd, Wolverhampton WV1 4QU, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1902 399955",
+    "website": "http://gsmwolverhampton.org.uk/",
+    "coordinates": {
+      "latitude": 52.5906408,
+      "longitude": -2.1320864
+    }
+  },
+  {
+    "name": "Flock",
+    "location": "Tylers Rd, Hazlemere, High Wycombe HP15 7NS, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1494 819901",
+    "website": "https://flockstudio.co.uk/",
+    "coordinates": {
+      "latitude": 51.6455113,
+      "longitude": -0.701089
+    }
+  },
+  {
+    "name": "Flock",
+    "location": "Second Floor, Wilson Corner, 23-25 Wilson St, London EC2M 2TE, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1234 480260",
+    "website": "http://www.flockcover.com/",
+    "coordinates": {
+      "latitude": 51.5195591,
+      "longitude": -0.0859413
+    }
+  },
+  {
+    "name": "Flock Associates",
+    "location": "33 Foley St, London W1W 7TL, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 20 8194 0188",
+    "website": "http://www.flock-associates.com/",
+    "coordinates": {
+      "latitude": 51.5190794,
+      "longitude": -0.1402894
+    }
+  },
+  {
+    "name": "Business Flock",
+    "location": "The Coach House Bremhill Grove Farm, East Tytherton, Chippenham SN15 4LX, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "http://businessflock.co.uk/",
+    "coordinates": {
+      "latitude": 51.4761925,
+      "longitude": -2.0422454
+    }
+  },
+  {
+    "name": "Flock Development & Research Co",
+    "location": "Clarence Mill/Clarence St, Stalybridge SK15 1QF, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 161 339 4946",
+    "website": "http://www.flockdevelopment.co.uk/",
+    "coordinates": {
+      "latitude": 53.4833378,
+      "longitude": -2.074051
+    }
+  },
+  {
+    "name": "Flock animation",
+    "location": "305A Goldhawk Rd, London W12 8EU, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 7739 116915",
+    "website": "http://www.flocklondon.com/",
+    "coordinates": {
+      "latitude": 51.4987556,
+      "longitude": -0.242266
+    }
+  },
+  {
+    "name": "Flock Digital Ltd",
+    "location": "Harrison House, 1 Sheep Walk, Langford Rd, Biggleswade SG18 9RB, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "http://flockdigital.co.uk/",
+    "coordinates": {
+      "latitude": 52.0692342,
+      "longitude": -0.262648
+    }
+  },
+  {
+    "name": "Flock Talent Ltd",
+    "location": "Orchard House, Abingdon OX14 4AD, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 7802 483188",
+    "website": "",
+    "coordinates": {
+      "latitude": 51.643837,
+      "longitude": -1.2754846
+    }
+  },
+  {
+    "name": "Swanston Farm",
+    "location": "111 Swanston Rd, Edinburgh EH10 7DS, United Kingdom",
+    "country": "United Kingdom",
+    "region": "Scotland",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 131 445 2239",
+    "website": "https://swanston.co.uk/",
+    "coordinates": {
+      "latitude": 55.893624,
+      "longitude": -3.2172629
+    }
+  },
+  {
+    "name": "Flock Events",
+    "location": null,
+    "country": "United Kingdom",
+    "region": "",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "https://www.flockevents.co.uk/",
+    "coordinates": {
+      "latitude": 57.7469948,
+      "longitude": -4.6873412
+    }
+  },
+  {
+    "name": "Flock Mobility",
+    "location": "Lochrin Square, 92, Fountainbridge, Edinburgh EH3 9QA, United Kingdom",
+    "country": "United Kingdom",
+    "region": "Scotland",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "https://flockmobility.com/",
+    "coordinates": {
+      "latitude": 55.9437629,
+      "longitude": -3.208246
+    }
+  },
+  {
+    "name": "Flock",
+    "location": "18 Morningside Rd, Edinburgh EH10 4DA, United Kingdom",
+    "country": "United Kingdom",
+    "region": "Scotland",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 131 225 2800",
+    "website": "http://www.flockthinks.com/",
+    "coordinates": {
+      "latitude": 55.9334653,
+      "longitude": -3.2103331
+    }
+  },
+  {
+    "name": "Legacy Grazing",
+    "location": "Chelmsford County Hall, Chelmsford CM1 1YS, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 333 013 6867",
+    "website": "http://legacygrazing.org.uk/",
+    "coordinates": {
+      "latitude": 51.7350038,
+      "longitude": 0.4697768
+    }
+  },
+  {
+    "name": "Drimnin Estate Farm",
+    "location": "Oban PA80 5XZ, United Kingdom",
+    "country": "United Kingdom",
+    "region": "Scotland",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "https://www.drimninestate.co.uk/drimnin-farm",
+    "coordinates": {
+      "latitude": 56.6175293,
+      "longitude": -5.9813395
+    }
+  },
+  {
+    "name": "Parish of Par: Good Shepherd",
+    "location": "22 Par Grn, Par PL24 2AF, United Kingdom",
+    "country": "United Kingdom",
+    "region": "England",
+    "flock_size": 350,
+    "breed": "Suffolk",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+44 1726 815588",
+    "website": "https://www.parparish.co.uk/",
+    "coordinates": {
+      "latitude": 50.3507398,
+      "longitude": -4.703974
+    }
+  },
+  {
+    "name": "Élevage Mouton Martin",
+    "location": "Rif de Pierre Grosse, 38650 Roissard, France",
+    "country": "France",
+    "region": "Auvergne-Rhône-Alpes",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 4 76 34 17 09",
+    "website": "",
+    "coordinates": {
+      "latitude": 44.8868049,
+      "longitude": 5.6368879
+    }
+  },
+  {
+    "name": "EARL François sélectionneur éleveur mouton élevage Race rouge de l'ouest Béliers brebis agnelles",
+    "location": "87190 Magnac-Laval, France",
+    "country": "France",
+    "region": "Nouvelle-Aquitaine",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 6 52 77 48 07",
+    "website": "",
+    "coordinates": {
+      "latitude": 46.2008551,
+      "longitude": 1.190247
+    }
+  },
+  {
+    "name": "EARL La Ferme de la Moulière",
+    "location": "81640 Le Ségur, France",
+    "country": "France",
+    "region": "Occitanie",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 5 81 40 64 39",
+    "website": "",
+    "coordinates": {
+      "latitude": 44.114542,
+      "longitude": 2.052869
+    }
+  },
+  {
+    "name": "Les moutons de Manon",
+    "location": "21400 Chemin-d'Aisey, France",
+    "country": "France",
+    "region": "Bourgogne-Franche-Comté",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 7 67 56 07 31",
+    "website": "https://app.cagette.net/lesmoutonsdemanon",
+    "coordinates": {
+      "latitude": 47.7424618,
+      "longitude": 4.5641923
+    }
+  },
+  {
+    "name": "La l'Uby des Moutons",
+    "location": "Le Petit Soubère Tavernes 2879, 32150 Cazaubon, France",
+    "country": "France",
+    "region": "Occitanie",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 6 73 87 55 09",
+    "website": "http://www.lalubydesmoutons.org/",
+    "coordinates": {
+      "latitude": 43.9390689,
+      "longitude": -0.0150089
+    }
+  },
+  {
+    "name": "Moutons, Loire et Berger",
+    "location": "Les Sabotiers, 49350 Gennes-Val-de-Loire, France",
+    "country": "France",
+    "region": "Auvergne-Rhône-Alpes",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "http://www.moutonsloireberger.fr/",
+    "coordinates": {
+      "latitude": 47.3293827,
+      "longitude": -0.2364751
+    }
+  },
+  {
+    "name": "La ferme du Trotte-Mouton",
+    "location": "1120 Chem. du Piton, 31600 Saint-Clar-de-Rivière, France",
+    "country": "France",
+    "region": "Auvergne-Rhône-Alpes",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 6 24 92 24 14",
+    "website": "http://www.trotte-mouton.fr/",
+    "coordinates": {
+      "latitude": 43.4722515,
+      "longitude": 1.2105676
+    }
+  },
+  {
+    "name": "earl des moutons blancs",
+    "location": "1Rue des Moutons Blancs, 80250 Chirmont, France",
+    "country": "France",
+    "region": "Hauts-de-France",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 3 22 41 45 75",
+    "website": "https://lespouletsdechirmont.wordpress.com/",
+    "coordinates": {
+      "latitude": 49.7123736,
+      "longitude": 2.3855264
+    }
+  },
+  {
+    "name": "Les Bio Moutons de Marie",
+    "location": "9 rue des Fontaines, 08130 La Sabotterie, France",
+    "country": "France",
+    "region": "Auvergne-Rhône-Alpes",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 6 73 08 61 30",
+    "website": "",
+    "coordinates": {
+      "latitude": 49.5462746,
+      "longitude": 4.6692251
+    }
+  },
+  {
+    "name": "Les animaux de l'Ouvèze",
+    "location": "934 Chem. des Valens, 07250 Rompon, France",
+    "country": "France",
+    "region": "Auvergne-Rhône-Alpes",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 6 26 30 02 62",
+    "website": "http://www.lesanimauxdelouveze.com/",
+    "coordinates": {
+      "latitude": 44.759011,
+      "longitude": 4.720945
+    }
+  },
+  {
+    "name": "Les Moutons de Buzet",
+    "location": "71 Chem. des Bels, 31660 Buzet-sur-Tarn, France",
+    "country": "France",
+    "region": "Occitanie",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "",
+    "coordinates": {
+      "latitude": 43.7719429,
+      "longitude": 1.6361871
+    }
+  },
+  {
+    "name": "Les Moutons des Cosserons",
+    "location": "RD38, 08300 Tagnon, France",
+    "country": "France",
+    "region": "Grand Est",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 6 10 97 86 88",
+    "website": "",
+    "coordinates": {
+      "latitude": 49.4463368,
+      "longitude": 4.2731897
+    }
+  },
+  {
+    "name": "Les moutons du Verger",
+    "location": "Rue Principale, 08370 Puilly-et-Charbeaux, France",
+    "country": "France",
+    "region": "Grand Est",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 7 84 70 16 73",
+    "website": "https://les-moutons-du-verger.hubside.fr/",
+    "coordinates": {
+      "latitude": 49.6300106,
+      "longitude": 5.2696138
+    }
+  },
+  {
+    "name": "Mouton Suffolk",
+    "location": "3 Rue du Point du Jour, 02110 Brancourt-le-Grand, France",
+    "country": "France",
+    "region": "Hauts-de-France",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 6 89 89 09 97",
+    "website": "http://suffolk.fr/",
+    "coordinates": {
+      "latitude": 49.9734723,
+      "longitude": 3.3826607
+    }
+  },
+  {
+    "name": "les moutons de cotron",
+    "location": "LIEU-DIT MAISON COTRON, COTRON, 36700 Châtillon-sur-Indre, France",
+    "country": "France",
+    "region": "Centre-Val de Loire",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 6 85 76 05 42",
+    "website": "http://www.lesmoutonsdecotron.fr/",
+    "coordinates": {
+      "latitude": 46.972873,
+      "longitude": 1.130757
+    }
+  },
+  {
+    "name": "Lemaitre Philippe",
+    "location": "Rte des Vieux Fours, 45530 Combreux, France",
+    "country": "France",
+    "region": "Centre-Val de Loire",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 2 38 59 41 87",
+    "website": "",
+    "coordinates": {
+      "latitude": 47.9431795,
+      "longitude": 2.3243319
+    }
+  },
+  {
+    "name": "GAEC des Pieds de Moutons",
+    "location": "Pradassous, 48100 Palhers, France",
+    "country": "France",
+    "region": "Occitanie",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 6 75 37 59 92",
+    "website": "",
+    "coordinates": {
+      "latitude": 44.5130486,
+      "longitude": 3.3156759
+    }
+  },
+  {
+    "name": "BERGER France",
+    "location": "1 Rue du Krebsbach, 68230 Wihr-au-Val, France",
+    "country": "France",
+    "region": "Grand Est",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 3 89 77 87 76",
+    "website": "https://www.berger-france.fr/?utm_source=Google+My+Business&utm_medium=organic&utm_campaign=Google+My+Business",
+    "coordinates": {
+      "latitude": 48.0403249,
+      "longitude": 7.200175
+    }
+  },
+  {
+    "name": "Les Moutons de l'Ouest - Eco-pâturage",
+    "location": "43 La Bournaire, 44690 Monnières, France",
+    "country": "France",
+    "region": "Pays de la Loire",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "http://www.lesmoutonsdelouest.fr/",
+    "coordinates": {
+      "latitude": 47.1146453,
+      "longitude": -1.3485446
+    }
+  },
+  {
+    "name": "Pôle ovin régional, ferme lycée agricole",
+    "location": "Rue de Pretin, 71120 Charolles, France",
+    "country": "France",
+    "region": "Bourgogne-Franche-Comté",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "",
+    "coordinates": {
+      "latitude": 46.4259356,
+      "longitude": 4.2703698
+    }
+  },
+  {
+    "name": "Earl Thonnerieux Mouton",
+    "location": "69700 Échalas, France",
+    "country": "France",
+    "region": "Auvergne-Rhône-Alpes",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 4 72 39 38 06",
+    "website": "",
+    "coordinates": {
+      "latitude": 45.5518329,
+      "longitude": 4.7534249
+    }
+  },
+  {
+    "name": "Moutons des Carpates",
+    "location": "Fondevialle, 15500 Molèdes, France",
+    "country": "France",
+    "region": "Auvergne-Rhône-Alpes",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 6 17 74 47 78",
+    "website": "https://www.moutonsdescarpates.com/",
+    "coordinates": {
+      "latitude": 45.2703939,
+      "longitude": 3.0237162
+    }
+  },
+  {
+    "name": "Ferme des blancs moutons",
+    "location": "2 Le Becquet par Brunemont FR, 2 Rue des Blancs Moutons, 59151 Arleux, France",
+    "country": "France",
+    "region": "Hauts-de-France",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 3 27 89 22 36",
+    "website": "http://www.lesblancsmoutons.fr/",
+    "coordinates": {
+      "latitude": 50.2739583,
+      "longitude": 3.1349465
+    }
+  },
+  {
+    "name": "Le mouton rose",
+    "location": "62850 Alquines, France",
+    "country": "France",
+    "region": "Hauts-de-France",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "",
+    "website": "",
+    "coordinates": {
+      "latitude": 50.7223736,
+      "longitude": 1.9935175
+    }
+  },
+  {
+    "name": "La Ferme des 3 Frères",
+    "location": "Chemin de l’abîme, Rue du Moulin des Marais Chemin du, 77290 Mitry-Mory, France",
+    "country": "France",
+    "region": "Île-de-France",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 6 98 28 10 58",
+    "website": "https://lafermedes3freres.fr/",
+    "coordinates": {
+      "latitude": 48.9705559,
+      "longitude": 2.6366333
+    }
+  },
+  {
+    "name": "La Ferme de Beaucaine",
+    "location": "2 Rue des Mahulins, 62134 Fiefs, France",
+    "country": "France",
+    "region": "Hauts-de-France",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 9 88 18 76 99",
+    "website": "https://la-ferme-de-beaucaine.com/",
+    "coordinates": {
+      "latitude": 50.503796,
+      "longitude": 2.3254778
+    }
+  },
+  {
+    "name": "FERME SALAM",
+    "location": "431 Rue de la Justice, 59162 Ostricourt, France",
+    "country": "France",
+    "region": "Hauts-de-France",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 6 81 41 03 61",
+    "website": "",
+    "coordinates": {
+      "latitude": 50.4563988,
+      "longitude": 3.0161629
+    }
+  },
+  {
+    "name": "Moutontond",
+    "location": "1 Rue du Vieux Château, 76160 Roncherolles-sur-le-Vivier, France",
+    "country": "France",
+    "region": "Centre-Val de Loire",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 6 86 78 89 13",
+    "website": "https://moutontond.fr/",
+    "coordinates": {
+      "latitude": 49.4694139,
+      "longitude": 1.180235
+    }
+  },
+  {
+    "name": "Sca Les Bergers Du Nord Est",
+    "location": "2 Rue d'Haution, 02140 La Vallée-au-Blé, France",
+    "country": "France",
+    "region": "Hauts-de-France",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 3 23 98 17 47",
+    "website": "https://www.lesbergersdunordest.com/",
+    "coordinates": {
+      "latitude": 49.8579897,
+      "longitude": 3.7899854
+    }
+  },
+  {
+    "name": "Le Troupeau du Bonheur",
+    "location": "10 Pl. Léon Blum, 75011 Paris, France",
+    "country": "France",
+    "region": "Île-de-France",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 1 43 79 46 46",
+    "website": "https://troupeaudubonheur.fr/faq/",
+    "coordinates": {
+      "latitude": 48.8582719,
+      "longitude": 2.3795958
+    }
+  },
+  {
+    "name": "Les Sauges Bergères",
+    "location": "711 Chem. de Romage, 38320 Herbeys, France",
+    "country": "France",
+    "region": "Auvergne-Rhône-Alpes",
+    "flock_size": 400,
+    "breed": "Lacaune",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+33 6 13 92 31 18",
+    "website": "https://saugesbergeres.fr/",
+    "coordinates": {
+      "latitude": 45.1464726,
+      "longitude": 5.7795426
+    }
+  },
+  {
+    "name": "Rainer Füller Schafzucht",
+    "location": "Schafhof 1, 97440 Werneck, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 9722 2619",
+    "website": null,
+    "coordinates": {
+      "latitude": 50.00118,
+      "longitude": 10.0613
+    }
+  },
+  {
+    "name": "Schafzucht Dorper / White Dorper",
+    "location": "Schützenhausstraße 7, 55483 Bärenbach, Deutschland",
+    "country": "Germany",
+    "region": "Nordrhein-Westfalen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 170 9734890",
+    "website": "http://dorperschafe.de/",
+    "coordinates": {
+      "latitude": 49.9469309,
+      "longitude": 7.3036549
+    }
+  },
+  {
+    "name": "Herdwick Schafe",
+    "location": "Steinetsstraße 20, 72336 Balingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7433 9558522",
+    "website": "https://www.herdwick-schaf.com/kontakt-impressum/",
+    "coordinates": {
+      "latitude": 48.300513,
+      "longitude": 8.8407446
+    }
+  },
+  {
+    "name": "Schafhof Scheeder",
+    "location": "Am Weiher 2, 76703 Kraichtal, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7250 1350",
+    "website": "https://www.facebook.com/SchafhofScheeder/",
+    "coordinates": {
+      "latitude": 49.1065844,
+      "longitude": 8.713783
+    }
+  },
+  {
+    "name": "Schäferei Hertler GbR",
+    "location": "Dürrentalweg 70, 73326 Deggingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7334 8942",
+    "website": "http://www.merinolandschaf.de/",
+    "coordinates": {
+      "latitude": 48.6139508,
+      "longitude": 9.6970295
+    }
+  },
+  {
+    "name": "Schafzucht Hopfenziz - Schafstall",
+    "location": "Am Kagberg, 89537 Giengen an der Brenz",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "07324 980240",
+    "website": "https://www.albschaeferweg.de/unsere-albschaefer/produkte/",
+    "coordinates": {
+      "latitude": 48.5964164,
+      "longitude": 10.2112231
+    }
+  },
+  {
+    "name": "Schafhof im Kengel",
+    "location": "Schafhof, im Kengel 1, 72218 Wildberg, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7054 5631",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.6351104,
+      "longitude": 8.7369389
+    }
+  },
+  {
+    "name": "Schafzucht Kurmann",
+    "location": "Bergstraße 82, 71546 Aspach, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7148 8275",
+    "website": "https://www.natur-von-hier.de/website/de/direktvermarkter/schafzucht-kurmann",
+    "coordinates": {
+      "latitude": 49.0129679,
+      "longitude": 9.3737011
+    }
+  },
+  {
+    "name": "Schaf",
+    "location": "72108 Rottenburg am Neckar, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 48.4737402,
+      "longitude": 8.9319381
+    }
+  },
+  {
+    "name": "Herdwickzucht am Breitenbach",
+    "location": "Rainlenstraße 35, 72770 Reutlingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7121 578764",
+    "website": "http://herdwickzucht.de/",
+    "coordinates": {
+      "latitude": 48.4947847,
+      "longitude": 9.1762549
+    }
+  },
+  {
+    "name": "Schafzucht Markus Peter",
+    "location": "Bildstraße 9, 74360 Ilsfeld, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 171 8215856",
+    "website": "https://www.schafzucht-peter.de/kontakt/",
+    "coordinates": {
+      "latitude": 49.0566,
+      "longitude": 9.24307
+    }
+  },
+  {
+    "name": "Schafzucht Buntesschaf",
+    "location": "Neustädter Weg 41, 36320 Kirtorf, Deutschland",
+    "country": "Germany",
+    "region": "Niedersachsen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 179 2988827",
+    "website": "http://buntesschaf.de/",
+    "coordinates": {
+      "latitude": 50.8060973,
+      "longitude": 9.1266241
+    }
+  },
+  {
+    "name": "Schäferei Queck",
+    "location": "Raiffeisenstraße 19, 92271 Freihung",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "01520 9050688",
+    "website": "http://www.faceboob.com/WaldschafeBurenziegen/",
+    "coordinates": {
+      "latitude": 49.575644,
+      "longitude": 11.8887591
+    }
+  },
+  {
+    "name": "Schafzucht Romanov vom Aartal",
+    "location": "Aarstraße 6, 65307 Bad Schwalbach, Deutschland",
+    "country": "Germany",
+    "region": "Hessen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 176 49264992",
+    "website": "http://www.romanov-vom-aartal.de/",
+    "coordinates": {
+      "latitude": 50.146292,
+      "longitude": 8.0848162
+    }
+  },
+  {
+    "name": "SchaZie - Schafe und Ziegen vom Reichenbach",
+    "location": "75394 Oberreichenbach, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 173 5669974",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.7338559,
+      "longitude": 8.6692744
+    }
+  },
+  {
+    "name": "Tobis Schafzucht",
+    "location": "48° 45'23/1\"N 8°47'34.5\"E, 75378 Bad Liebenzell, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 177 9172181",
+    "website": "https://www.tobis-schafzucht.de/",
+    "coordinates": {
+      "latitude": 48.7562234,
+      "longitude": 8.792835
+    }
+  },
+  {
+    "name": "Herdwick Schafe vom Thesenhof",
+    "location": "Seedorfer Str. 32, 78713 Schramberg, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://thesenhof.de/",
+    "coordinates": {
+      "latitude": 48.2659177,
+      "longitude": 8.4851764
+    }
+  },
+  {
+    "name": "Dorper Schafzucht",
+    "location": "Wackersteinstraße 21, 72766 Reutlingen",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "07121 46",
+    "website": "http://www.dorperschafzucht.de/de/kontakt.html",
+    "coordinates": {
+      "latitude": 48.5194667,
+      "longitude": 9.2242182
+    }
+  },
+  {
+    "name": "Schäferei Falkenhof \"Hofladen im Schäferwagen\"",
+    "location": "Tonis 2, 88410 Bad Wurzach, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 175 3326426",
+    "website": "http://www.schaeferei-falkenhof.de/",
+    "coordinates": {
+      "latitude": 47.8622606,
+      "longitude": 9.9037826
+    }
+  },
+  {
+    "name": "Karl-Martin Bauer Schäferei",
+    "location": "Schafhof im Kengel, 72218 Wildberg, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7054 5631",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.6351948,
+      "longitude": 8.736973
+    }
+  },
+  {
+    "name": "Schäferei Buck KG",
+    "location": "Roßwälder Str. 77, 73274 Notzingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7021 43641",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.674701,
+      "longitude": 9.4814503
+    }
+  },
+  {
+    "name": "Schäferei Lohmüller GbR",
+    "location": "Finkenweg 19, 78554 Aldingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 173 6643640",
+    "website": "https://www.schaeferei-lohmueller.de/kontakt/",
+    "coordinates": {
+      "latitude": 48.0985552,
+      "longitude": 8.7192865
+    }
+  },
+  {
+    "name": "Schäferei Selg 🐑",
+    "location": "P6MP+PX, 88690 Uhldingen-Mühlhofen, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 1523 7606941",
+    "website": null,
+    "coordinates": {
+      "latitude": 47.7342601,
+      "longitude": 9.2373783
+    }
+  },
+  {
+    "name": "Schäferei Mauch",
+    "location": "Wehrsteiner Str. 43, 72186 Empfingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 178 1359719",
+    "website": "http://schaeferei-mauch.de/",
+    "coordinates": {
+      "latitude": 48.3931998,
+      "longitude": 8.6920793
+    }
+  },
+  {
+    "name": "Schäferei Fritz GbR",
+    "location": "Friedensweg, 72070 Tübingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 48.5424053,
+      "longitude": 9.0179351
+    }
+  },
+  {
+    "name": "Schäferei Karl Kurz",
+    "location": "Steingrube 1, 71735 Eberdingen",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "0172 7315649",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.88473,
+      "longitude": 8.989335
+    }
+  },
+  {
+    "name": "Schäferei Engel",
+    "location": "Eichen 20, 88400 Biberach an der Riß, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 1520 4051712",
+    "website": "http://www.schaeferei-engel.de/",
+    "coordinates": {
+      "latitude": 48.0723733,
+      "longitude": 9.6925696
+    }
+  },
+  {
+    "name": "Schäferei Stefan Fauser",
+    "location": "Schäferweg 7, 72539 Pfronstetten, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 170 8652584",
+    "website": "http://www.schaeferei-fauser.de/",
+    "coordinates": {
+      "latitude": 48.2823565,
+      "longitude": 9.3583587
+    }
+  },
+  {
+    "name": "Schäferei Quint",
+    "location": "Eisenhutstraße 48, 72072 Tübingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 48.5100391,
+      "longitude": 9.0764188
+    }
+  },
+  {
+    "name": "Schäferei Spohn",
+    "location": "GP7Q+37, 72202 Nagold, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 48.5127117,
+      "longitude": 8.7381391
+    }
+  },
+  {
+    "name": "Wohlfarth Schäferei",
+    "location": "Unter d. Heusteige 6, 72459 Albstadt, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7432 4867",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.2560085,
+      "longitude": 8.9617853
+    }
+  },
+  {
+    "name": "Schafzucht Kieble Schäferei Schäferhof Schafe",
+    "location": "Dorfstraße, 88368 Bergatreute, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 160 95656935",
+    "website": "https://m.facebook.com/Schafzucht-Kieble-in-Bergatreute-278876612753375/",
+    "coordinates": {
+      "latitude": 47.8636158,
+      "longitude": 9.7358273
+    }
+  },
+  {
+    "name": "Schäferei Bäuerle",
+    "location": "Altheimer Str. 123, 72160 Horb am Neckar, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 48.4496439,
+      "longitude": 8.6785934
+    }
+  },
+  {
+    "name": "K. Haußmann",
+    "location": "Schäferhof 1, 72336 Balingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7433 35328",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.24978,
+      "longitude": 8.84275
+    }
+  },
+  {
+    "name": "Schäferei Fritz GbR",
+    "location": "Bangertweg 4, 72070 Tübingen",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "0174 3256395",
+    "website": "http://schaeferei-fritz.de/",
+    "coordinates": {
+      "latitude": 48.53917,
+      "longitude": 9.01175
+    }
+  },
+  {
+    "name": "Bio-Schäferei Willi",
+    "location": "Rötenbergstraße 10, 72369 Zimmern unter der Burg, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 170 5422615",
+    "website": "https://www.bio-schaeferei-willi.com/",
+    "coordinates": {
+      "latitude": 48.2190142,
+      "longitude": 8.7201993
+    }
+  },
+  {
+    "name": "Schäferei Gulde",
+    "location": "47°44'52.0\"N 9°17'57, 2\"E, 88682 Salem",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "07553 828126",
+    "website": "https://www.schaeferei-gulde.de/",
+    "coordinates": {
+      "latitude": 47.7477181,
+      "longitude": 9.2991026
+    }
+  },
+  {
+    "name": "Schafgehege",
+    "location": "24M3+R6, 88605 Meßkirch, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 48.033812,
+      "longitude": 9.1012881
+    }
+  },
+  {
+    "name": "Alexander Schäfer",
+    "location": "Brühlstraße 3, 72365 Ratshausen",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "07427 8263",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.1949492,
+      "longitude": 8.7944767
+    }
+  },
+  {
+    "name": "C.C. Schäfer",
+    "location": "Rosenfelder Str. 3, 72336 Balingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://www.ceceba.com/kontakt",
+    "coordinates": {
+      "latitude": 48.2809143,
+      "longitude": 8.8496189
+    }
+  },
+  {
+    "name": "Oliver Schäfer",
+    "location": "Hinter dem Ziegelwasen 2, 72336 Balingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7433 3916150",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.23777,
+      "longitude": 8.85144
+    }
+  },
+  {
+    "name": "Müller Schäfer- & Zirkuswagenbau",
+    "location": "Neuhauser Str. 4, 78554 Aldingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7424 9586267",
+    "website": "http://xn--schferwagenbau-7hb.de/",
+    "coordinates": {
+      "latitude": 48.1068511,
+      "longitude": 8.6828025
+    }
+  },
+  {
+    "name": "Schäfers Landwirtschaft",
+    "location": "Karl-Hiller-Straße 6, 72160 Horb am Neckar, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7482 7665",
+    "website": "http://www.schaefers-landwirtschaft.de/",
+    "coordinates": {
+      "latitude": 48.4111074,
+      "longitude": 8.6645577
+    }
+  },
+  {
+    "name": "Thomas Schäfer Bauunternehmen",
+    "location": "Rudolf-Diesel-Straße 21, 72414 Rangendingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7478 930180",
+    "website": "http://thomasschaefer-bauunternehmen.de/",
+    "coordinates": {
+      "latitude": 48.3817856,
+      "longitude": 8.9024595
+    }
+  },
+  {
+    "name": "Oel-Schäfer",
+    "location": "Daimlerstraße 1, 72351 Geislingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7433 98890",
+    "website": "http://www.energieaktiv.de/",
+    "coordinates": {
+      "latitude": 48.29497,
+      "longitude": 8.80893
+    }
+  },
+  {
+    "name": "Schäfer GmbH Sanitär, Rohrleitungsbau, Fernwärme",
+    "location": "Kinzigstraße 24, 72336 Balingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7433 967818",
+    "website": "http://www.schaefer-gruppe.com/",
+    "coordinates": {
+      "latitude": 48.27091,
+      "longitude": 8.87288
+    }
+  },
+  {
+    "name": "Schäfer GerdDietmar Dietmar",
+    "location": "Oberstadtstraße 69, 72401 Haigerloch, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7474 8271",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.3680706,
+      "longitude": 8.7972805
+    }
+  },
+  {
+    "name": "Schäfer intelligente Haustechnik GmbH",
+    "location": "Daimlerstraße 2, 72359 Dotternhausen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7427 9400611",
+    "website": "http://www.schaefer-dotternhausen.de/",
+    "coordinates": {
+      "latitude": 48.22788,
+      "longitude": 8.78468
+    }
+  },
+  {
+    "name": "Destillerie Schäfer",
+    "location": "Hausener Str. 14, 72379 Hechingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 1522 7405627",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.351551,
+      "longitude": 8.916478
+    }
+  },
+  {
+    "name": "Schäfer Massiv Holz + Feuer",
+    "location": "Neuer Weg 10, 72458 Albstadt",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "07471 6201080",
+    "website": "http://www.massivholzundfeuer.de/",
+    "coordinates": {
+      "latitude": 48.208442,
+      "longitude": 9.0182114
+    }
+  },
+  {
+    "name": "Getränke Schäfer-Wöhr KG",
+    "location": "Hauptstraße 103, 72175 Dornhan, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Service grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7455 1249",
+    "website": "https://www.getraenkeschaefer.com/",
+    "coordinates": {
+      "latitude": 48.33152,
+      "longitude": 8.5325126
+    }
+  },
+  {
+    "name": "Schäfer Fashion GmbH & Co. KG",
+    "location": "Rosenfelder Str. 12, 72336 Balingen",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "07433 26030",
+    "website": "http://www.schaefer-fashion-group.de/",
+    "coordinates": {
+      "latitude": 48.2810555,
+      "longitude": 8.8484171
+    }
+  },
+  {
+    "name": "Schäfer GbR",
+    "location": "Tübinger Str. 40, 72336 Balingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7433 9675550",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.2786191,
+      "longitude": 8.8578699
+    }
+  },
+  {
+    "name": "Beef-Box by Sauter & Schäfer",
+    "location": "Brühlstraße 5/1, 72365 Ratshausen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 1516 1043145",
+    "website": "https://www.schaefer-ratshausen.de/",
+    "coordinates": {
+      "latitude": 48.195178,
+      "longitude": 8.7943136
+    }
+  },
+  {
+    "name": "Gebrüder Schäfer GmbH",
+    "location": "Maybachstraße 9, 72189 Vöhringen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7454 944900",
+    "website": "http://www.gebrueder-schaefer.de/",
+    "coordinates": {
+      "latitude": 48.341315,
+      "longitude": 8.6668057
+    }
+  },
+  {
+    "name": "Die singenden Schäfer der Zollernalb",
+    "location": "Kreuzergärtle 13, 72401 Haigerloch, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7474 6114",
+    "website": "https://www.die-singenden-schaefer.de/kontakt.htm",
+    "coordinates": {
+      "latitude": 48.3596022,
+      "longitude": 8.8176842
+    }
+  },
+  {
+    "name": "Norbert und Philipp Schäfer KG",
+    "location": "Brühlstraße 5/1, 72365 Ratshausen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7427 914021",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.195178,
+      "longitude": 8.7943135
+    }
+  },
+  {
+    "name": "Schäferei Franziska Rehm",
+    "location": "Am Horn 1, 79350 Sexau, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 1512 3238347",
+    "website": "https://www.xn--schfereirehm-icb.de/",
+    "coordinates": {
+      "latitude": 48.1062,
+      "longitude": 7.90274
+    }
+  },
+  {
+    "name": "Schafhaus",
+    "location": "72348 Rosenfeld, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 48.3050043,
+      "longitude": 8.7411223
+    }
+  },
+  {
+    "name": "Schäferei Weinmann",
+    "location": "Schäferstadl 1, 70794 Filderstadt, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 173 4602403",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.6465101,
+      "longitude": 9.1910033
+    }
+  },
+  {
+    "name": "Schäfer Rohrnetz- und Anlagenbau GmbH",
+    "location": "Daimlerstraße 4, 72359 Dotternhausen",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "07427 5833910",
+    "website": "https://rohrnetzbau.schaefer-gruppe.com/",
+    "coordinates": {
+      "latitude": 48.2282308,
+      "longitude": 8.7848479
+    }
+  },
+  {
+    "name": "Schaf schafft Landschaft",
+    "location": "Klosterfreiheit 34 A, 37290 Meißner, Deutschland",
+    "country": "Germany",
+    "region": "Niedersachsen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 5657 6449926",
+    "website": "http://www.schafland17.de/",
+    "coordinates": {
+      "latitude": 51.1939814,
+      "longitude": 9.902716
+    }
+  },
+  {
+    "name": "Schafhaus Rexingen",
+    "location": "72160 Horb am Neckar, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 7451 9079380",
+    "website": null,
+    "coordinates": {
+      "latitude": 48.440199,
+      "longitude": 8.6392515
+    }
+  },
+  {
+    "name": "Echt Schaf",
+    "location": "Bethelner Mühlenstr. 6, 31028 Gronau (Leine), Deutschland",
+    "country": "Germany",
+    "region": "Niedersachsen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://www.echt-schaf.com/",
+    "coordinates": {
+      "latitude": 52.1120245,
+      "longitude": 9.7858085
+    }
+  },
+  {
+    "name": "Archeschäferei & Biobüro",
+    "location": "In d. Schweiz 4, 72770 Reutlingen, Deutschland",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 172 5355499",
+    "website": "http://arche-alb.de/",
+    "coordinates": {
+      "latitude": 48.4497915,
+      "longitude": 9.1396836
+    }
+  },
+  {
+    "name": "Schafherde",
+    "location": "47VQ+J6, 42499 Hückeswagen, Deutschland",
+    "country": "Germany",
+    "region": "Niedersachsen",
+    "flock_size": 300,
+    "breed": "Ras",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 51.1449444,
+      "longitude": 7.2903859
+    }
+  },
+  {
+    "name": "Schwarzes Schaf",
+    "location": "Pfleghofstraße 10, 72070 Tübingen",
+    "country": "Germany",
+    "region": "Baden-Württemberg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://m.facebook.com/schwarzes.schaf.tuebingen/",
+    "coordinates": {
+      "latitude": 48.5212957,
+      "longitude": 9.0574678
+    }
+  },
+  {
+    "name": "Schafbach",
+    "location": "Deutschland",
+    "country": "Germany",
+    "region": "",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 50.3694967,
+      "longitude": 12.0636762
+    }
+  },
+  {
+    "name": "Die Schaf-Gabe",
+    "location": "Littardweg 77c, 47506 Neukirchen-Vluyn, Deutschland",
+    "country": "Germany",
+    "region": "Niedersachsen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 2845 33347",
+    "website": "https://www.schafgabe.de/",
+    "coordinates": {
+      "latitude": 51.4595148,
+      "longitude": 6.5035483
+    }
+  },
+  {
+    "name": "Schaf Verkäufer",
+    "location": "Holunderweg 5, 51519 Odenthal, Deutschland",
+    "country": "Germany",
+    "region": "Nordrhein-Westfalen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 2174 40086",
+    "website": null,
+    "coordinates": {
+      "latitude": 51.050251,
+      "longitude": 7.1100606
+    }
+  },
+  {
+    "name": "Schaf und Geflügelhof Sue",
+    "location": "Dorfstraße 2, 39359 Eickendorf, Deutschland",
+    "country": "Germany",
+    "region": "Niedersachsen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 172 1825566",
+    "website": "http://www.hof-sue.de/",
+    "coordinates": {
+      "latitude": 52.3695667,
+      "longitude": 11.1410201
+    }
+  },
+  {
+    "name": "Schafherde von Hedwigenkoog",
+    "location": "5RPG+F2, 25761 Hedwigenkoog, Deutschland",
+    "country": "Germany",
+    "region": "Hamburg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 54.1861811,
+      "longitude": 8.8250839
+    }
+  },
+  {
+    "name": "Schafhof Landwehr",
+    "location": "Landwehr 21, 15938 Golßen, Deutschland",
+    "country": "Germany",
+    "region": "Berlin",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 35452 179969",
+    "website": "https://schafhof-landwehr.de/",
+    "coordinates": {
+      "latitude": 51.961169,
+      "longitude": 13.5889882
+    }
+  },
+  {
+    "name": "Anton Wunderlich Schäferei",
+    "location": "An der Steinlinde 1, 96215 Lichtenfels, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 9576 925883",
+    "website": null,
+    "coordinates": {
+      "latitude": 50.0993881,
+      "longitude": 11.1280221
+    }
+  },
+  {
+    "name": "Schafe im Rodgau",
+    "location": "Frankfurter Str. 29, 63110 Rodgau, Deutschland",
+    "country": "Germany",
+    "region": "Hessen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 6106 2664285",
+    "website": "http://schafe-im-rodgau.de/",
+    "coordinates": {
+      "latitude": 49.9972422,
+      "longitude": 8.8722405
+    }
+  },
+  {
+    "name": "Schaf Alfred",
+    "location": "Wilhelmstraße 5, 95028 Hof, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 9281 2164",
+    "website": null,
+    "coordinates": {
+      "latitude": 50.316462,
+      "longitude": 11.9119879
+    }
+  },
+  {
+    "name": "Mellerschter Schafhof",
+    "location": "Bauerngasse 58, 97638 Mellrichstadt, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 170 3144787",
+    "website": "https://mellerschter-schafhof.de/",
+    "coordinates": {
+      "latitude": 50.4294021,
+      "longitude": 10.3040852
+    }
+  },
+  {
+    "name": "Spass mit Schaf",
+    "location": "Schenefelder Landstraße 2 a, 25421 Pinneberg",
+    "country": "Germany",
+    "region": "Hamburg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "04101 62160",
+    "website": "http://spass-mit-schaf.de/",
+    "coordinates": {
+      "latitude": 53.6309245,
+      "longitude": 9.7720196
+    }
+  },
+  {
+    "name": "Wanderschäferei Jan Raupach",
+    "location": "Zschorlauer Str. 31, 08280 Aue-Bad Schlema, Deutschland",
+    "country": "Germany",
+    "region": "Sachsen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 50.5830396,
+      "longitude": 12.6807201
+    }
+  },
+  {
+    "name": "Sunfarming GmbH",
+    "location": "Gewerbegebiet zum Wasserwerk 12, 15537 Erkner, Deutschland",
+    "country": "Germany",
+    "region": "Berlin",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 3362 8859120",
+    "website": "https://sunfarming.de/de/home",
+    "coordinates": {
+      "latitude": 52.4310274,
+      "longitude": 13.7434238
+    }
+  },
+  {
+    "name": "Biohof Scharf",
+    "location": "Hanfsack 50B, 99198 Ollendorf, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 36203 253534",
+    "website": "http://www.biohof-scharf.de/",
+    "coordinates": {
+      "latitude": 51.0382024,
+      "longitude": 11.1831611
+    }
+  },
+  {
+    "name": "Wanderschäferei Ullrich Kämpfer",
+    "location": "P6GF+8M, 35686 Dillenburg, Deutschland",
+    "country": "Germany",
+    "region": "Niedersachsen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 50.7257666,
+      "longitude": 8.2241464
+    }
+  },
+  {
+    "name": "Schäfer GmbH",
+    "location": "Kulmbacher Str. 47, 95030 Hof, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 9281 7020",
+    "website": "http://www.schaefer-macht-druck.de/",
+    "coordinates": {
+      "latitude": 50.3170136,
+      "longitude": 11.8990295
+    }
+  },
+  {
+    "name": "Kaßel's Bauernhof - Daniel Kaßel",
+    "location": "Windischenhaig 66, 95326 Kulmbach, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 176 23495098",
+    "website": null,
+    "coordinates": {
+      "latitude": 50.0682907,
+      "longitude": 11.4242403
+    }
+  },
+  {
+    "name": "Schafzucht Kempe & Götz Hofladen",
+    "location": "Kampstraße 18, 34399 Wesertal, Deutschland",
+    "country": "Germany",
+    "region": "Niedersachsen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 177 4226784",
+    "website": "https://www.schafzuchtkempe.de/",
+    "coordinates": {
+      "latitude": 51.5901286,
+      "longitude": 9.5930939
+    }
+  },
+  {
+    "name": "Schafzucht Tannenhof",
+    "location": "35447 Reiskirchen, Deutschland",
+    "country": "Germany",
+    "region": "Niedersachsen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 50.5708889,
+      "longitude": 8.8607816
+    }
+  },
+  {
+    "name": "Alexander Burggraf - Schäferei",
+    "location": "Wiesenstraße 6, 91281 Kirchenthumbach, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 9647 912278",
+    "website": "http://www.schaeferei-burggraf.de/",
+    "coordinates": {
+      "latitude": 49.75355,
+      "longitude": 11.7219
+    }
+  },
+  {
+    "name": "Reit-, Pensions- und Ferienhof Zehendner",
+    "location": "Markersreuth 30, 95213 Münchberg, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 9251 850535",
+    "website": "http://www.reit-und-ferienhof-zehendner.de/",
+    "coordinates": {
+      "latitude": 50.2184748,
+      "longitude": 11.8186803
+    }
+  },
+  {
+    "name": "Produkte vom Schaf",
+    "location": "Altwettener-Weg 12, 47625 Kevelaer",
+    "country": "Germany",
+    "region": "Niedersachsen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "0163 6926168",
+    "website": "https://www.produkte-vom-schaf.de/",
+    "coordinates": {
+      "latitude": 51.5820924,
+      "longitude": 6.2992378
+    }
+  },
+  {
+    "name": "Schafhof",
+    "location": "Schafhof 45, 95197 Schauenstein, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 50.2836667,
+      "longitude": 11.7616184
+    }
+  },
+  {
+    "name": "Schäferei Frank",
+    "location": "Kirchberg 3, 95706 Schirnding, Deutschland",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 170 9890119",
+    "website": "https://www.schaefereifrank.de/",
+    "coordinates": {
+      "latitude": 50.0801077,
+      "longitude": 12.2270248
+    }
+  },
+  {
+    "name": "Erlebnisbauernhof Schallershof",
+    "location": "Schallershof 1, 95176 Konradsreuth, Deutschland",
+    "country": "Germany",
+    "region": "Sachsen-Anhalt",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 9292 973480",
+    "website": "https://m.facebook.com/Schallershof/",
+    "coordinates": {
+      "latitude": 50.27051,
+      "longitude": 11.8578201
+    }
+  },
+  {
+    "name": "Sheep Horse Ranch",
+    "location": "Erllohe 27, 95697 Nagel",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "09236 423",
+    "website": "http://sheephorseranch.de/",
+    "coordinates": {
+      "latitude": 49.975698,
+      "longitude": 11.9360548
+    }
+  },
+  {
+    "name": "Schäferei Kiemer",
+    "location": "Wiesenweg 10, 85235 Pfaffenhofen an der Glonn",
+    "country": "Germany",
+    "region": "Bayern",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "0179 5065608",
+    "website": "http://www.schafzucht-kiemer.de/",
+    "coordinates": {
+      "latitude": 48.3127466,
+      "longitude": 11.1675983
+    }
+  },
+  {
+    "name": "Schäferei Schnittker GbR",
+    "location": "Sandfeld, 26931 Elsfleth, Deutschland",
+    "country": "Germany",
+    "region": "Hamburg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 1525 3674828",
+    "website": "https://www.schaeferei-schnittker.de/",
+    "coordinates": {
+      "latitude": 53.2955386,
+      "longitude": 8.4505925
+    }
+  },
+  {
+    "name": "Schäferei",
+    "location": "Zum Schöpfwerk 4, 26810 Westoverledingen, Deutschland",
+    "country": "Germany",
+    "region": "Hamburg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 53.1707533,
+      "longitude": 7.3757199
+    }
+  },
+  {
+    "name": "Die Schäferei am Schaalsee",
+    "location": "Waldweg 1, 19205 Roggendorf, Deutschland",
+    "country": "Germany",
+    "region": "Berlin",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 172 7835385",
+    "website": null,
+    "coordinates": {
+      "latitude": 53.6814377,
+      "longitude": 11.0223917
+    }
+  },
+  {
+    "name": "Schäferei Stücke",
+    "location": "Häger Str. 23, 32584 Löhne in Westfalen, Deutschland",
+    "country": "Germany",
+    "region": "Niedersachsen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 5732 9896414",
+    "website": "http://www.schaeferei-stuecke.de/",
+    "coordinates": {
+      "latitude": 52.1743422,
+      "longitude": 8.7431658
+    }
+  },
+  {
+    "name": "Schäferei Reckfort",
+    "location": "Westerode 33, 48356 Nordwalde, Deutschland",
+    "country": "Germany",
+    "region": "Niedersachsen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 2573 3936",
+    "website": "http://schaeferei-reckfort.de/",
+    "coordinates": {
+      "latitude": 52.0779382,
+      "longitude": 7.5171297
+    }
+  },
+  {
+    "name": "Schäferei Seebürger",
+    "location": "Zur Schäferei 1, 19273 Amt Neuhaus, Deutschland",
+    "country": "Germany",
+    "region": "Berlin",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 38841 61133",
+    "website": "http://www.schaeferei-seebuerger.de/",
+    "coordinates": {
+      "latitude": 53.325688,
+      "longitude": 10.918006
+    }
+  },
+  {
+    "name": "Schäferei Preut",
+    "location": "Am Horstberg 3, 26169 Friesoythe, Deutschland",
+    "country": "Germany",
+    "region": "Hamburg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 4495 206",
+    "website": "http://www.preut.de/",
+    "coordinates": {
+      "latitude": 52.9800079,
+      "longitude": 7.8907681
+    }
+  },
+  {
+    "name": "Selbstpflückfeld mit Schafherde",
+    "location": "Schlautstiege 44a, 48163 Münster, Deutschland",
+    "country": "Germany",
+    "region": "Nordrhein-Westfalen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 51.9325762,
+      "longitude": 7.5819135
+    }
+  },
+  {
+    "name": "Der Schäferkarren",
+    "location": "Am Deich 26, 26842 Ostrhauderfehn, Deutschland",
+    "country": "Germany",
+    "region": "Hamburg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 4952 61642",
+    "website": "http://www.der-schaeferkarren.de/cgi-bin/shop/contact?id=2hcgL5UJ&mv_pc=23",
+    "coordinates": {
+      "latitude": 53.1535682,
+      "longitude": 7.6032116
+    }
+  },
+  {
+    "name": "Landesschafzuchtverband e.V.",
+    "location": "Mars-la-Tour-Straße 6, 26121 Oldenburg, Deutschland",
+    "country": "Germany",
+    "region": "Niedersachsen",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 441 82123",
+    "website": null,
+    "coordinates": {
+      "latitude": 53.151533,
+      "longitude": 8.207958
+    }
+  },
+  {
+    "name": "Hofladen \"schaf-und-mehr\" Susanne Gercke",
+    "location": "Forellenweg 43, 27257 Affinghausen, Deutschland",
+    "country": "Germany",
+    "region": "Hamburg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 4247 1541",
+    "website": "http://www.schaf-und-mehr.de/",
+    "coordinates": {
+      "latitude": 52.7718353,
+      "longitude": 8.8784391
+    }
+  },
+  {
+    "name": "Aselerwarf Schafhof und Wollwerkstatt",
+    "location": "Aselerwarfer Weg 21, 26409 Wittmund, Deutschland",
+    "country": "Germany",
+    "region": "Hamburg",
+    "flock_size": 300,
+    "breed": "Merino",
+    "grazing_type": "Mixed grazing",
+    "contact_email": "",
+    "contact_phone": "+49 4462 5828",
+    "website": "http://aselerwarf.de/",
+    "coordinates": {
+      "latitude": 53.5678085,
+      "longitude": 7.8175825
+    }
+  },
+  {
+    "name": "Greenfarmerz : Installateur photovoltaïque, bornes de recharge, panneaux solaires",
+    "location": null,
+    "country": "Belgium",
+    "region": "",
+    "flock_size": 200,
+    "breed": "Ardennais",
+    "grazing_type": "Service grazing",
+    "contact_email": "",
+    "contact_phone": "+32 2 887 84 17",
+    "website": "https://www.greenfarmerz.be/",
+    "coordinates": {
+      "latitude": 50.501038,
+      "longitude": 4.4661
+    }
+  }
+]

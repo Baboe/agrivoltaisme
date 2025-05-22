@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Integration Documentation - Ombaa</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <header class="mb-8">
+            <h1 class="text-3xl font-bold text-green-600 mb-2">Ombaa Data Integration Documentation</h1>
+            <p class="text-lg text-gray-600">Guide for integrating scraped data into the Ombaa directory site</p>
+        </header>
+
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-4">Overview</h2>
+            <p class="mb-4">This document explains how the scraped solar park data has been processed and integrated into the Ombaa directory website. The integration follows a modular approach that allows for easy updates and expansion as more data becomes available.</p>
+            
+            <div class="bg-green-50 border-l-4 border-green-500 p-4 mb-4">
+                <p class="font-medium">48 solar parks from the Netherlands have been successfully processed and integrated into the directory.</p>
+            </div>
+        </section>
+
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-4">Data Processing</h2>
+            <p class="mb-4">The raw data from Apify Google Maps Scraper has been processed using a Python script that:</p>
+            <ul class="list-disc pl-6 mb-4 space-y-2">
+                <li>Filters entries to identify genuine solar parks</li>
+                <li>Extracts and normalizes location information</li>
+                <li>Estimates park size in hectares when not explicitly provided</li>
+                <li>Determines vegetation types based on available descriptions</li>
+                <li>Maps entries to regions/provinces within the Netherlands</li>
+                <li>Structures the data according to the Ombaa directory schema</li>
+            </ul>
+            
+            <h3 class="text-xl font-bold mt-6 mb-2">Data Schema</h3>
+            <div class="bg-gray-100 p-4 rounded overflow-auto">
+                <pre class="text-sm">
+{
+  "name": "Solar Park Name",
+  "location": "Full Address",
+  "country": "Netherlands",
+  "region": "Province/Region Name",
+  "total_hectares": 25.5,
+  "vegetation_type": "Mixed grass",
+  "contact_email": "contact@example.com",
+  "contact_phone": "+31123456789",
+  "website": "https://example.com",
+  "coordinates": {
+    "latitude": 52.1234,
+    "longitude": 5.6789
+  }
+}
+                </pre>
+            </div>
+        </section>
+
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-4">Integration Method</h2>
+            <p class="mb-4">The processed data has been integrated into the directory using a JavaScript module that:</p>
+            <ul class="list-disc pl-6 mb-4 space-y-2">
+                <li>Loads the JSON data file asynchronously</li>
+                <li>Dynamically creates HTML elements for each solar park</li>
+                <li>Implements pagination with "Load More" functionality</li>
+                <li>Supports filtering by country, region, and listing type</li>
+                <li>Maintains the consistent design of the directory</li>
+            </ul>
+            
+            <h3 class="text-xl font-bold mt-6 mb-2">File Structure</h3>
+            <div class="bg-gray-100 p-4 rounded">
+                <ul class="text-sm space-y-1">
+                    <li><span class="font-mono text-green-600">/data/processed_solar_parks.json</span> - The processed data file</li>
+                    <li><span class="font-mono text-green-600">/js/directory-data.js</span> - JavaScript for loading and displaying the data</li>
+                    <li><span class="font-mono text-green-600">/directory.html</span> - The main directory page that loads the data</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-4">Deployment Instructions</h2>
+            <p class="mb-4">To deploy the directory with the integrated data:</p>
+            <ol class="list-decimal pl-6 mb-4 space-y-2">
+                <li>Create a <span class="font-mono">/data</span> directory in your web root</li>
+                <li>Copy <span class="font-mono">processed_solar_parks.json</span> to the <span class="font-mono">/data</span> directory</li>
+                <li>Include the <span class="font-mono">directory-data.js</span> script in your directory.html page</li>
+                <li>Ensure the HTML contains elements with the correct IDs:
+                    <ul class="list-disc pl-6 mt-2">
+                        <li><span class="font-mono">solar-farms-list</span> - Container for solar farm listings</li>
+                        <li><span class="font-mono">load-more-farms</span> - Button for loading more listings</li>
+                        <li><span class="font-mono">apply-filters</span> - Button for applying filters</li>
+                    </ul>
+                </li>
+            </ol>
+            
+            <div class="bg-yellow-50 border-l-4 border-yellow-500 p-4 mt-4">
+                <p class="font-medium">Note: The contact functionality requires the contact modal implementation from the original directory.html file.</p>
+            </div>
+        </section>
+
+        <section class="mb-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-4">Extending the Integration</h2>
+            <p class="mb-4">To add more data sources or regions:</p>
+            <ol class="list-decimal pl-6 mb-4 space-y-2">
+                <li>Process new data using the same Python script or a modified version</li>
+                <li>Combine the JSON outputs or keep them as separate files by region</li>
+                <li>Update the JavaScript to load multiple data files if needed</li>
+                <li>Enhance the filtering functionality to support the new data sources</li>
+            </ol>
+            
+            <p class="mt-4">For shepherd data integration, follow the same pattern but create a separate JSON file and update the JavaScript to load and display shepherd listings in the appropriate container.</p>
+        </section>
+
+        <footer class="text-center text-gray-600 mt-12">
+            <p>Ombaa Directory Data Integration Documentation - May 2025</p>
+        </footer>
+    </div>
+</body>
+</html>

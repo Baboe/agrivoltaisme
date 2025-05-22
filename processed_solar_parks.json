@@ -1,0 +1,722 @@
+[
+  {
+    "name": "Solar Park Hijken Zuid",
+    "location": "De Lotten 3, 9415 Hijken, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://www.statkraft.nl/over-statkraft/waar-wij-actief-zijn/Nederland/hijken/",
+    "coordinates": {
+      "latitude": 52.8829834,
+      "longitude": 6.5177059
+    }
+  },
+  {
+    "name": "Zonnepark Midden-Groningen",
+    "location": "Buitenhuizen 1, 9615 AA Sappemeer, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "http://www.chintsolar.nl/",
+    "coordinates": {
+      "latitude": 53.1760291,
+      "longitude": 6.7671302
+    }
+  },
+  {
+    "name": "NL Solarpark De Kwekerij B.V.",
+    "location": "Gildebongerd 65A, 7038 DB Zeddam, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 7.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 6 53819281",
+    "website": "http://nlsolarparkdekwekerij.nl/",
+    "coordinates": {
+      "latitude": 51.9072676,
+      "longitude": 6.2607749
+    }
+  },
+  {
+    "name": "Solarpark Galecop",
+    "location": "PJ, Galecopperzoom, Nieuwegein, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 6 33765735",
+    "website": "http://solarparkgalecop.nl/",
+    "coordinates": {
+      "latitude": 52.058732,
+      "longitude": 5.078087
+    }
+  },
+  {
+    "name": "Zonnepark Vlagtwedde",
+    "location": "Mussel A Kanaal Oost 3, 9541 XW Vlagtwedde, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://www.encavis.com/",
+    "coordinates": {
+      "latitude": 52.9854821,
+      "longitude": 7.0718361
+    }
+  },
+  {
+    "name": "Zonnepark Meerdorpen",
+    "location": "Atoomweg 6B, 9743 AK Groningen, Nederland",
+    "country": "Netherlands",
+    "region": "Groningen",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 50 820 0492",
+    "website": "https://www.grunnegerpower.nl/projecten/zonnepark-meerdorpen/",
+    "coordinates": {
+      "latitude": 53.1985345,
+      "longitude": 6.6433284
+    }
+  },
+  {
+    "name": "Zonnepark Emmen",
+    "location": "Veenakkers 25, 7881 XA Emmer-Compascuum, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "http://www.powerfield.nl/",
+    "coordinates": {
+      "latitude": 52.8154738,
+      "longitude": 6.978671
+    }
+  },
+  {
+    "name": "Solar Park Sellingen",
+    "location": "Beetserwijk 9551, 9551 VH Sellingen, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 52.9446954,
+      "longitude": 7.0916533
+    }
+  },
+  {
+    "name": "Solar park Delfzijl",
+    "location": "Oosterlaan, 9936 HN Farmsum, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 53.30122,
+      "longitude": 6.9567587
+    }
+  },
+  {
+    "name": "Volt4U Zonnepanelen",
+    "location": "Vogelpoelweg 8, 3961 NL Wijk bij Duurstede, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 343 764 129",
+    "website": "http://www.volt4u.nl/",
+    "coordinates": {
+      "latitude": 51.9738076,
+      "longitude": 5.3175395
+    }
+  },
+  {
+    "name": "ESK-SOLAR ZONNEPARK",
+    "location": "Fahrenheitstraat 14, 8861 NB Harlingen, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 6 47551503",
+    "website": "http://esk-solar.nl/",
+    "coordinates": {
+      "latitude": 53.1807033,
+      "longitude": 5.4603405
+    }
+  },
+  {
+    "name": "Solarvation",
+    "location": "Wisentweg 64, 8219 PL Lelystad, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 320 793 003",
+    "website": "https://www.solarvation.nl/",
+    "coordinates": {
+      "latitude": 52.5220457,
+      "longitude": 5.580418
+    }
+  },
+  {
+    "name": "Zonnepark Services Nederland",
+    "location": "Beneluxweg 132, 9636 HV Zuidbroek, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 30 781 0000",
+    "website": "http://www.zonnepark-services.nl/",
+    "coordinates": {
+      "latitude": 53.1644067,
+      "longitude": 6.8751114
+    }
+  },
+  {
+    "name": "Kameleon Solar",
+    "location": "Belder 1, 4704 RK Roosendaal, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 165 763 826",
+    "website": "https://kameleonsolar.com/",
+    "coordinates": {
+      "latitude": 51.5561896,
+      "longitude": 4.4712038
+    }
+  },
+  {
+    "name": "Green Farm Energy",
+    "location": "Wassenaarseweg 20, 2596 CH Den Haag, Nederland",
+    "country": "Netherlands",
+    "region": "Zuid-Holland",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 85 081 0080",
+    "website": "https://www.greenfarmenergy.nl/contact",
+    "coordinates": {
+      "latitude": 52.0908504,
+      "longitude": 4.3139122
+    }
+  },
+  {
+    "name": "Atama Solar Energy BV",
+    "location": "Nijverheidsweg 35, 6662 NG Elst, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 88 297 3400",
+    "website": "http://www.atama.nl/",
+    "coordinates": {
+      "latitude": 51.9135556,
+      "longitude": 5.8687442
+    }
+  },
+  {
+    "name": "Sunvest",
+    "location": "Nijverheidsweg 16A, Unit 2A2, 3534 AM Utrecht, Nederland",
+    "country": "Netherlands",
+    "region": "Utrecht",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 6 19206307",
+    "website": "https://sunvest.nl/",
+    "coordinates": {
+      "latitude": 52.1025425,
+      "longitude": 5.0786812
+    }
+  },
+  {
+    "name": "Zonnedaken Nederland",
+    "location": "Kromme-Elleboog 2, 9684 XA Finsterwolde, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Wild flowers",
+    "contact_email": "",
+    "contact_phone": "+31 597 857 696",
+    "website": "https://www.zonnedaken-nederland.nl/",
+    "coordinates": {
+      "latitude": 53.1931683,
+      "longitude": 7.0642983
+    }
+  },
+  {
+    "name": "Solar Group Holland (Bouw) B.V.",
+    "location": "Schoolstraat 147, 3864 ME Nijkerkerveen, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://solargroupholland.com/",
+    "coordinates": {
+      "latitude": 52.1868782,
+      "longitude": 5.493849
+    }
+  },
+  {
+    "name": "Solarfeld",
+    "location": "9936 HN Farmsum, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 53.3004809,
+      "longitude": 6.9567751
+    }
+  },
+  {
+    "name": "Solarfeld",
+    "location": "9936 TG Farmsum, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 53.2967551,
+      "longitude": 6.9578778
+    }
+  },
+  {
+    "name": "Solarfeld",
+    "location": "9936 TG Farmsum, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 53.2839177,
+      "longitude": 6.9749333
+    }
+  },
+  {
+    "name": "Symm Energy BV",
+    "location": "Melkrijder 19a, 3861 SG Nijkerk, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 6 43152218",
+    "website": "http://www.symm.nl/",
+    "coordinates": {
+      "latitude": 52.2308746,
+      "longitude": 5.4628886
+    }
+  },
+  {
+    "name": "SolarNRG Trading B.V.",
+    "location": "Mercuriusplein 40, 2685 LP Poeldijk, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 174 444 171",
+    "website": "https://solarnrg.nl/",
+    "coordinates": {
+      "latitude": 52.0202776,
+      "longitude": 4.2126209
+    }
+  },
+  {
+    "name": "Solar Park Marum BV",
+    "location": "9363 XD Marum, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://www.solarfields.nl/",
+    "coordinates": {
+      "latitude": 53.1353915,
+      "longitude": 6.2801007
+    }
+  },
+  {
+    "name": "Marstek Power",
+    "location": "Bieskade 2, 2492 TP Den Haag, Nederland",
+    "country": "Netherlands",
+    "region": "Zuid-Holland",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 85 401 7089",
+    "website": "https://www.marstek-power.eu/",
+    "coordinates": {
+      "latitude": 52.0594401,
+      "longitude": 4.4176745
+    }
+  },
+  {
+    "name": "Zonnepark Braambergen",
+    "location": "Kemphaanweg 2, 1358 AB Almere, Nederland",
+    "country": "Netherlands",
+    "region": "Flevoland",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 800 0700",
+    "website": "https://www.hvcgroep.nl/ons-verhaal/onze-groene-projecten/zonnepark-braambergen",
+    "coordinates": {
+      "latitude": 52.3352155,
+      "longitude": 5.2855803
+    }
+  },
+  {
+    "name": "Zonnepark de Lichtkiem",
+    "location": "9406 XK Assen, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://www.zonnepanelendelen.nl/project/lichtkiem/",
+    "coordinates": {
+      "latitude": 53.0081281,
+      "longitude": 6.5237969
+    }
+  },
+  {
+    "name": "Zonnepark AVRI Solar B.V.",
+    "location": "4191 NK Geldermalsen, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 51.8669953,
+      "longitude": 5.3252541
+    }
+  },
+  {
+    "name": "IX Zon",
+    "location": "Schipholweg 103, 2316 XC Leiden, Nederland",
+    "country": "Netherlands",
+    "region": "Zuid-Holland",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 88 886 0808",
+    "website": "http://www.ixzon.nl/",
+    "coordinates": {
+      "latitude": 52.1694948,
+      "longitude": 4.4885155
+    }
+  },
+  {
+    "name": "Zonnepark kampen",
+    "location": "Rietsteeg 4, 8293 PC Mastenbroek, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 52.5789587,
+      "longitude": 5.9796273
+    }
+  },
+  {
+    "name": "Zonnepark Melissant (Sunstroom)",
+    "location": "Bouwdijk 23, 3248 LA Melissant, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 6 41132035",
+    "website": null,
+    "coordinates": {
+      "latitude": 51.774319,
+      "longitude": 4.0369101
+    }
+  },
+  {
+    "name": "Zonnepanelen park",
+    "location": "2992 SC Barendrecht, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 51.8410591,
+      "longitude": 4.5175397
+    }
+  },
+  {
+    "name": "Zonnepark Andijk",
+    "location": "1619 PE Andijk, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 52.7374175,
+      "longitude": 5.229168
+    }
+  },
+  {
+    "name": "Zonnepark Zuyderzon",
+    "location": "Caissonweg 1332, 1332 BX Almere, Nederland",
+    "country": "Netherlands",
+    "region": "Flevoland",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 6 31317632",
+    "website": "https://www.hvcgroep.nl/ons-verhaal/projecten/zonnepark-zuyderzon-almere",
+    "coordinates": {
+      "latitude": 52.420039,
+      "longitude": 5.242145
+    }
+  },
+  {
+    "name": "Solar Campus Purmerend",
+    "location": "t/o, Westerweg 79, 1446 AG Purmerend, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "http://www.solarcampuspurmerend.nl/",
+    "coordinates": {
+      "latitude": 52.5225522,
+      "longitude": 5.0058513
+    }
+  },
+  {
+    "name": "SolarParking",
+    "location": "Rubberstraat 6a, 1411 AL Naarden, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 35 887 8700",
+    "website": "http://www.solarparking.nl/",
+    "coordinates": {
+      "latitude": 52.3028407,
+      "longitude": 5.1468641
+    }
+  },
+  {
+    "name": "Sunergetic B.V.",
+    "location": "Vossenkoog 6, 1822 BG Alkmaar, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 85 222 0026",
+    "website": "https://sunergetic.nl/",
+    "coordinates": {
+      "latitude": 52.6441332,
+      "longitude": 4.783254
+    }
+  },
+  {
+    "name": "Influx Group | Duurzaam Friesland",
+    "location": "De Bird 15-6, 8918 EX Leeuwarden, Nederland",
+    "country": "Netherlands",
+    "region": "Friesland",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 6 38582434",
+    "website": "http://www.influxgroup.nl/",
+    "coordinates": {
+      "latitude": 53.2141972,
+      "longitude": 5.789351
+    }
+  },
+  {
+    "name": "PSE Energy",
+    "location": "Valkenburgerweg 223, 6419 AT Heerlen, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 800 5557755",
+    "website": "http://www.pse-energy.com/",
+    "coordinates": {
+      "latitude": 50.8779294,
+      "longitude": 5.9542178
+    }
+  },
+  {
+    "name": "Energiepark Groensebos BV",
+    "location": "Heerdstraat, 6111 RA Sint Joost, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 6 16140351",
+    "website": "https://zonneparkgroensebos.nl/",
+    "coordinates": {
+      "latitude": 51.1115352,
+      "longitude": 5.9282185
+    }
+  },
+  {
+    "name": "Solarpark Wienhoek",
+    "location": "Mosberg 45, 4708 NA Roosendaal, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 51.5256875,
+      "longitude": 4.429202
+    }
+  },
+  {
+    "name": "Zonnepark Scaldia",
+    "location": "4389 PS Ritthem, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://www.solarfields.nl/projecten/zonneparken/vlissingen-scaldia/",
+    "coordinates": {
+      "latitude": 51.4582831,
+      "longitude": 3.7100285
+    }
+  },
+  {
+    "name": "Zonnepark Services Nederland",
+    "location": "Drieharingstraat 6, 3511 BJ Utrecht, Nederland",
+    "country": "Netherlands",
+    "region": "Utrecht",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 30 781 0000",
+    "website": "http://www.zonnepark-services.nl/",
+    "coordinates": {
+      "latitude": 52.0920299,
+      "longitude": 5.1158787
+    }
+  },
+  {
+    "name": "TPSolar Nederland BV",
+    "location": "Melbournestraat 9, unit 7, 1175 RM Lijnden, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 23 741 0144",
+    "website": "https://www.tpsolar.nl/",
+    "coordinates": {
+      "latitude": 52.349737,
+      "longitude": 4.7676308
+    }
+  },
+  {
+    "name": "Zonnepanelen park",
+    "location": "Deventerseweg 14, 2994 LD Barendrecht, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 51.8625557,
+      "longitude": 4.5125476
+    }
+  },
+  {
+    "name": "Solarlandschapspark De Kwekerij",
+    "location": "Stekweg, 7255 LM Hengelo, Nederland",
+    "country": "Netherlands",
+    "region": "",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": "https://nlsolarparkdekwekerij.nl/",
+    "coordinates": {
+      "latitude": 52.0566743,
+      "longitude": 6.3091029
+    }
+  },
+  {
+    "name": "Solarduck",
+    "location": "Weena 70, 3012 CM Rotterdam, Nederland",
+    "country": "Netherlands",
+    "region": "Zuid-Holland",
+    "total_hectares": 15.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": "+31 85 732 6783",
+    "website": "http://www.solarduck.tech/",
+    "coordinates": {
+      "latitude": 51.9237365,
+      "longitude": 4.476217
+    }
+  }
+]

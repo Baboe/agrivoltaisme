@@ -1,0 +1,20 @@
+[
+  {
+    "name": "centrale photovoltaïque flottante de Piolenc",
+    "location": "84420 Piolenc, France",
+    "country": "France",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "total_hectares": 20.0,
+    "vegetation_type": "Mixed grass",
+    "contact_email": "",
+    "contact_phone": null,
+    "website": null,
+    "coordinates": {
+      "latitude": 44.1533822,
+      "longitude": 4.7267674
+    }
+  },
+  {
+    "name": "Parc Solaire Logelbach VOLTALIA",
+    "location": "68124 Wintzenheim, France",
+    "country": "France",

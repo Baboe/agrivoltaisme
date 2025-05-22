@@ -1,0 +1,4908 @@
+[{
+  "title": "Good Shepherd Services",
+  "price": null,
+  "address": "24 School St, Wolverhampton WV1 4LF, United Kingdom",
+  "neighborhood": null,
+  "street": "24 School St",
+  "city": "Wolverhampton",
+  "postalCode": "WV1 4LF",
+  "state": null,
+  "countryCode": "GB",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 52.5845299,
+    "lng": -2.1320171
+  },
+  "plusCode": "HVM9+R5 Wolverhampton, United Kingdom",
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJcxm-q5ubcEgRGP-eVFE2jEk",
+  "categories": [],
+  "fid": "0x48709b9babbe1973:0x498c3651549eff18",
+  "cid": "5299670584448188184",
+  "reviewsCount": 1,
+  "reviewsDistribution": {
+    "oneStar": 0,
+    "twoStar": 0,
+    "threeStar": 0,
+    "fourStar": 0,
+    "fiveStar": 1
+  },
+  "imagesCount": 1,
+  "imageCategories": [
+    "All",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2025-05-20T13:26:08.031Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [
+    {
+      "category": "People also search for",
+      "title": "Good Shepherd Wolverhampton",
+      "reviewsCount": 57,
+      "totalScore": 4.5
+    },
+    {
+      "category": "People also search for",
+      "title": "People Potential Possibilities",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "People also search for",
+      "title": "UK SHE Organisation",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "People also search for",
+      "title": "Self Care Society",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "People also search for",
+      "title": "Operator Services Wolverhampton LTD",
+      "reviewsCount": 0,
+      "totalScore": 0
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Good%20Shepherd%20Services&query_place_id=ChIJcxm-q5ubcEgRGP-eVFE2jEk",
+  "searchPageUrl": "https://www.google.com/maps/search/shepherd%20services%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "shepherd services UK",
+  "language": "en",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5vtAleDILyd-RLd5Mqa-hg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=290.98337&pitch=0&thumbfov=100",
+  "kgmid": "/g/11j2ypmbh0"
+},
+{
+  "title": "Newlands Farm",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Port Talbot SA13 2PB, United Kingdom",
+  "neighborhood": null,
+  "street": null,
+  "city": "Port Talbot",
+  "postalCode": null,
+  "state": null,
+  "countryCode": "GB",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 51.5413303,
+    "lng": -3.7219942
+  },
+  "plusCode": "G7RH+G6 Port Talbot, United Kingdom",
+  "totalScore": 4.8,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ8-4e2J1nbkgRJfyUruz-MYY",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x486e679dd81eeef3:0x8631feecae94fc25",
+  "cid": "9669790167435901989",
+  "reviewsCount": 5,
+  "reviewsDistribution": {
+    "oneStar": 0,
+    "twoStar": 0,
+    "threeStar": 0,
+    "fourStar": 1,
+    "fiveStar": 4
+  },
+  "imagesCount": 1,
+  "imageCategories": [
+    "All"
+  ],
+  "scrapedAt": "2025-05-20T13:26:10.433Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [
+    {
+      "category": "People also search for",
+      "title": "Sker Farm",
+      "reviewsCount": 2,
+      "totalScore": 4.5
+    },
+    {
+      "category": "People also search for",
+      "title": "Llwyna Farm",
+      "reviewsCount": 1,
+      "totalScore": 3
+    },
+    {
+      "category": "People also search for",
+      "title": "William W Llewellyn",
+      "reviewsCount": 1,
+      "totalScore": 5
+    },
+    {
+      "category": "People also search for",
+      "title": "Pantynawel Farm",
+      "reviewsCount": 3,
+      "totalScore": 4
+    },
+    {
+      "category": "People also search for",
+      "title": "The Ffawyddog Farm",
+      "reviewsCount": 0,
+      "totalScore": 0
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Newlands%20Farm&query_place_id=ChIJ8-4e2J1nbkgRJfyUruz-MYY",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20grazing%20services%20United%20Kingdom/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep grazing services United Kingdom",
+  "language": "en",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqcnVYrhax_CdoOI5C26SgwJza6qshNQ9kIphGt8gPXEfw1ozZLr2EF6U-o12VV_5jQUio6FOYjTKHFzYJkCUFkVA8etQ8kGwDIK3hFhWq3vU84PjaXOkkRkQ5KqHHNERZ40Q4y=w533-h240-k-no",
+  "kgmid": "/g/11h03rqy_j"
+},
+{
+  "title": "Flock Events",
+  "price": null,
+  "categoryName": "Event management company",
+  "address": "Works, Oldfield Ct, Windermere LA23 2HJ, United Kingdom",
+  "neighborhood": null,
+  "street": "Works, Oldfield Ct",
+  "city": "Windermere",
+  "postalCode": "LA23 2HJ",
+  "state": null,
+  "countryCode": "GB",
+  "phone": "+44 7944 741577",
+  "phoneUnformatted": "+447944741577",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 54.3744378,
+    "lng": -2.9043908
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJIYg695aUfEgRz_2DEKtEz9o",
+  "categories": [
+    "Event management company"
+  ],
+  "fid": "0x487c9496f73a8821:0xdacf44ab1083fdcf",
+  "cid": "15766896321954577871",
+  "reviewsCount": 0,
+  "imagesCount": 1,
+  "imageCategories": [
+    "All",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2025-05-20T13:26:20.032Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [
+    {
+      "category": "People also search for",
+      "title": "EventEntry Ltd",
+      "reviewsCount": 14,
+      "totalScore": 5
+    },
+    {
+      "category": "People also search for",
+      "title": "Hofn Events",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "People also search for",
+      "title": "Ambling Along Ltd",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "People also search for",
+      "title": "Clear View Events",
+      "reviewsCount": 1,
+      "totalScore": 5
+    },
+    {
+      "category": "People also search for",
+      "title": "See Events Limited",
+      "reviewsCount": 1,
+      "totalScore": 5
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Flock%20Events&query_place_id=ChIJIYg695aUfEgRz_2DEKtEz9o",
+  "searchPageUrl": "https://www.google.com/maps/search/flock%20management%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "flock management UK",
+  "language": "en",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Dfx-DAzZDolKZKD-4-EFjA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=14.211423&pitch=0&thumbfov=100",
+  "kgmid": "/g/11qphj882q"
+},
+{
+  "title": "Black Sheep Farms",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Tom-An-Oir, Invergarry PH35 4HR, United Kingdom",
+  "neighborhood": null,
+  "street": "Tom-An-Oir",
+  "city": "Invergarry",
+  "postalCode": "PH35 4HR",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://www.blacksheepadventures.uk/",
+  "phone": "+44 7535 880865",
+  "phoneUnformatted": "+447535880865",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 57.0707707,
+    "lng": -5.0070006
+  },
+  "totalScore": 4.8,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJW5R_-MTbjkgRNxzZf5dU35Y",
+  "categories": [
+    "Farm",
+    "Tourist attraction",
+    "Tour agency"
+  ],
+  "fid": "0x488edbc4f87f945b:0x96df54977fd91c37",
+  "cid": "10871501035157396535",
+  "reviewsCount": 24,
+  "imagesCount": 60,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.214Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Onsite services": false
+      }
+    ],
+    "Accessibility": [
+      {
+        "Assistive hearing loop": false
+      },
+      {
+        "Wheelchair accessible entrance": false
+      },
+      {
+        "Wheelchair accessible parking lot": false
+      },
+      {
+        "Wheelchair accessible restroom": false
+      },
+      {
+        "Wheelchair accessible seating": false
+      }
+    ],
+    "Planning": [
+      {
+        "Appointment required": true
+      },
+      {
+        "Getting tickets in advance recommended": true
+      }
+    ],
+    "Children": [
+      {
+        "Good for kids": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Black%20Sheep%20Farms&query_place_id=ChIJW5R_-MTbjkgRNxzZf5dU35Y",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqNxcmQIS7bB0FfI8_KF6HCuDBZ2wxc143pJ0El74Ya6my2w6IdgNToBcE7D5iT84A_9t8bmkDdtKAkE7fjMemn7lgumwcqFdVdpEedtjkcAddJjvLNdhzcwU2V6AQeKk_NM3s-og=w408-h544-k-no",
+  "kgmid": "/g/11vyx647sw"
+},
+{
+  "title": "North Muasdale Farm",
+  "price": "$150",
+  "categoryName": "Farmstay",
+  "address": "North Muasdale Farm By, Tarbert PA29 6XD, United Kingdom",
+  "neighborhood": null,
+  "street": "North Muasdale Farm By",
+  "city": "Tarbert",
+  "postalCode": "PA29 6XD",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://northmuasdalefarm.com/",
+  "phone": "+44 1583 421231",
+  "phoneUnformatted": "+441583421231",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 55.5967789,
+    "lng": -5.6825686
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJGXPNq4IbikgRgOYTSqYNTuA",
+  "categories": [
+    "Farmstay"
+  ],
+  "fid": "0x488a1b82abcd7319:0xe04e0da64a13e680",
+  "cid": "16162871120537839232",
+  "reviewsCount": 6,
+  "imagesCount": 10,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.214Z",
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "checkInDate": "2025-05-21",
+  "checkOutDate": "2025-05-23",
+  "similarHotelsNearby": [
+    {
+      "name": "Muasdale Holiday Park",
+      "rating": 4.6,
+      "reviews": 128,
+      "description": "Free Wi-Fi",
+      "price": null
+    },
+    {
+      "name": "the house@glenbarr",
+      "rating": 4.6,
+      "reviews": 53,
+      "description": "Free Wi-Fi and parking",
+      "price": null
+    },
+    {
+      "name": "Killegruer Caravan Site",
+      "rating": 4.8,
+      "reviews": 116,
+      "description": "Free Wi-Fi",
+      "price": null
+    },
+    {
+      "name": "Ferry Farm Bed & Breakfast",
+      "rating": 4.6,
+      "reviews": 9,
+      "description": null,
+      "price": null
+    },
+    {
+      "name": "Argyll Hotel",
+      "rating": 4.7,
+      "reviews": 261,
+      "description": "Free breakfast, Wi-Fi, and parking",
+      "price": null
+    },
+    {
+      "name": "Gigha Luxury Self Catering",
+      "rating": 4.9,
+      "reviews": 10,
+      "description": null,
+      "price": null
+    },
+    {
+      "name": "Point Sands Holiday Park",
+      "rating": 4.6,
+      "reviews": 59,
+      "description": null,
+      "price": null
+    },
+    {
+      "name": "Achamore House",
+      "rating": 4.2,
+      "reviews": 10,
+      "description": null,
+      "price": null
+    }
+  ],
+  "hotelAds": [
+    {
+      "title": "North Muasdale Farm",
+      "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsymvW7fIamADb1ks4otWlOGZwp7vv-ORWDuY0CwBFsxcy5phjAqjHj1PZYFRFwgtdTN0l7LtqjcuYu1gFhM6ALWMIK0lidXG_drUmcKBp0CnNe3dFLp-zWtU1m5lFcXdmvK&pcurl=https://portal.freetobook.com/google/pos?propertyId%3D53595%26checkIn%3D2025-05-21%26stayLength%3D2%26resultCode%3D%26numAdults%3D2%26language%3Den%26bookingSource%3D%26campaignId%3D%26paidLink%3Dfalse",
+      "isOfficialSite": true,
+      "price": "$180",
+      "url": "https://portal.freetobook.com/google/pos?propertyId=53595&checkIn=2025-05-21&stayLength=2&resultCode=&numAdults=2&language=en&bookingSource=&campaignId=&paidLink=false"
+    }
+  ],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=North%20Muasdale%20Farm&query_place_id=ChIJGXPNq4IbikgRgOYTSqYNTuA",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 2,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPVzyTuaZnfeLQM-t73QVeFC9cTyZQyt0lPDT74=w408-h408-k-no",
+  "kgmid": "/g/11lrhshd6d"
+},
+{
+  "title": "Glenshane Country Farm",
+  "price": null,
+  "categoryName": "Tourist attraction",
+  "address": "5 Lisnamuck Hill, Maghera BT46 5LB, United Kingdom",
+  "neighborhood": null,
+  "street": "5 Lisnamuck Hill",
+  "city": "Maghera",
+  "postalCode": "BT46 5LB",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.glenshanecountryfarm.com/",
+  "phone": "+44 7979 860070",
+  "phoneUnformatted": "+447979860070",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 54.8436166,
+    "lng": -6.7540908
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ55HJaxZpYEgR3udbYKqfGy8",
+  "categories": [
+    "Tourist attraction"
+  ],
+  "fid": "0x486069166bc991e7:0x2f1b9faa605be7de",
+  "cid": "3394482298263693278",
+  "reviewsCount": 591,
+  "imagesCount": 646,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.215Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "7 AM to 6:30 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "7 AM to 6:30 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "7 AM to 6:30 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "7 AM to 6:30 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "7 AM to 6:30 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "7 AM to 6:30 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "7 AM to 6:30 PM"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Onsite services": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Planning": [
+      {
+        "Appointment required": true
+      },
+      {
+        "Getting tickets in advance recommended": true
+      }
+    ],
+    "Children": [
+      {
+        "Good for kids": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Glenshane%20Country%20Farm&query_place_id=ChIJ55HJaxZpYEgR3udbYKqfGy8",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 3,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPnBoBURoI2dwz-pa6jTUJ3f868wspZSKNoEbbn=w408-h272-k-no",
+  "kgmid": "/g/11q1mlnf36"
+},
+{
+  "title": "Beau Swimming - Sheepwash Farm",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Whittington, Lichfield WS14 9JN, United Kingdom",
+  "neighborhood": "Whittington",
+  "street": null,
+  "city": "Lichfield",
+  "postalCode": null,
+  "state": null,
+  "countryCode": "GB",
+  "phone": "+44 1543 433822",
+  "phoneUnformatted": "+441543433822",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 52.6712277,
+    "lng": -1.7507375
+  },
+  "totalScore": 4.6,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJwaFC_zaocEgRWAnMVYj9w6M",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x4870a836ff42a1c1:0xa3c3fd8855cc0958",
+  "cid": "11800554210637646168",
+  "reviewsCount": 40,
+  "imagesCount": 13,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.215Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Beau%20Swimming%20-%20Sheepwash%20Farm&query_place_id=ChIJwaFC_zaocEgRWAnMVYj9w6M",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 4,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nol-Dttf6CEZvHjHZLa-x7Z6TYyTgXvztsM7mfgp_hkLZwKNk2CNSlFJ00Nau8bVBZuqFSPcl7Q3nVFq3vj-kC1budUpEkbEKuXllr4diVXDMcZR3YZPE1YA9T_2Eh2EYWnRmTV=w408-h306-k-no",
+  "kgmid": "/g/11f1jx2k2n"
+},
+{
+  "title": "Sheepdrove Organic Farm",
+  "price": null,
+  "categoryName": "Organic farm",
+  "address": "Warren Farm Sheepdrove Road, Sheepdrove Rd, Lambourn, Hungerford RG17 7UU, United Kingdom",
+  "neighborhood": "Lambourn",
+  "street": "Warren Farm Sheepdrove Road, Sheepdrove Rd",
+  "city": "Hungerford",
+  "postalCode": "RG17 7UU",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.sheepdrove.com/",
+  "phone": "+44 1488 674747",
+  "phoneUnformatted": "+441488674747",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 51.5342908,
+    "lng": -1.4848252
+  },
+  "totalScore": 4.7,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJE2-x2PCydkgR8ds3NhiMAqg",
+  "categories": [
+    "Organic farm",
+    "Business park",
+    "Cemetery",
+    "Concert hall",
+    "Conference center",
+    "Event venue",
+    "Farmstay",
+    "Retreat center",
+    "Wedding venue",
+    "Yoga studio"
+  ],
+  "fid": "0x4876b2f0d8b16f13:0xa8028c183637dbf1",
+  "cid": "12106392783942048753",
+  "reviewsCount": 19,
+  "imagesCount": 47,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.215Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Sheepdrove%20Organic%20Farm&query_place_id=ChIJE2-x2PCydkgR8ds3NhiMAqg",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 5,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipN7UsPQQ0LXVjwYtxIAs0kKKRawTfdeetGKYgEj=w408-h306-k-no",
+  "kgmid": "/m/080kpyg"
+},
+{
+  "title": "Pye Ash Farm",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Pye Ash Farm, Bosley, Macclesfield SK11 0PN, United Kingdom",
+  "neighborhood": "Bosley",
+  "street": "Pye Ash Farm",
+  "city": "Macclesfield",
+  "postalCode": "SK11 0PN",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.pyeashfarm.co.uk/",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 53.1930071,
+    "lng": -2.1311513
+  },
+  "totalScore": 4.8,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJWWPb9y1HekgRcrx53Epbf3U",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x487a472df7db6359:0x757f5b4adc79bc72",
+  "cid": "8466586201564494962",
+  "reviewsCount": 58,
+  "imagesCount": 48,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.215Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Pye%20Ash%20Farm&query_place_id=ChIJWWPb9y1HekgRcrx53Epbf3U",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 6,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nospY3uVMnIGHtajW2phn-X_1L4s8ogKV6hNZREzweoiBSutT3osBH9tDjleB31j1ryvYeUYl_MEKT7dpblQCG0-xnp-3iNm5u4xvG3zLwkS4FY9jV87ALZGQXwHokTpGejN3JX=w408-h306-k-no",
+  "kgmid": "/g/11qps2zgvp"
+},
+{
+  "title": "UK SHEEP GENETICS",
+  "price": null,
+  "categoryName": "Sheep shearer",
+  "address": "6 Fort Rd, Antrim, Carrickfergus BT38 9BS, United Kingdom",
+  "neighborhood": "Antrim",
+  "street": "6 Fort Rd",
+  "city": "Carrickfergus",
+  "postalCode": "BT38 9BS",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://uksheepgenetics.com/",
+  "phone": "+44 7711 071290",
+  "phoneUnformatted": "+447711071290",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 54.7346048,
+    "lng": -5.752527
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJxceFfUufYUgR__pYgjPOgHg",
+  "categories": [
+    "Sheep shearer"
+  ],
+  "fid": "0x48619f4b7d85c7c5:0x7880ce338258faff",
+  "cid": "8683166802195839743",
+  "reviewsCount": 1,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.216Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=UK%20SHEEP%20GENETICS&query_place_id=ChIJxceFfUufYUgR__pYgjPOgHg",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 7,
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=pUAAObme3rLI_HCc2sIiZA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=79.62648&pitch=0&thumbfov=100",
+  "kgmid": "/g/11j9cp7mc4"
+},
+{
+  "title": "Ni Dorset Horn & Poll Sheep Breeders",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "155 Whitesides Rd, Ballymena BT42 2JG, United Kingdom",
+  "neighborhood": null,
+  "street": "155 Whitesides Rd",
+  "city": "Ballymena",
+  "postalCode": "BT42 2JG",
+  "state": null,
+  "countryCode": "GB",
+  "phone": "+44 7841 746705",
+  "phoneUnformatted": "+447841746705",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 54.8297965,
+    "lng": -6.3031028
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJcW5VsRBNYEgRSOxwYnKJQTg",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x48604d10b1556e71:0x384189726270ec48",
+  "cid": "4053672263981001800",
+  "reviewsCount": 1,
+  "imagesCount": null,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.216Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 11 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 11 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 11 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 11 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 11 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "9 AM to 11 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Ni%20Dorset%20Horn%20%26%20Poll%20Sheep%20Breeders&query_place_id=ChIJcW5VsRBNYEgRSOxwYnKJQTg",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 8,
+  "isAdvertisement": false,
+  "kgmid": "/g/1yh9vg6g2"
+},
+{
+  "title": "Somerset Sheep Trekking",
+  "price": null,
+  "categoryName": "Children's farm",
+  "address": "Lower, Woodram Ln, Farm, Taunton TA3 7AR, United Kingdom",
+  "neighborhood": "Farm",
+  "street": "Lower, Woodram Ln",
+  "city": "Taunton",
+  "postalCode": "TA3 7AR",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.somersetsheeptrekking.co.uk/",
+  "phone": "+44 7867 773580",
+  "phoneUnformatted": "+447867773580",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 50.9653777,
+    "lng": -3.10335
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJDyH9JMmLbUgRO5kpDiwYsvU",
+  "categories": [
+    "Children's farm",
+    "Farm"
+  ],
+  "fid": "0x486d8bc924fd210f:0xf5b2182c0e29993b",
+  "cid": "17704239662642075963",
+  "reviewsCount": 92,
+  "imagesCount": 139,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.216Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Children": [
+      {
+        "Good for kids": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Somerset%20Sheep%20Trekking&query_place_id=ChIJDyH9JMmLbUgRO5kpDiwYsvU",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 9,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noYi_bxptfuY9EUJgs1dguLIDvSBkldM-RrE6dwUGFpUuFyWzS17cTTiridPpY77R4CS7TED26RqnrzUuQAUUoNVlJ2lb_GD4S2X2GI_nYe9yBlmByeV9foGxwYzcF7P-D1xTP3mw=w408-h408-k-no",
+  "kgmid": "/g/11p00jr93w"
+},
+{
+  "title": "Working Sheepdogs",
+  "price": null,
+  "categoryName": "Tourist attraction",
+  "address": "Kingussie PH21 1LZ, United Kingdom",
+  "neighborhood": null,
+  "street": null,
+  "city": "Kingussie",
+  "postalCode": "PH21 1LZ",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://workingsheepdogs.uk/",
+  "phone": "+44 7888 314412",
+  "phoneUnformatted": "+447888314412",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 57.1277503,
+    "lng": -3.945814
+  },
+  "totalScore": 4.7,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJVYzSzx5bj0gRVahxQNszyPY",
+  "categories": [
+    "Tourist attraction"
+  ],
+  "fid": "0x488f5b1ecfd28c55:0xf6c833db4071a855",
+  "cid": "17782520145444448341",
+  "reviewsCount": 182,
+  "imagesCount": 353,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.216Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Planning": [
+      {
+        "Getting tickets in advance recommended": true
+      }
+    ],
+    "Children": [
+      {
+        "Good for kids": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Working%20Sheepdogs&query_place_id=ChIJVYzSzx5bj0gRVahxQNszyPY",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 10,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrYA3kHezNTEw-8K1G4sDsoPRjwyfnZxnIDMkn3jYGI_EUNyATO6ZJIuYLnBXyYqCBosLXA8z2ADCZZLcF5gBrdrrv-pA7z_pzPX82szE0Wc37fOyR4HAJkaj9zqJS4cAVI3jMG=w426-h240-k-no",
+  "kgmid": "/g/11rppdkc4p"
+},
+{
+  "title": "Sheep’s farm",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Freda Gardham School, Rye TN31, United Kingdom",
+  "neighborhood": null,
+  "street": "Freda Gardham School",
+  "city": "Rye",
+  "postalCode": "TN31",
+  "state": null,
+  "countryCode": "GB",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 50.9518941,
+    "lng": 0.7419292
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJJVbWiLrh3kcRpqAVa28FDXY",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x47dee1ba88d65625:0x760d056f6b15a0a6",
+  "cid": "8506461247268823206",
+  "reviewsCount": 3,
+  "imagesCount": 8,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.216Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Sheep%E2%80%99s%20farm&query_place_id=ChIJJVbWiLrh3kcRpqAVa28FDXY",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 11,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no_EYp4kPRuejmhySwTfS78vU1rV_PiRi9WrKzqRod_1qVj7lxAM95feBxeGWsT3SXJFBoK8-2yWNA4Vl77ox2S1lalel5MiO900OYHrFQpW1lGCZjmCc2vLMkBGAda246tAWWF=w426-h240-k-no",
+  "kgmid": "/g/11h_cj3x3x"
+},
+{
+  "title": "The Herdwick Experience",
+  "price": null,
+  "categoryName": "Tourist attraction",
+  "address": "Yew Tree Farm, Coniston LA21 8DP, United Kingdom",
+  "neighborhood": null,
+  "street": "Yew Tree Farm",
+  "city": "Coniston",
+  "postalCode": "LA21 8DP",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://yewtree-farm.com/herdwick-experience/",
+  "phone": "+44 15394 41433",
+  "phoneUnformatted": "+441539441433",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 54.3896641,
+    "lng": -3.0497518
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ5b5oXX6_fEgRui0uWveqSPQ",
+  "categories": [
+    "Tourist attraction"
+  ],
+  "fid": "0x487cbf7e5d68bee5:0xf448aaf75a2e2dba",
+  "cid": "17602507122924203450",
+  "reviewsCount": 22,
+  "imagesCount": 29,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.216Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Planning": [
+      {
+        "Getting tickets in advance recommended": true
+      }
+    ],
+    "Children": [
+      {
+        "Good for kids": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=The%20Herdwick%20Experience&query_place_id=ChIJ5b5oXX6_fEgRui0uWveqSPQ",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 12,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nomiqQy4D7A3uJTx6fSvqpYV3oGk9A5zJ4jYPl22iSq-SoHZt_XWnUilhgMZkkcvhMr9iKMgvqKLPiFLjVeYgBDFHEe-1DDn8y5O0UBb6gCv0JpokUmYddODieaBnZq-X_-huE=w408-h306-k-no",
+  "kgmid": "/g/11spn24k12"
+},
+{
+  "title": "Killernie Wool-Shedding Sheep",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Killernie Farm, Saline KY12 9TT, United Kingdom",
+  "neighborhood": "Saline",
+  "street": "Killernie Farm",
+  "city": "Dunfermline",
+  "postalCode": "KY12 9TT",
+  "state": null,
+  "countryCode": "GB",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 56.1174139,
+    "lng": -3.5599303
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJPaTAgAfVh0gRH7WrQm9be48",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x4887d50780c0a43d:0x8f7b5b6f42abb51f",
+  "cid": "10338957902977152287",
+  "reviewsCount": 0,
+  "imagesCount": null,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.216Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Killernie%20Wool-Shedding%20Sheep&query_place_id=ChIJPaTAgAfVh0gRH7WrQm9be48",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 13,
+  "isAdvertisement": false,
+  "kgmid": "/g/11qr451ccx"
+},
+{
+  "title": "Neville Farm Organic Lamb cow pig",
+  "price": null,
+  "categoryName": "Organic farm",
+  "address": "Neville Farm, Halstock, Yeovil BA22 9QU, United Kingdom",
+  "neighborhood": "Halstock",
+  "street": "Neville Farm",
+  "city": "Yeovil",
+  "postalCode": "BA22 9QU",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.nevillefarm.co.uk/",
+  "phone": "+44 1935 388345",
+  "phoneUnformatted": "+441935388345",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 50.8675996,
+    "lng": -2.673592
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJQ7gqo7ppckgR-KIvGfBI-aY",
+  "categories": [
+    "Organic farm",
+    "Butcher shop",
+    "Farmers' market",
+    "Meat wholesaler"
+  ],
+  "fid": "0x487269baa32ab843:0xa6f948f0192fa2f8",
+  "cid": "12031728075548893944",
+  "reviewsCount": 5,
+  "imagesCount": 65,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.216Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Neville%20Farm%20Organic%20Lamb%20cow%20pig&query_place_id=ChIJQ7gqo7ppckgR-KIvGfBI-aY",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 14,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipM0OCQ6Wr6sjEdHln-aH0HC2eE0a58_W1DhNde2=w408-h724-k-no",
+  "kgmid": "/g/11b8zd4s06"
+},
+{
+  "title": "Sheep Lair Farm",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Peterborough PE7 3SP, United Kingdom",
+  "neighborhood": null,
+  "street": null,
+  "city": "Peterborough",
+  "postalCode": null,
+  "state": null,
+  "countryCode": "GB",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 52.500333,
+    "lng": -0.2993926
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJF3INRsXtd0gRl2tA-QRSWJ8",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x4877edc5460d7217:0x9f585204f9406b97",
+  "cid": "11482017431296174999",
+  "reviewsCount": 0,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.216Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Sheep%20Lair%20Farm&query_place_id=ChIJF3INRsXtd0gRl2tA-QRSWJ8",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 15,
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=a61jz7G4u85sdF9xwo1-4Q&cb_client=search.gws-prod.gps&w=408&h=240&yaw=133.49962&pitch=0&thumbfov=100",
+  "kgmid": "/g/11h18wkv9y"
+},
+{
+  "title": "Butterlope Farm",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "20 Bradkeel Rd, Plumbridge, Omagh BT79 8BJ, United Kingdom",
+  "neighborhood": "Plumbridge",
+  "street": "20 Bradkeel Rd",
+  "city": "Omagh",
+  "postalCode": "BT79 8BJ",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://butterlopefarm.co.uk/",
+  "phone": "+44 7840 194792",
+  "phoneUnformatted": "+447840194792",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 54.786487,
+    "lng": -7.221344
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJHQfmyXzYX0gRgXPPhzsReDc",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x485fd87cc9e6071d:0x3778113b87cf7381",
+  "cid": "3996963616670577537",
+  "reviewsCount": 4,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.216Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "10 AM to 3 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "10 AM to 3 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "10 AM to 3 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "10 AM to 3 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "10 AM to 3 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Butterlope%20Farm&query_place_id=ChIJHQfmyXzYX0gRgXPPhzsReDc",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 16,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr6neyiqH-SZ4cfiCCht6twa86xQhTt44NNblxyPLAERr3wvPrFz1jQ5N-OD1ZSTDhMmzM2-KKrprcxmeE22bRozEWsAvHKoq7poF34ZmuCP7yZGj69mk4etO9MOvaZrxzubtCa=w426-h240-k-no",
+  "kgmid": "/g/12hpfzlp6"
+},
+{
+  "title": "Pusto Hill Farm",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Eel Pool Rd, Doncaster DN10 5DD, United Kingdom",
+  "neighborhood": null,
+  "street": "Eel Pool Rd",
+  "city": "Doncaster",
+  "postalCode": "DN10 5DD",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.pustohillfarm.co.uk/",
+  "phone": "+44 7831 353834",
+  "phoneUnformatted": "+447831353834",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 53.4034134,
+    "lng": -0.9553093
+  },
+  "totalScore": 4.4,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJgynb3XMHeUgRSZcVs7JSRM8",
+  "categories": [
+    "Farm",
+    "Event venue"
+  ],
+  "fid": "0x48790773dddb2983:0xcf4452b2b3159749",
+  "cid": "14935153191729600329",
+  "reviewsCount": 23,
+  "imagesCount": 26,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.216Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Pusto%20Hill%20Farm&query_place_id=ChIJgynb3XMHeUgRSZcVs7JSRM8",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 17,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noXnvD1qhphgtES5LfMkmsZNmbqi_bjwlG4RQpGT7nJ2noJWCtlhXZYD_6ILsZW-gPnwZs0JDGGCbFgGj7LcswYy50_Qehtx7nQMgZM8hatz58-yTR7qD5mzwzeafp0XB5sGDo=w426-h240-k-no",
+  "kgmid": "/g/1hc290h99"
+},
+{
+  "title": "Borough Farm",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Mortehoe, Woolacombe EX34 7HE, United Kingdom",
+  "neighborhood": "Mortehoe, Woolacombe",
+  "street": null,
+  "city": "Woolacombe",
+  "postalCode": "EX34 7HE",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.boroughfarm.co.uk/",
+  "phone": "+44 1271 870056",
+  "phoneUnformatted": "+441271870056",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 51.1791598,
+    "lng": -4.1667258
+  },
+  "totalScore": 4.8,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJofWIevojbEgRhSOjkHi_Le0",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x486c23fa7a88f5a1:0xed2dbf7890a32385",
+  "cid": "17090526685484491653",
+  "reviewsCount": 25,
+  "imagesCount": 15,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.217Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "6 to 7:30 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Friday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Borough%20Farm&query_place_id=ChIJofWIevojbEgRhSOjkHi_Le0",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 18,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrc0SV2HiPcgi2BGX9DA5HC0ece5i4C6fcOSWfdg8YIFxwe53NBZNojxPWivRdLDOMYn4mGSL6ulxeWBLaj3fQIjGos5LAC5QC6sG4mFjLroy7Xsbhl-h83GUVPYHAJwVQnaJkiKA=w408-h296-k-no",
+  "kgmid": "/g/1hc3n0j59"
+},
+{
+  "title": "Texel Sheep Society Ltd",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Unit 74 4th St, Stoneleigh, Kenilworth CV8 2LG, United Kingdom",
+  "neighborhood": "Stoneleigh",
+  "street": "Unit 74 4th St",
+  "city": "Kenilworth",
+  "postalCode": "CV8 2LG",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.texel.co.uk/",
+  "phone": "+44 24 7669 6629",
+  "phoneUnformatted": "+442476696629",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 52.3397237,
+    "lng": -1.5245364
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJVUlNXnA1d0gRH5w-4rS7x_o",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x487735705e4d4955:0xfac7bbb4e23e9c1f",
+  "cid": "18070618415411665951",
+  "reviewsCount": 1,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.217Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Texel%20Sheep%20Society%20Ltd&query_place_id=ChIJVUlNXnA1d0gRH5w-4rS7x_o",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 19,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqLUdTg7Q88L9v_rp4q3365Bak_ZHVDe_0lYpDgaA1c9nu4BHgxFhq6IfbODdn-FLsGOypudHpoJ4bCjh5hW5dH0ENSb5fM_pz6ecWkOHr8qDuvpkgMMhsfeGJkFsxyjOfwYKeI7A=w408-h306-k-no",
+  "kgmid": "/g/1tg67m20"
+},
+{
+  "title": "Eden Gotland Sheep",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Scalerigg Cottage, Renwick, Penrith CA10 1JE, United Kingdom",
+  "neighborhood": "Renwick",
+  "street": "Scalerigg Cottage",
+  "city": "Penrith",
+  "postalCode": "CA10 1JE",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://edengotlandsheep.co.uk/",
+  "phone": "+44 7593 604185",
+  "phoneUnformatted": "+447593604185",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 54.7813864,
+    "lng": -2.6606019
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ_____7gBfUgR0GYAKHVycoc",
+  "categories": [
+    "Farm",
+    "Handicraft"
+  ],
+  "fid": "0x487d01b8ffffffff:0x87727275280066d0",
+  "cid": "9759989189973141200",
+  "reviewsCount": 1,
+  "imagesCount": 27,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:24.217Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Amenities": [
+      {
+        "Gender-neutral restroom": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Eden%20Gotland%20Sheep&query_place_id=ChIJ_____7gBfUgR0GYAKHVycoc",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@55.567081011813244,-5.6154008363543895,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 20,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMm9CnTcf8rIMQi2OTZZGCnloIdjX2chhCrUpo1=w408-h408-k-no",
+  "kgmid": "/g/11hksjwr_n"
+},
+{
+  "title": "Blaze Farm & The Potty Sheep",
+  "price": null,
+  "categoryName": "Dairy farm",
+  "address": "Wildboarclough, Macclesfield SK11 0BL, United Kingdom",
+  "neighborhood": "Wildboarclough",
+  "street": null,
+  "city": "Macclesfield",
+  "postalCode": "SK11 0BL",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.blazefarm.com/",
+  "phone": "+44 1260 227229",
+  "phoneUnformatted": "+441260227229",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 53.2048628,
+    "lng": -2.0385402
+  },
+  "totalScore": 4.7,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJCQ2GQAFIekgR7FYtJhEoZ6k",
+  "categories": [
+    "Dairy farm",
+    "Cafe",
+    "Ice cream shop",
+    "Pottery store"
+  ],
+  "fid": "0x487a480140860d09:0xa9672811262d56ec",
+  "cid": "12206769369131079404",
+  "reviewsCount": 988,
+  "imagesCount": 1514,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:37.329Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "10 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "10 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "10 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "10 AM to 5 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "10 AM to 5 PM"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Onsite services": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Parking": [
+      {
+        "Free parking lot": true
+      },
+      {
+        "Free street parking": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Blaze%20Farm%20%26%20The%20Potty%20Sheep&query_place_id=ChIJCQ2GQAFIekgR7FYtJhEoZ6k",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@57.4963961271458,-13.841422246595485,15z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 4,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrj6BiqVG5EpDLT7B7AxU4G1XsARPRwUy93Rk0QrHOLSxngUtOk7Xtozo6Ob0KD_9LSpAEoIt1957QkcUC1PbT2uAcodd_iV8nZOLolX9bDNMcSoQjjrfftMGBsuCeAyuV1iE7O=w408-h306-k-no",
+  "kgmid": "/g/1tht0_2n"
+},
+{
+  "title": "The Big Sheep & Little Cow",
+  "description": "Family-friendly farm attraction with animal enclosures, indoor play area and on-site cafe.",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Aiskew Watermill, Bedale DL8 1AW, United Kingdom",
+  "neighborhood": null,
+  "street": "Aiskew Watermill",
+  "city": "Bedale",
+  "postalCode": "DL8 1AW",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://www.bigsheeplittlecow.co.uk/",
+  "phone": "+44 1677 422125",
+  "phoneUnformatted": "+441677422125",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 54.287998,
+    "lng": -1.585276
+  },
+  "totalScore": 4.6,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJSVZUun6mfkgRxAw7Rxcbebc",
+  "categories": [
+    "Farm",
+    "Tourist attraction"
+  ],
+  "fid": "0x487ea67eba545649:0xb7791b17473b0cc4",
+  "cid": "13220627967916051652",
+  "reviewsCount": 559,
+  "imagesCount": 836,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:37.329Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "10 AM to 4 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "10 AM to 3 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Friday",
+      "hours": "12 to 3 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "10 AM to 4 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "10 AM to 4 PM"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ],
+    "Planning": [
+      {
+        "Getting tickets in advance recommended": true
+      }
+    ],
+    "Children": [
+      {
+        "Good for kids": true
+      },
+      {
+        "Good for kids birthday": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=The%20Big%20Sheep%20%26%20Little%20Cow&query_place_id=ChIJSVZUun6mfkgRxAw7Rxcbebc",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@57.4963961271458,-13.841422246595485,15z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 5,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np97sdf3mO9JN3hqBLx_SevPCMRF-mlwaGagd3xvONnpDK0HWcWxoWN8zOeerxzPi8lqnho9l9zWcTnjX_4sKz070OTDGrTJwgey8LwKhKCYsp4F60AQrgRtI5bREYX70Hg6WT2rw=w408-h306-k-no",
+  "kgmid": "/g/1tfjkpyq"
+},
+{
+  "title": "Middle England Farm Alpacas",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Aibrean Grange Redditch Road, Henley-in-Arden B95 5NY, United Kingdom",
+  "neighborhood": null,
+  "street": "Aibrean Grange Redditch Road",
+  "city": "Henley-in-Arden",
+  "postalCode": "B95 5NY",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.middleenglandfarm.co.uk/",
+  "phone": "+44 1564 654323",
+  "phoneUnformatted": "+441564654323",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 52.3011913,
+    "lng": -1.8404618
+  },
+  "totalScore": 4.9,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJJzCC0U-xcEgREjUG5IMu0VE",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x4870b14fd1823027:0x51d12e83e4063512",
+  "cid": "5895544531205895442",
+  "reviewsCount": 267,
+  "imagesCount": 840,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:37.329Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Onsite services": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Middle%20England%20Farm%20Alpacas&query_place_id=ChIJJzCC0U-xcEgREjUG5IMu0VE",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@57.4963961271458,-13.841422246595485,15z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 7,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMjvJ4bqShq359Ifft-vd4sWSUML2QQgVha6bS_=w408-h306-k-no",
+  "kgmid": "/g/11f29xnwtz"
+},
+{
+  "title": "Mossy Meadow Farm - Sheep Farm",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Golborne Ln, High Legh, Knutsford WA16 0RD, United Kingdom",
+  "neighborhood": "High Legh",
+  "street": "Golborne Ln",
+  "city": "Knutsford",
+  "postalCode": "WA16 0RD",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://www.facebook.com/profile.php?id=61555289218072",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 53.3439789,
+    "lng": -2.4751357
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": true,
+  "placeId": "ChIJHf70ypT_ekgRCI_IAKYLEXo",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x487aff94caf4fe1d:0x7a110ba600c88f08",
+  "cid": "8795824354836909832",
+  "reviewsCount": 7,
+  "imagesCount": 27,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:37.329Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Mossy%20Meadow%20Farm%20-%20Sheep%20Farm&query_place_id=ChIJHf70ypT_ekgRCI_IAKYLEXo",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@57.4963961271458,-13.841422246595485,15z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 10,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npQn6Ppu9aJC57AkGM3RIBQOhgXk73NI1SS49W_obpX7lP_VjMJXRpbvLeRqsuZ6hwJvZkTyhUkgtHNqIiqdpQR3rYFCMjLK2Oyt2ClvEi3Ha7O8KpeqcppAuIkcYQctdndJTd-oA=w408-h306-k-no",
+  "kgmid": "/g/11y31tvw32"
+},
+{
+  "title": "Cardigan Island Coastal Farm Park",
+  "price": null,
+  "categoryName": "Tourist attraction",
+  "address": "Gwbert, Cardigan SA43 1PR, United Kingdom",
+  "neighborhood": "Gwbert",
+  "street": null,
+  "city": "Cardigan",
+  "postalCode": "SA43 1PR",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.cardiganisland.com/",
+  "phone": "+44 1239 623637",
+  "phoneUnformatted": "+441239623637",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 52.1228706,
+    "lng": -4.6815407
+  },
+  "totalScore": 4.6,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJc3Ee-c8xb0gRih5Ks4m4IWU",
+  "categories": [
+    "Tourist attraction",
+    "Campground",
+    "Zoo"
+  ],
+  "fid": "0x486f31cff91e7173:0x6521b889b34a1e8a",
+  "cid": "7287308573620182666",
+  "reviewsCount": 1047,
+  "imagesCount": 2700,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:49.424Z",
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "checkInDate": "2025-05-26",
+  "checkOutDate": "2025-05-27",
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      },
+      {
+        "Wheelchair accessible restroom": true
+      }
+    ],
+    "Children": [
+      {
+        "Good for kids": true
+      },
+      {
+        "Good for kids birthday": true
+      },
+      {
+        "Playground": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Cardigan%20Island%20Coastal%20Farm%20Park&query_place_id=ChIJc3Ee-c8xb0gRih5Ks4m4IWU",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@52.10767680705004,-4.586556201812635,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrhRnGYXIFDH14tTf6uQ8rNphb9YUy7V055Kjp_i_R5HzxBzgxw3mRgVz8JQD5O8taOrzV0GBpDN6iQhf7xtw4lv6AFDkf6XNzJonDD433FxdZ40V6BCSjkt3chiFudaQ0RU7O1=w408-h306-k-no",
+  "kgmid": "/g/1tg9s3j7"
+},
+{
+  "title": "Dyfed Shire Horse Farm",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Trelew, Eglwyswrw, Crymych SA41 3SY, United Kingdom",
+  "neighborhood": null,
+  "street": "Trelew, Eglwyswrw",
+  "city": "Crymych",
+  "postalCode": "SA41 3SY",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://dyfed-shires.co.uk/",
+  "phone": "+44 1239 891107",
+  "phoneUnformatted": "+441239891107",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 52.008945,
+    "lng": -4.72146
+  },
+  "totalScore": 4.6,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJN2a7ivYrb0gRrwCDDYA_1dE",
+  "categories": [
+    "Farm",
+    "Equestrian facility",
+    "Tourist attraction"
+  ],
+  "fid": "0x486f2bf68abb6637:0xd1d53f800d8300af",
+  "cid": "15120061143181361327",
+  "reviewsCount": 446,
+  "imagesCount": 711,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:49.425Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Thursday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Friday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "11 AM to 4 PM"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Onsite services": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Dyfed%20Shire%20Horse%20Farm&query_place_id=ChIJN2a7ivYrb0gRrwCDDYA_1dE",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@52.10767680705004,-4.586556201812635,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 2,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqR7Vyx7ZeTb15H-wTbDV_1o87HoVnw_uVww-6dDl-nbjUBO4JydLGZiOJ4GgmUW3LYMCtY0gHOw11Z2MPpgUuGPsHdDwA78BTGd5fP1S-gzli8crdxQBg_0eRi5Rl0IRcLMyer=w426-h240-k-no",
+  "kgmid": "/g/1tj4gh0d"
+},
+{
+  "title": "Rosehill Farm",
+  "price": null,
+  "categoryName": "Self-catering accommodation",
+  "address": "Cardigan SA43 2LG, United Kingdom",
+  "neighborhood": null,
+  "street": null,
+  "city": "Cardigan",
+  "postalCode": null,
+  "state": null,
+  "countryCode": "GB",
+  "phone": "+44 7800 738128",
+  "phoneUnformatted": "+447800738128",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 52.075035,
+    "lng": -4.6410012
+  },
+  "totalScore": 4.5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJE8Q4tpUvb0gRPTHygOBYZy0",
+  "categories": [
+    "Self-catering accommodation"
+  ],
+  "fid": "0x486f2f95b638c413:0x2d6758e080f2313d",
+  "cid": "3271681375567229245",
+  "reviewsCount": 46,
+  "imagesCount": 98,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:49.425Z",
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "checkInDate": "2025-05-26",
+  "checkOutDate": "2025-05-27",
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Rosehill%20Farm&query_place_id=ChIJE8Q4tpUvb0gRPTHygOBYZy0",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@52.10767680705004,-4.586556201812635,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 3,
+  "isAdvertisement": false,
+  "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/b2/e2/71/our-6-bed-cottage-with.jpg?w=1900&h=1400&s=1",
+  "kgmid": "/g/11c6yzvp7r"
+},
+{
+  "title": "Jacob Sheep Trekking and Farm Experience Days",
+  "price": null,
+  "categoryName": "Outdoor activity organiser",
+  "address": "Aberhyddnant Organic Farm, Crai, Brecon LD3 8YS, United Kingdom",
+  "neighborhood": "Crai",
+  "street": "Aberhyddnant Organic Farm",
+  "city": "Brecon",
+  "postalCode": "LD3 8YS",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://www.sheeptrekking.co.uk/",
+  "phone": "+44 7485 549968",
+  "phoneUnformatted": "+447485549968",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 51.9006656,
+    "lng": -3.639888
+  },
+  "totalScore": 4.9,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJE9rb3PJLbkgR5UhmnakMNtE",
+  "categories": [
+    "Outdoor activity organiser"
+  ],
+  "fid": "0x486e4bf2dcdbda13:0xd1360ca99d6648e5",
+  "cid": "15075250725299046629",
+  "reviewsCount": 23,
+  "imagesCount": 106,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:49.425Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Planning": [
+      {
+        "Appointment required": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Jacob%20Sheep%20Trekking%20and%20Farm%20Experience%20Days&query_place_id=ChIJE9rb3PJLbkgR5UhmnakMNtE",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@52.10767680705004,-4.586556201812635,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 4,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPZHMSIgmU4zBOcDmjvcvJu1n5kTgMzfgOUdBRL=w408-h306-k-no",
+  "kgmid": "/g/11f4xwczgk"
+},
+{
+  "title": "National Wool Museum",
+  "description": "Restored historic mill exploring the Welsh wool industry via hands-on displays & a textile gallery.",
+  "price": null,
+  "categoryName": "Tourist attraction",
+  "address": "Dre-Fach Felindre, Felindre, Llandysul SA44 5UP, United Kingdom",
+  "neighborhood": "Dre-Fach Felindre, Felindre",
+  "street": null,
+  "city": "Llandysul",
+  "postalCode": "SA44 5UP",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://museum.wales/wool",
+  "phone": "+44 300 111 2333",
+  "phoneUnformatted": "+443001112333",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 52.0258827,
+    "lng": -4.3993249
+  },
+  "totalScore": 4.6,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJLR0ZXQIib0gRjxDF9NlmlrM",
+  "categories": [
+    "Tourist attraction",
+    "National museum",
+    "Museum"
+  ],
+  "fid": "0x486f22025d191d2d:0xb39666d9f4c5108f",
+  "cid": "12940643665596190863",
+  "reviewsCount": 699,
+  "imagesCount": 1498,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:49.425Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "10 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "10 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "10 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "10 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "10 AM to 5 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Onsite services": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      },
+      {
+        "Wheelchair accessible restroom": true
+      }
+    ],
+    "Amenities": [
+      {
+        "Restaurant": true
+      },
+      {
+        "Restroom": true
+      }
+    ],
+    "Children": [
+      {
+        "Good for kids": true
+      }
+    ],
+    "Parking": [
+      {
+        "Free parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=National%20Wool%20Museum&query_place_id=ChIJLR0ZXQIib0gRjxDF9NlmlrM",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@52.10767680705004,-4.586556201812635,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 5,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrajI3qRPd0MpdFZB7iY1jGqJwJhetMUoW_edj09TFmNlr1AfFs4Y2d0ESEbx8D1CWq78sqw-MMZN1TPQS3RF1NuXpRgnc_mI91GztBs88Yu9opfs9Q3uPf0ID1PiDKKwVCBN46=w408-h306-k-no",
+  "kgmid": "/m/02r1hnt"
+},
+{
+  "title": "Wenallt Farm Campsite",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Felindre Farchog, Crymych SA41 3UU, United Kingdom",
+  "neighborhood": "Felindre Farchog",
+  "street": null,
+  "city": "Crymych",
+  "postalCode": "SA41 3UU",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://wenalltfarmcampsite.co.uk/",
+  "phone": "+44 1239 820373",
+  "phoneUnformatted": "+441239820373",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 52.0137198,
+    "lng": -4.7619298
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJQZjP5IMsb0gRiwSjPumrO-g",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x486f2c83e4cf9841:0xe83babe93ea3048b",
+  "cid": "16734157858691810443",
+  "reviewsCount": 11,
+  "imagesCount": 16,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:26:49.425Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Onsite services": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible parking lot": true
+      },
+      {
+        "Wheelchair accessible restroom": true
+      },
+      {
+        "Wheelchair accessible seating": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Wenallt%20Farm%20Campsite&query_place_id=ChIJQZjP5IMsb0gRiwSjPumrO-g",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20farm%20UK/@52.10767680705004,-4.586556201812635,12z?hl=en",
+  "searchString": "sheep farm UK",
+  "language": "en",
+  "rank": 10,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npTbiwTcpb7z8eo7SIQy_dd7afCeah1CPWQCdWGeQYYpfHLODUjW3DYR9sYW45KwyCgLH-nSG4jgrkxeE--lLJGWfrT72_pvbm5bDHNyNpychLKj7vIU16ucL6ymS6KNm2usmzCkw=w408-h306-k-no",
+  "kgmid": "/g/11jgt773qp"
+},
+{
+  "title": "Flock Eventing Platform",
+  "price": null,
+  "categoryName": "Event technology service",
+  "address": "71-75 Shelton St, London WC2H 9JQ, United Kingdom",
+  "neighborhood": null,
+  "street": "71-75 Shelton St",
+  "city": "London",
+  "postalCode": "WC2H 9JQ",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://flockplatform.com/",
+  "phone": "+44 100351270",
+  "phoneUnformatted": null,
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 51.5149037,
+    "lng": -0.1235842
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJmZPb2lQFdkgRm3W7ILabaIA",
+  "categories": [
+    "Event technology service"
+  ],
+  "fid": "0x48760554dadb9399:0x80689bb620bb759b",
+  "cid": "9252816640968193435",
+  "reviewsCount": 0,
+  "imagesCount": null,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:27:01.123Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Flock%20Eventing%20Platform&query_place_id=ChIJmZPb2lQFdkgRm3W7ILabaIA",
+  "searchPageUrl": "https://www.google.com/maps/search/flock%20management%20UK/@52.10767680705004,-4.586556201812635,12z?hl=en",
+  "searchString": "flock management UK",
+  "language": "en",
+  "rank": 1,
+  "isAdvertisement": false,
+  "kgmid": "/g/11qs8f6bhf"
+},
+{
+  "title": "Flocking Ltd",
+  "price": null,
+  "categoryName": "Manufacturer",
+  "address": "Heanor Gate Industrial Estate, Unit 1 Heanor Gate Rd, Heanor DE75 7RJ, United Kingdom",
+  "neighborhood": null,
+  "street": "Heanor Gate Industrial Estate, Unit 1 Heanor Gate Rd",
+  "city": "Heanor",
+  "postalCode": "DE75 7RJ",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.flockingltd.co.uk/",
+  "phone": "+44 1773 294142",
+  "phoneUnformatted": "+441773294142",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 53.0096463,
+    "lng": -1.3678193
+  },
+  "totalScore": 4.3,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJd_e9WqXqeUgRW-Xl3ONGwhc",
+  "categories": [
+    "Manufacturer"
+  ],
+  "fid": "0x4879eaa55abdf777:0x17c246e3dce5e55b",
+  "cid": "1712008752831784283",
+  "reviewsCount": 16,
+  "imagesCount": 8,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:27:01.123Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9:30 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9:30 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9:30 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9:30 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9:30 AM to 4 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      null
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair-accessible car park": true
+      },
+      {
+        "Wheelchair-accessible entrance": true
+      }
+    ],
+    "Payments": [
+      {
+        "Credit cards": true
+      },
+      {
+        "Debit cards": true
+      },
+      {
+        "Credit cards": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Flocking%20Ltd&query_place_id=ChIJd_e9WqXqeUgRW-Xl3ONGwhc",
+  "searchPageUrl": "https://www.google.com/maps/search/flock%20management%20UK/@52.10767680705004,-4.586556201812635,12z?hl=en",
+  "searchString": "flock management UK",
+  "language": "en",
+  "rank": 2,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMTL1Af41eKoyEdJTg3DOBlO_p7Pa_CWLGp4Z4X=w408-h306-k-no",
+  "kgmid": "/g/11clm2v3wg"
+},
+{
+  "title": "Auchentullich Farm Shop",
+  "price": null,
+  "categoryName": "Farm shop",
+  "address": "Arden, Alexandria G83 8RF, United Kingdom",
+  "neighborhood": "Arden",
+  "street": null,
+  "city": "Alexandria",
+  "postalCode": "G83 8RF",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.facebook.com/auchentullichfarmshop",
+  "phone": "+44 1389 850240",
+  "phoneUnformatted": "+441389850240",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 56.0387825,
+    "lng": -4.6449006
+  },
+  "plusCode": "29Q4+G2 Alexandria, United Kingdom",
+  "totalScore": 4.4,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJYRrhnmiriUgR0GpYl-DLKCg",
+  "categories": [
+    "Farm shop",
+    "Butcher shop",
+    "Coffee shop",
+    "Dairy farm",
+    "Grocery store",
+    "Ice cream shop"
+  ],
+  "fid": "0x4889ab689ee11a61:0x2828cbe097586ad0",
+  "cid": "2893786926057810640",
+  "reviewsCount": 254,
+  "reviewsDistribution": {
+    "oneStar": 23,
+    "twoStar": 4,
+    "threeStar": 12,
+    "fourStar": 30,
+    "fiveStar": 185
+  },
+  "imagesCount": 274,
+  "imageCategories": [
+    "All",
+    "Latest",
+    "Inside",
+    "By owner",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2025-05-20T13:28:07.733Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "popularTimesLiveText": "Not too busy",
+  "popularTimesLivePercent": 42,
+  "popularTimesHistogram": {
+    "Su": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 28
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 63
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 79
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 85
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 39
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Mo": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 55
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 36
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 47
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 34
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 53
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 59
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 49
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 43
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 49
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 31
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 40
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 52
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 56
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 53
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 42
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 44
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 76
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 89
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 88
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 60
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ]
+  },
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "10 AM to 6 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "10 AM to 6 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "10 AM to 6 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "10 AM to 6 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "10 AM to 6 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "10 AM to 5 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "10 AM to 6 PM"
+    }
+  ],
+  "peopleAlsoSearch": [
+    {
+      "category": "People also search for",
+      "title": "Ardardan Estate",
+      "reviewsCount": 733,
+      "totalScore": 4.6
+    },
+    {
+      "category": "People also search for",
+      "title": "Auchengree Farm Shop",
+      "reviewsCount": 399,
+      "totalScore": 4.7
+    },
+    {
+      "category": "People also search for",
+      "title": "Auchendennan",
+      "reviewsCount": 3,
+      "totalScore": 5
+    },
+    {
+      "category": "People also search for",
+      "title": "France Farm",
+      "reviewsCount": 28,
+      "totalScore": 4.9
+    },
+    {
+      "category": "People also search for",
+      "title": "Townhead Farm",
+      "reviewsCount": 13,
+      "totalScore": 5
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [
+    {
+      "title": "ice cream",
+      "count": 89
+    },
+    {
+      "title": "selection",
+      "count": 9
+    },
+    {
+      "title": "toilets",
+      "count": 8
+    },
+    {
+      "title": "tables",
+      "count": 8
+    },
+    {
+      "title": "steak pie",
+      "count": 6
+    },
+    {
+      "title": "flavours",
+      "count": 6
+    },
+    {
+      "title": "driving",
+      "count": 5
+    },
+    {
+      "title": "parking",
+      "count": 5
+    },
+    {
+      "title": "artisan",
+      "count": 4
+    },
+    {
+      "title": "caramel",
+      "count": 4
+    }
+  ],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "On-site services": true
+      },
+      {
+        "Delivery": false
+      },
+      {
+        "Same-day delivery": false
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair-accessible car park": true
+      },
+      {
+        "Wheelchair-accessible entrance": true
+      }
+    ],
+    "Planning": [
+      {
+        "Quick visit": true
+      }
+    ],
+    "Payments": [
+      {
+        "Credit cards": true
+      },
+      {
+        "NFC mobile payments": true
+      }
+    ],
+    "Parking": [
+      {
+        "Free of charge street parking": true
+      },
+      {
+        "Free parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Auchentullich%20Farm%20Shop&query_place_id=ChIJYRrhnmiriUgR0GpYl-DLKCg",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20grazing%20services%20United%20Kingdom/@55.96624303543977,-4.792325128720986,12z?hl=en",
+  "searchString": "sheep grazing services United Kingdom",
+  "language": "en",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr4ujKnQ4t1zOnL4xubVOp2pdA0lDQQ656A-IjEIyMNofaRAEIK_-2yyPuyb8ZizQGet_c9uCujzt8ooS1AWFZ7mrqWUMGQ8vdffP6OkJgLMd9B37OEb2YZ2I1HSO65WYedLO3T2w=w408-h544-k-no",
+  "kgmid": "/g/12jlnxtmz"
+},
+{
+  "title": "Pager Power Urban & Renewables",
+  "price": null,
+  "categoryName": "Environment renewable natural resources",
+  "address": "Stour Valley Business Centre | Sudbury | CO10 7GB, United Kingdom",
+  "neighborhood": null,
+  "street": "Stour Valley Business Centre | Sudbury |",
+  "city": "Sudbury",
+  "postalCode": "CO10 7GB",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://www.pagerpower.com/",
+  "phone": "+44 1787 319001",
+  "phoneUnformatted": "+441787319001",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 52.0360908,
+    "lng": 0.7127632
+  },
+  "locatedIn": "Stour Valley Business Centre",
+  "plusCode": "2PP7+C4 Sudbury, United Kingdom",
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJa6whk2ZV2EcRzjbaeJ3VViY",
+  "categories": [
+    "Environment renewable natural resources",
+    "Consultant"
+  ],
+  "fid": "0x47d855669321ac6b:0x2656d59d78da36ce",
+  "cid": "2762630293752526542",
+  "reviewsCount": 1,
+  "reviewsDistribution": {
+    "oneStar": 0,
+    "twoStar": 0,
+    "threeStar": 0,
+    "fourStar": 0,
+    "fiveStar": 1
+  },
+  "imagesCount": 12,
+  "imageCategories": [
+    "All",
+    "By owner",
+    "Videos",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2025-05-20T13:29:38.810Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [
+    {
+      "category": "People also search for",
+      "title": "arpReach",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "People also search for",
+      "title": "Mutual Advantage Ltd - Search Engine Optimization - Email marketing",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "People also search for",
+      "title": "Techpresto",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "People also search for",
+      "title": "Broxted Solar",
+      "reviewsCount": 0,
+      "totalScore": 0
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Pager%20Power%20Urban%20%26%20Renewables&query_place_id=ChIJa6whk2ZV2EcRzjbaeJ3VViY",
+  "searchPageUrl": "https://www.google.com/maps/search/Solar%20Grazing%20United%20Kingdom/@51.57546077554801,-1.5000222981873705,12z?hl=en",
+  "searchString": "Solar Grazing United Kingdom",
+  "language": "en",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrna5ilTL64HfYnWPJfJvLCyppxkcgK6qeugvzY4X49oB9zW_fu1h7mnpD8SfFxoQ22lP13ITpFD0ACUrLB4BmhLYGFmuxi5DNQab2gk3TbNRzBm81ODo_RIqkOCO3BHN6IkOiZ=w408-h306-k-no",
+  "kgmid": "/g/1tg5yx20"
+},
+{
+  "title": "Sheepdrove Organic Farm & Green Events Venue",
+  "price": null,
+  "categoryName": "Event venue",
+  "address": "Sheepdrove Rd, Lambourn, Hungerford RG17 7UU, United Kingdom",
+  "neighborhood": "Lambourn",
+  "street": "Sheepdrove Rd",
+  "city": "Hungerford",
+  "postalCode": "RG17 7UU",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://sheepdrove.com/green-venue-hire/",
+  "phone": "+44 1488 674747",
+  "phoneUnformatted": "+441488674747",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 51.5338296,
+    "lng": -1.4847144
+  },
+  "totalScore": 4.8,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJPSjDc_GydkgRo04eCy_dnzk",
+  "categories": [
+    "Event venue",
+    "Cemetery",
+    "Concert hall",
+    "Convention center",
+    "Farmstay",
+    "Organic farm",
+    "Retreat center",
+    "Self-catering accommodation",
+    "Wedding venue",
+    "Yoga studio"
+  ],
+  "fid": "0x4876b2f173c3283d:0x399fdd2f0b1e4ea3",
+  "cid": "4152280575578623651",
+  "reviewsCount": 26,
+  "imagesCount": 307,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:29:39.025Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Onsite services": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Sheepdrove%20Organic%20Farm%20%26%20Green%20Events%20Venue&query_place_id=ChIJPSjDc_GydkgRo04eCy_dnzk",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20grazing%20services%20United%20Kingdom/@51.57546077554801,-1.5000222981873705,12z?hl=en",
+  "searchString": "sheep grazing services United Kingdom",
+  "language": "en",
+  "rank": 2,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrgnFS5vor65VIwT796bJ3t5V8jZoqTrot6uzB9SGL56AxyieaF94j_XtCsc0vOm93vPzQv3L9ShSixeMrx1tgUFzE55NYqj4TMZHeKXN2DiRWLPgHWBi3oweJ_-_4AWg0qUBw=w426-h240-k-no",
+  "kgmid": "/g/1tdmjztz"
+},
+{
+  "title": "Sheepdrove Sustainable Weddings",
+  "price": null,
+  "categoryName": "Wedding venue",
+  "address": "Sheepdrove Rd, Lambourn, Hungerford RG17 7UU, United Kingdom",
+  "neighborhood": "Lambourn",
+  "street": "Sheepdrove Rd",
+  "city": "Hungerford",
+  "postalCode": "RG17 7UU",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://sheepdrove.com/weddings-at-sheepdrove/",
+  "phone": "+44 1488 674730",
+  "phoneUnformatted": "+441488674730",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 51.5337543,
+    "lng": -1.4851157
+  },
+  "totalScore": 4.9,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ7y_zpi2zdkgRjql1eDIDd2A",
+  "categories": [
+    "Wedding venue"
+  ],
+  "fid": "0x4876b32da6f32fef:0x607703327875a98e",
+  "cid": "6951028065173875086",
+  "reviewsCount": 11,
+  "imagesCount": 38,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:29:39.026Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "From the business": [
+      {
+        "Identifies as women-owned": true
+      }
+    ],
+    "Service options": [
+      {
+        "Onsite services": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      },
+      {
+        "Wheelchair accessible restroom": true
+      },
+      {
+        "Wheelchair accessible seating": true
+      }
+    ],
+    "Amenities": [
+      {
+        "Gender-neutral restroom": true
+      },
+      {
+        "Restroom": true
+      }
+    ],
+    "Crowd": [
+      {
+        "LGBTQ+ friendly": true
+      },
+      {
+        "Transgender safespace": true
+      }
+    ],
+    "Planning": [
+      {
+        "Appointment required": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Sheepdrove%20Sustainable%20Weddings&query_place_id=ChIJ7y_zpi2zdkgRjql1eDIDd2A",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20grazing%20services%20United%20Kingdom/@51.57546077554801,-1.5000222981873705,12z?hl=en",
+  "searchString": "sheep grazing services United Kingdom",
+  "language": "en",
+  "rank": 3,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMcDI7ssGYT_XrCcbzKcklUDe3msbjS8eOHVB61=w408-h611-k-no",
+  "kgmid": "/g/11sm_v8pfl"
+},
+{
+  "title": "Good Shepherd Wolverhampton",
+  "price": null,
+  "categoryName": "Charity",
+  "address": "65 Waterloo Rd, Wolverhampton WV1 4QU, United Kingdom",
+  "neighborhood": null,
+  "street": "65 Waterloo Rd",
+  "city": "Wolverhampton",
+  "postalCode": "WV1 4QU",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://gsmwolverhampton.org.uk/",
+  "phone": "+44 1902 399955",
+  "phoneUnformatted": "+441902399955",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 52.5906408,
+    "lng": -2.1320864
+  },
+  "totalScore": 4.5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJpSrHq5ubcEgRvaYINdIOzws",
+  "categories": [
+    "Charity"
+  ],
+  "fid": "0x48709b9babc72aa5:0xbcf0ed23508a6bd",
+  "cid": "850915150591993533",
+  "reviewsCount": 57,
+  "imagesCount": 16,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:29:47.116Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 4 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 4 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 4 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 4 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 4 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair-accessible car park": true
+      },
+      {
+        "Wheelchair-accessible entrance": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Good%20Shepherd%20Wolverhampton&query_place_id=ChIJpSrHq5ubcEgRvaYINdIOzws",
+  "searchPageUrl": "https://www.google.com/maps/search/shepherd%20services%20UK/@50.111866688917424,-3.969249421087582,12z?hl=en",
+  "searchString": "shepherd services UK",
+  "language": "en",
+  "rank": 2,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrlzN6MaSk0luczfflhbd5kPdY_EuMHzxQnwSAngY3CLZ0rhDmTSXFHyI64gd31rgnGmZp6Yssa4RWY1ENLZm2HUKWz7JbNAa6ExgIMAxuukuO5P-cUR9hUj0ph5pp1jM8afFo=w408-h544-k-no",
+  "kgmid": "/g/11c0xr_z6v"
+},
+{
+  "title": "Flock",
+  "price": null,
+  "categoryName": "Website designer",
+  "address": "Tylers Rd, Hazlemere, High Wycombe HP15 7NS, United Kingdom",
+  "neighborhood": "Hazlemere",
+  "street": "Tylers Rd",
+  "city": "High Wycombe",
+  "postalCode": "HP15 7NS",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://flockstudio.co.uk/",
+  "phone": "+44 1494 819901",
+  "phoneUnformatted": "+441494819901",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 51.6455113,
+    "lng": -0.701089
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJM6wtP_tgdkgRndBbBANc_eY",
+  "categories": [
+    "Website designer",
+    "Business development service",
+    "Consultant",
+    "Graphic designer"
+  ],
+  "fid": "0x487660fb3f2dac33:0xe6fd5c03045bd09d",
+  "cid": "16644560965859004573",
+  "reviewsCount": 8,
+  "imagesCount": 91,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:29:54.122Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Flock&query_place_id=ChIJM6wtP_tgdkgRndBbBANc_eY",
+  "searchPageUrl": "https://www.google.com/maps/search/flock%20management%20UK/@51.57546077554801,-1.5000222981873705,12z?hl=en",
+  "searchString": "flock management UK",
+  "language": "en",
+  "rank": 2,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipM9SGV2L5AHYFEXeSaVkhcl5G5jfnFoB4qqUyMU=w408-h330-k-no",
+  "kgmid": "/g/11gbpc0xkx"
+},
+{
+  "title": "Flock",
+  "price": null,
+  "categoryName": "Insurance company",
+  "address": "Second Floor, Wilson Corner, 23-25 Wilson St, London EC2M 2TE, United Kingdom",
+  "neighborhood": null,
+  "street": "Second Floor, Wilson Corner, 23-25 Wilson St",
+  "city": "London",
+  "postalCode": "EC2M 2TE",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.flockcover.com/",
+  "phone": "+44 1234 480260",
+  "phoneUnformatted": "+441234480260",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 51.5195591,
+    "lng": -0.0859413
+  },
+  "totalScore": 4.5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJSfSwdXAbdkgRwm4l5-zwUOo",
+  "categories": [
+    "Insurance company"
+  ],
+  "fid": "0x48761b7075b0f449:0xea50f0ece7256ec2",
+  "cid": "16884259903292927682",
+  "reviewsCount": 30,
+  "imagesCount": 7,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:29:54.122Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible restroom": true
+      },
+      {
+        "Wheelchair accessible seating": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Flock&query_place_id=ChIJSfSwdXAbdkgRwm4l5-zwUOo",
+  "searchPageUrl": "https://www.google.com/maps/search/flock%20management%20UK/@51.57546077554801,-1.5000222981873705,12z?hl=en",
+  "searchString": "flock management UK",
+  "language": "en",
+  "rank": 3,
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=TwF7i5DcAYpyLGWJAQXh8A&cb_client=search.gws-prod.gps&w=408&h=240&yaw=288.34937&pitch=0&thumbfov=100",
+  "kgmid": "/g/11g1mmqfh3"
+},
+{
+  "title": "Flock Associates",
+  "price": null,
+  "categoryName": "Marketing consultant",
+  "address": "33 Foley St, London W1W 7TL, United Kingdom",
+  "neighborhood": null,
+  "street": "33 Foley St",
+  "city": "London",
+  "postalCode": "W1W 7TL",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.flock-associates.com/",
+  "phone": "+44 20 8194 0188",
+  "phoneUnformatted": "+442081940188",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 51.5190794,
+    "lng": -0.1402894
+  },
+  "totalScore": 4,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJ4d9wissEdkgR9lacvbYgecc",
+  "categories": [
+    "Marketing consultant"
+  ],
+  "fid": "0x487604cb8a70dfe1:0xc77920b6bd9c56f6",
+  "cid": "14373555654966925046",
+  "reviewsCount": 4,
+  "imagesCount": 11,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:29:54.122Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "8 AM to 6 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Flock%20Associates&query_place_id=ChIJ4d9wissEdkgR9lacvbYgecc",
+  "searchPageUrl": "https://www.google.com/maps/search/flock%20management%20UK/@51.57546077554801,-1.5000222981873705,12z?hl=en",
+  "searchString": "flock management UK",
+  "language": "en",
+  "rank": 4,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipOiKAxF6BQ7nEB8NBT0GhcElIEB1IReAnAoHyge=w408-h306-k-no",
+  "kgmid": "/g/1pztxq1sh"
+},
+{
+  "title": "Business Flock",
+  "price": null,
+  "categoryName": "Corporate office",
+  "address": "The Coach House Bremhill Grove Farm, East Tytherton, Chippenham SN15 4LX, United Kingdom",
+  "neighborhood": "East Tytherton",
+  "street": "The Coach House Bremhill Grove Farm",
+  "city": "Chippenham",
+  "postalCode": "SN15 4LX",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://businessflock.co.uk/",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 51.4761925,
+    "lng": -2.0422454
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJd9aWf71lcUgRBEf-pumvDZ0",
+  "categories": [
+    "Corporate office"
+  ],
+  "fid": "0x487165bd7f96d677:0x9d0dafe9a6fe4704",
+  "cid": "11316894856715847428",
+  "reviewsCount": 0,
+  "imagesCount": null,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:29:54.122Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Business%20Flock&query_place_id=ChIJd9aWf71lcUgRBEf-pumvDZ0",
+  "searchPageUrl": "https://www.google.com/maps/search/flock%20management%20UK/@51.57546077554801,-1.5000222981873705,12z?hl=en",
+  "searchString": "flock management UK",
+  "language": "en",
+  "rank": 5,
+  "isAdvertisement": false,
+  "kgmid": "/g/11f61wg77t"
+},
+{
+  "title": "Flock Development & Research Co",
+  "price": null,
+  "categoryName": "Company",
+  "address": "Clarence Mill/Clarence St, Stalybridge SK15 1QF, United Kingdom",
+  "neighborhood": null,
+  "street": "Clarence Mill/Clarence St",
+  "city": "Stalybridge",
+  "postalCode": "SK15 1QF",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.flockdevelopment.co.uk/",
+  "phone": "+44 161 339 4946",
+  "phoneUnformatted": "+441613394946",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 53.4833378,
+    "lng": -2.074051
+  },
+  "totalScore": 4.4,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJk4ko4T22e0gReHYxJ1P5BPY",
+  "categories": [
+    "Company"
+  ],
+  "fid": "0x487bb63de1288993:0xf604f95327317678",
+  "cid": "17727568168772269688",
+  "reviewsCount": 13,
+  "imagesCount": 2,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:29:54.122Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Flock%20Development%20%26%20Research%20Co&query_place_id=ChIJk4ko4T22e0gReHYxJ1P5BPY",
+  "searchPageUrl": "https://www.google.com/maps/search/flock%20management%20UK/@51.57546077554801,-1.5000222981873705,12z?hl=en",
+  "searchString": "flock management UK",
+  "language": "en",
+  "rank": 8,
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=xXIYFjccP48L6LrUFCsLJA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=26.982655&pitch=0&thumbfov=100",
+  "kgmid": "/g/1thw1q4g"
+},
+{
+  "title": "Flock animation",
+  "price": null,
+  "categoryName": "Animation studio",
+  "address": "305A Goldhawk Rd, London W12 8EU, United Kingdom",
+  "neighborhood": null,
+  "street": "305A Goldhawk Rd",
+  "city": "London",
+  "postalCode": "W12 8EU",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.flocklondon.com/",
+  "phone": "+44 7739 116915",
+  "phoneUnformatted": "+447739116915",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 51.4987556,
+    "lng": -0.242266
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJhyhViq0PdkgRT5MYuFz6xJQ",
+  "categories": [
+    "Animation studio"
+  ],
+  "fid": "0x48760fad8a552887:0x94c4fa5cb818934f",
+  "cid": "10719968289181176655",
+  "reviewsCount": 3,
+  "imagesCount": 7,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:29:54.122Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Flock%20animation&query_place_id=ChIJhyhViq0PdkgRT5MYuFz6xJQ",
+  "searchPageUrl": "https://www.google.com/maps/search/flock%20management%20UK/@51.57546077554801,-1.5000222981873705,12z?hl=en",
+  "searchString": "flock management UK",
+  "language": "en",
+  "rank": 10,
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=y-mlJ1Ay3NW1WXnCY5oc6A&cb_client=search.gws-prod.gps&w=408&h=240&yaw=158.33784&pitch=0&thumbfov=100",
+  "kgmid": "/g/11q_2wkm1q"
+},
+{
+  "title": "Flock Digital Ltd",
+  "price": null,
+  "categoryName": "Corporate office",
+  "address": "Harrison House, 1 Sheep Walk, Langford Rd, Biggleswade SG18 9RB, United Kingdom",
+  "neighborhood": null,
+  "street": "Harrison House, 1 Sheep Walk, Langford Rd",
+  "city": "Biggleswade",
+  "postalCode": "SG18 9RB",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://flockdigital.co.uk/",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 52.0692342,
+    "lng": -0.262648
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJx7Yp4V3Md0gRHzKF2yAl9t4",
+  "categories": [
+    "Corporate office"
+  ],
+  "fid": "0x4877cc5de129b6c7:0xdef62520db85321f",
+  "cid": "16066069543742943775",
+  "reviewsCount": 0,
+  "imagesCount": 1,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:29:54.122Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Flock%20Digital%20Ltd&query_place_id=ChIJx7Yp4V3Md0gRHzKF2yAl9t4",
+  "searchPageUrl": "https://www.google.com/maps/search/flock%20management%20UK/@51.57546077554801,-1.5000222981873705,12z?hl=en",
+  "searchString": "flock management UK",
+  "language": "en",
+  "rank": 11,
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=05X2wHZKxJjXLKWZoLagWw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=174.61961&pitch=0&thumbfov=100",
+  "kgmid": "/g/11w7l4c_v7"
+},
+{
+  "title": "Flock Talent Ltd",
+  "price": null,
+  "address": "Orchard House, Abingdon OX14 4AD, United Kingdom",
+  "neighborhood": "Sutton Courtenay",
+  "street": "Orchard House",
+  "city": "Abingdon",
+  "postalCode": "OX14 4AD",
+  "state": null,
+  "countryCode": "GB",
+  "phone": "+44 7802 483188",
+  "phoneUnformatted": "+447802483188",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 51.643837,
+    "lng": -1.2754846
+  },
+  "permanentlyClosed": true,
+  "temporarilyClosed": false,
+  "placeId": "ChIJN2JHbOW4dkgRRS5Rk-GRWPc",
+  "categories": [],
+  "fid": "0x4876b8e56c476237:0xf75891e193512e45",
+  "cid": "17823155923343978053",
+  "reviewsCount": 0,
+  "imagesCount": null,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:29:54.122Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Flock%20Talent%20Ltd&query_place_id=ChIJN2JHbOW4dkgRRS5Rk-GRWPc",
+  "searchPageUrl": "https://www.google.com/maps/search/flock%20management%20UK/@51.57546077554801,-1.5000222981873705,12z?hl=en",
+  "searchString": "flock management UK",
+  "language": "en",
+  "rank": 13,
+  "isAdvertisement": false,
+  "kgmid": "/g/11g6vhcflf"
+},
+{
+  "title": "Swanston Farm",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "111 Swanston Rd, Edinburgh EH10 7DS, United Kingdom",
+  "neighborhood": null,
+  "street": "111 Swanston Rd",
+  "city": "Edinburgh",
+  "postalCode": "EH10 7DS",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://swanston.co.uk/",
+  "phone": "+44 131 445 2239",
+  "phoneUnformatted": "+441314452239",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 55.893624,
+    "lng": -3.2172629
+  },
+  "plusCode": "VQVM+C3 Edinburgh, United Kingdom",
+  "totalScore": 4.8,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJJ7o1KC3Hh0gRoEaZa1fKKHE",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x4887c72d2835ba27:0x7128ca576b9946a0",
+  "cid": "8153989602170455712",
+  "reviewsCount": 237,
+  "reviewsDistribution": {
+    "oneStar": 2,
+    "twoStar": 1,
+    "threeStar": 8,
+    "fourStar": 18,
+    "fiveStar": 208
+  },
+  "imagesCount": 871,
+  "imageCategories": [
+    "All",
+    "Latest",
+    "Videos",
+    "Cattle",
+    "By owner",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2025-05-20T13:30:59.914Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Thursday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Friday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Open 24 hours"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Open 24 hours"
+    }
+  ],
+  "peopleAlsoSearch": [
+    {
+      "category": "People also search for",
+      "title": "Menagerie Edinburgh",
+      "reviewsCount": 39,
+      "totalScore": 5
+    },
+    {
+      "category": "People also search for",
+      "title": "Dryden Farm",
+      "reviewsCount": 15,
+      "totalScore": 4.8
+    },
+    {
+      "category": "People also search for",
+      "title": "Easter Howgate Farm",
+      "reviewsCount": 9,
+      "totalScore": 4.7
+    },
+    {
+      "category": "People also search for",
+      "title": "Buttercup Farm Park",
+      "reviewsCount": 43,
+      "totalScore": 4.7
+    },
+    {
+      "category": "People also search for",
+      "title": "The Hairy Coo - Scotland Tours",
+      "reviewsCount": 2152,
+      "totalScore": 4.9
+    }
+  ],
+  "placesTags": [
+    {
+      "title": "Food & Drink",
+      "count": 1
+    }
+  ],
+  "reviewsTags": [
+    {
+      "title": "highland cows",
+      "count": 64
+    },
+    {
+      "title": "hike",
+      "count": 27
+    },
+    {
+      "title": "brasserie",
+      "count": 19
+    },
+    {
+      "title": "bus",
+      "count": 12
+    },
+    {
+      "title": "trail",
+      "count": 8
+    },
+    {
+      "title": "the hill",
+      "count": 7
+    },
+    {
+      "title": "golf",
+      "count": 6
+    },
+    {
+      "title": "accommodation",
+      "count": 5
+    },
+    {
+      "title": "herd",
+      "count": 5
+    },
+    {
+      "title": "scones",
+      "count": 5
+    }
+  ],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      },
+      {
+        "Wheelchair accessible restroom": true
+      },
+      {
+        "Wheelchair accessible seating": true
+      }
+    ],
+    "Crowd": [
+      {
+        "LGBTQ+ friendly": true
+      },
+      {
+        "Transgender safespace": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "questionsAndAnswers": {
+    "question": "(Translated by Google) Is there an entrance fee required here?\n\n(Original)\n此處需要收取入場費嘛？",
+    "answers": [
+      {
+        "answer": "No entrance fee. Enjoy ",
+        "answeredBy": {}
+      }
+    ],
+    "askDate": "a month ago",
+    "askedBy": {}
+  },
+  "updatesFromCustomers": {
+    "text": "Scottish highlands!",
+    "language": "en",
+    "postDate": "a year ago",
+    "postedBy": {
+      "name": "dermit",
+      "url": "https://www.google.com/maps/contrib/109951209046410103559?hl=en-US",
+      "title": "Local Guide",
+      "totalReviews": 85
+    },
+    "media": [
+      {
+        "link": "https://lh3.googleusercontent.com/geougc-cs/AB3l90AP0-30RSMgfZuvuzxAM134paA78xCQTgfOdnS0izDt6uC-2JqZkCwKaBhiMWVlNJROj10FbhV4LDPZpFBdtptyObzbRD4BsbYGURniOyUeHIT4Y7eFVEKPTjwPIZ-tmjJpSdp4eQ",
+        "postDate": "a year ago"
+      }
+    ]
+  },
+  "url": "https://www.google.com/maps/search/?api=1&query=Swanston%20Farm&query_place_id=ChIJJ7o1KC3Hh0gRoEaZa1fKKHE",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20grazing%20services%20United%20Kingdom/@56.099297043315275,-3.3519426403625294,12z?hl=en",
+  "searchString": "sheep grazing services United Kingdom",
+  "language": "en",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPGM_9qwlopkpQ0SIPlXdTq5nbYZ4LATDvXKk-o=w408-h306-k-no",
+  "kgmid": "/g/1vnnhzmq"
+},
+{
+  "title": "Flock Events",
+  "price": null,
+  "categoryName": "Event planner",
+  "address": null,
+  "website": "https://www.flockevents.co.uk/",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 57.7469948,
+    "lng": -4.6873412
+  },
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJf3Aw-1fswyMR7HDlJGX0Kiw",
+  "categories": [
+    "Event planner",
+    "Service establishment"
+  ],
+  "fid": "0x23c3ec57fb30707f:0x2c2af46524e570ec",
+  "cid": "3182624801938567404",
+  "reviewsCount": 56,
+  "imagesCount": 95,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:31:02.928Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "From the business": [
+      {
+        "Identifies as women-owned": true
+      }
+    ],
+    "Crowd": [
+      {
+        "LGBTQ+ friendly": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Flock%20Events&query_place_id=ChIJf3Aw-1fswyMR7HDlJGX0Kiw",
+  "searchPageUrl": "https://www.google.com/maps/search/flock%20management%20UK/@56.099297043315275,-3.3519426403625294,12z?hl=en",
+  "searchString": "flock management UK",
+  "language": "en",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npoyeIX5tay_v9HVoRdCbho4zp0-R7PHX7tElNTESSXsUJYzbvZhBkwUZrJqUxTeMEQEbt6Ry6vUA0HJwoFKrJXwTGBVuSy9dK-nJ9bN9_2-UlSVOajcr9emhsojblw8Q6BFTm3=w408-h544-k-no",
+  "kgmid": "/g/11r_kkjv_t"
+},
+{
+  "title": "Flock Mobility",
+  "price": null,
+  "categoryName": "Software company",
+  "address": "Lochrin Square, 92, Fountainbridge, Edinburgh EH3 9QA, United Kingdom",
+  "neighborhood": null,
+  "street": "Lochrin Square, 92, Fountainbridge",
+  "city": "Edinburgh",
+  "postalCode": "EH3 9QA",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://flockmobility.com/",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 55.9437629,
+    "lng": -3.208246
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJh0__wrnHh0gRW9Gja1RV6Y8",
+  "categories": [
+    "Software company"
+  ],
+  "fid": "0x4887c7b9c2ff4f87:0x8fe955546ba3d15b",
+  "cid": "10369913438068789595",
+  "reviewsCount": 0,
+  "imagesCount": 3,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:31:02.928Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Flock%20Mobility&query_place_id=ChIJh0__wrnHh0gRW9Gja1RV6Y8",
+  "searchPageUrl": "https://www.google.com/maps/search/flock%20management%20UK/@56.099297043315275,-3.3519426403625294,12z?hl=en",
+  "searchString": "flock management UK",
+  "language": "en",
+  "rank": 3,
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ZuqjpWiRCPmIxk1nuCw77A&cb_client=search.gws-prod.gps&w=408&h=240&yaw=135.65729&pitch=0&thumbfov=100",
+  "kgmid": "/g/11qqsz198t"
+},
+{
+  "title": "Flock",
+  "price": null,
+  "categoryName": "Design agency",
+  "address": "18 Morningside Rd, Edinburgh EH10 4DA, United Kingdom",
+  "neighborhood": null,
+  "street": "18 Morningside Rd",
+  "city": "Edinburgh",
+  "postalCode": "EH10 4DA",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://www.flockthinks.com/",
+  "phone": "+44 131 225 2800",
+  "phoneUnformatted": "+441312252800",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 55.9334653,
+    "lng": -3.2103331
+  },
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJFwhmHpHHh0gRsVeiWpuK6lo",
+  "categories": [
+    "Design agency",
+    "Advertising agency",
+    "Graphic designer"
+  ],
+  "fid": "0x4887c7911e660817:0x5aea8a9b5aa257b1",
+  "cid": "6551201007808960433",
+  "reviewsCount": 0,
+  "imagesCount": 2,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:31:02.928Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Thursday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "9 AM to 5 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Sunday",
+      "hours": "Closed"
+    }
+  ],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Flock&query_place_id=ChIJFwhmHpHHh0gRsVeiWpuK6lo",
+  "searchPageUrl": "https://www.google.com/maps/search/flock%20management%20UK/@56.099297043315275,-3.3519426403625294,12z?hl=en",
+  "searchString": "flock management UK",
+  "language": "en",
+  "rank": 5,
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=TWEGi_TOKQ3BGuG8LFZQtw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=283.2092&pitch=0&thumbfov=100",
+  "kgmid": "/g/1vnrklny"
+},
+{
+  "title": "Legacy Grazing",
+  "price": null,
+  "categoryName": "Livestock breeder",
+  "address": "Chelmsford County Hall, Chelmsford CM1 1YS, United Kingdom",
+  "neighborhood": null,
+  "street": "Chelmsford County Hall",
+  "city": "Chelmsford",
+  "postalCode": "CM1 1YS",
+  "state": null,
+  "countryCode": "GB",
+  "website": "http://legacygrazing.org.uk/",
+  "phone": "+44 333 013 6867",
+  "phoneUnformatted": "+443330136867",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 51.7350038,
+    "lng": 0.4697768
+  },
+  "locatedIn": "ECL | Person-centred Care",
+  "plusCode": "PFP9+2W Chelmsford, United Kingdom",
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJE6HiVtfr2EcRrGUATnlpscA",
+  "categories": [
+    "Livestock breeder",
+    "Association / Organization"
+  ],
+  "fid": "0x47d8ebd756e2a113:0xc0b169794e0065ac",
+  "cid": "13884995095880557996",
+  "reviewsCount": 0,
+  "imagesCount": 1,
+  "imageCategories": [
+    "All",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2025-05-20T13:31:04.219Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [
+    {
+      "category": "People also search for",
+      "title": "Brick Barns Farms Ltd",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "People also search for",
+      "title": "Wild & Rooted Farming",
+      "reviewsCount": 11,
+      "totalScore": 4.9
+    },
+    {
+      "category": "People also search for",
+      "title": "G S H Farming Ltd",
+      "reviewsCount": 1,
+      "totalScore": 5
+    },
+    {
+      "category": "People also search for",
+      "title": "Landseer",
+      "reviewsCount": 1,
+      "totalScore": 5
+    },
+    {
+      "category": "People also search for",
+      "title": "Cressing Farm",
+      "reviewsCount": 0,
+      "totalScore": 0
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Legacy%20Grazing&query_place_id=ChIJE6HiVtfr2EcRrGUATnlpscA",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20grazing%20services%20United%20Kingdom/@58.09510716144789,-4.380787274904284,12z?hl=en",
+  "searchString": "sheep grazing services United Kingdom",
+  "language": "en",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=T16yp8dBlhlTlCpHMD6Avg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=96.97634&pitch=0&thumbfov=100",
+  "kgmid": "/g/11g16dl01_"
+},
+{
+  "title": "Drimnin Estate Farm",
+  "price": null,
+  "categoryName": "Farm",
+  "address": "Oban PA80 5XZ, United Kingdom",
+  "neighborhood": null,
+  "street": null,
+  "city": "Oban",
+  "postalCode": null,
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://www.drimninestate.co.uk/drimnin-farm",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 56.6175293,
+    "lng": -5.9813395
+  },
+  "locatedIn": "Drimnin Estate Exclusive Use Let / Self Catering / Bed & Breakfast",
+  "plusCode": "J299+2F Achleanan, Oban, UK",
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJb3J_r2bxi0gRhQhBqh6xisA",
+  "categories": [
+    "Farm"
+  ],
+  "fid": "0x488bf166af7f726f:0xc08ab11eaa410885",
+  "cid": "13874096347331758213",
+  "reviewsCount": 0,
+  "imagesCount": null,
+  "imageCategories": [],
+  "scrapedAt": "2025-05-20T13:31:33.523Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [],
+  "placesTags": [],
+  "reviewsTags": [],
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Drimnin%20Estate%20Farm&query_place_id=ChIJb3J_r2bxi0gRhQhBqh6xisA",
+  "searchPageUrl": "https://www.google.com/maps/search/sheep%20grazing%20services%20United%20Kingdom/@56.631513074817306,-6.644245470896144,12z?hl=en",
+  "searchString": "sheep grazing services United Kingdom",
+  "language": "en",
+  "rank": 1,
+  "isAdvertisement": false,
+  "kgmid": "/g/11fs7xytmt"
+},
+{
+  "title": "Parish of Par: Good Shepherd",
+  "price": null,
+  "categoryName": "Place of worship",
+  "address": "22 Par Grn, Par PL24 2AF, United Kingdom",
+  "neighborhood": null,
+  "street": "22 Par Grn",
+  "city": "Par",
+  "postalCode": "PL24 2AF",
+  "state": null,
+  "countryCode": "GB",
+  "website": "https://www.parparish.co.uk/",
+  "phone": "+44 1726 815588",
+  "phoneUnformatted": "+441726815588",
+  "claimThisBusiness": true,
+  "location": {
+    "lat": 50.3507398,
+    "lng": -4.703974
+  },
+  "plusCode": "972W+7C Par, United Kingdom",
+  "totalScore": 4.6,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJqa3ShOlla0gRMqn6XjjUGD8",
+  "categories": [
+    "Place of worship"
+  ],
+  "fid": "0x486b65e984d2ada9:0x3f18d4385efaa932",
+  "cid": "4546617162407258418",
+  "reviewsCount": 7,
+  "reviewsDistribution": {
+    "oneStar": 0,
+    "twoStar": 0,
+    "threeStar": 1,
+    "fourStar": 1,
+    "fiveStar": 5
+  },
+  "imagesCount": 28,
+  "imageCategories": [
+    "All",
+    "Street View & 360°"
+  ],
+  "scrapedAt": "2025-05-20T13:32:04.730Z",
+  "googleFoodUrl": null,
+  "hotelAds": [],
+  "openingHours": [],
+  "peopleAlsoSearch": [
+    {
+      "category": "People also search for",
+      "title": "Saint Mary's Methodist Church . Par",
+      "reviewsCount": 6,
+      "totalScore": 5
+    },
+    {
+      "category": "People also search for",
+      "title": "Fowey Parish Church",
+      "reviewsCount": 55,
+      "totalScore": 4.6
+    },
+    {
+      "category": "People also search for",
+      "title": "Tregaminion Church",
+      "reviewsCount": 3,
+      "totalScore": 4.7
+    },
+    {
+      "category": "People also search for",
+      "title": "St Blaise Parish Church",
+      "reviewsCount": 12,
+      "totalScore": 4.7
+    },
+    {
+      "category": "People also search for",
+      "title": "The Parish Church of Saint Peter Mevagissey",
+      "reviewsCount": 7,
+      "totalScore": 4.7
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      },
+      {
+        "Wheelchair accessible parking lot": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "questionsAndAnswers": {
+    "question": "Do we need a registra for marriage in ur Church? ",
+    "answers": [
+      {
+        "answer": "We have a parish priest you would need to contact.  Contact details on our website or on boards outside churches.",
+        "answeredBy": {}
+      }
+    ],
+    "askDate": "5 years ago",
+    "askedBy": {}
+  },
+  "url": "https://www.google.com/maps/search/?api=1&query=Parish%20of%20Par%3A%20Good%20Shepherd&query_place_id=ChIJqa3ShOlla0gRMqn6XjjUGD8",
+  "searchPageUrl": "https://www.google.com/maps/search/shepherd%20services%20UK/@50.37797470466844,-4.586556201812635,12z?hl=en",
+  "searchString": "shepherd services UK",
+  "language": "en",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqffiCWkfuw562r_pMuKCjRKI2eThFrxayzav9o1WKtzrEoUYgOkktyH3-wGH9rLR9iCJs2I9qc_ULdncNQlds3tfK5DRtCfR9Ka_gRlWhvlOypRdRGQZGVmQGebbfD0FAjqcSKxw=w408-h306-k-no",
+  "kgmid": "/g/1tm0b72f"
+}]
