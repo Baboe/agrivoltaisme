@@ -1,8 +1,26 @@
+import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
 import { Filter } from "lucide-react"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import ShepherdCard from "@/components/shepherd-card"
 import SolarFarmCard from "@/components/solar-farm-card"
+
+export const metadata: Metadata = {
+  title: "Solar Grazing Directory – Ombaa",
+  description: "Browse shepherds and solar farms across Europe in the Ombaa directory.",
+  alternates: { canonical: "https://ombaa.eu/directory" },
+  openGraph: {
+    title: "Solar Grazing Directory – Ombaa",
+    description: "Browse shepherds and solar farms across Europe in the Ombaa directory.",
+    url: "https://ombaa.eu/directory",
+    siteName: "Ombaa",
+  },
+  twitter: {
+    card: "summary",
+    title: "Solar Grazing Directory – Ombaa",
+    description: "Browse shepherds and solar farms across Europe in the Ombaa directory.",
+  },
+}
 
 export default function Directory() {
   return (
