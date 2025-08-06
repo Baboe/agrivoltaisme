@@ -1,8 +1,26 @@
 import Image from "next/image"
 import Link from "next/link"
+import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle, Users, Globe, TrendingUp, Leaf } from "lucide-react"
+
+export const metadata: Metadata = {
+  title: "About Ombaa",
+  description: "Learn about Ombaa's mission to connect solar farms with shepherds.",
+  alternates: { canonical: "https://ombaa.eu/about" },
+  openGraph: {
+    title: "About Ombaa",
+    description: "Learn about Ombaa's mission to connect solar farms with shepherds.",
+    url: "https://ombaa.eu/about",
+    siteName: "Ombaa",
+  },
+  twitter: {
+    card: "summary",
+    title: "About Ombaa",
+    description: "Learn about Ombaa's mission to connect solar farms with shepherds.",
+  },
+}
 
 export default function AboutPage() {
   return (
