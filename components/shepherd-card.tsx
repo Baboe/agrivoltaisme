@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { CheckCircle, MapPin } from "lucide-react"
+import Link from "next/link"
 
 interface ShepherdCardProps {
   name: string
@@ -11,6 +12,7 @@ interface ShepherdCardProps {
   experience: number
   description: string
   verified: boolean
+  country: string
 }
 
 export default function ShepherdCard({
@@ -21,6 +23,7 @@ export default function ShepherdCard({
   experience,
   description,
   verified,
+  country,
 }: ShepherdCardProps) {
   return (
     <Card className="overflow-hidden transition-all hover:shadow-md hover:border-green-200">
@@ -56,7 +59,14 @@ export default function ShepherdCard({
 
           <p className="text-gray-600 text-sm">{description}</p>
 
-          <Button className="w-full bg-green-600 hover:bg-green-700">Contact</Button>
+          <div className="flex gap-2">
+            <Button className="flex-1 bg-green-600 hover:bg-green-700" asChild>
+              <Link href={`/sheepfarms/${country.toLowerCase()}/${encodeURIComponent(name)}`}>
+                View Details
+              </Link>
+            </Button>
+            <Button variant="outline" className="flex-1">Contact</Button>
+          </div>
         </div>
       </CardContent>
     </Card>
