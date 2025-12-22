@@ -1,4 +1,8 @@
-import { fetchSolarParks, fetchSheepFarms } from './data-service';
+import solarParksData from '@/processed_solar_parks_combined.json';
+import sheepFarmsData from '@/processed_sheep_farms_combined.json';
+
+// Filter to only include Netherlands and Belgium for MVP
+const MVP_COUNTRIES = ['Netherlands', 'Belgium'];
 
 // Base URL for the site
 const BASE_URL = 'https://ombaa.com';
@@ -97,11 +101,12 @@ export async function generateCountryPagesSitemap(): Promise<string> {
 // Function to generate solar parks sitemap
 export async function generateSolarParksSitemap(): Promise<string> {
   try {
-    // Fetch all solar parks (no filtering for complete sitemap)
-    const response = await fetchSolarParks({ limit: 1000 }); // High limit for sitemap
-    const solarParks = response.data;
+    // Filter data for MVP countries only
+    const filteredSolarParks = solarParksData.filter((park: any) => 
+      MVP_COUNTRIES.includes(park.country)
+    );
 
-    const urls = solarParks.map(park => ({
+    const urls = filteredSolarParks.map((park: any) => ({
       url: `/solarparks/${park.country.toLowerCase()}/${encodeURIComponent(park.name)}`,
       lastModified: formatDateForSitemap(new Date()),
       changeFrequency: 'monthly',
@@ -118,11 +123,12 @@ export async function generateSolarParksSitemap(): Promise<string> {
 // Function to generate sheep farms sitemap
 export async function generateSheepFarmsSitemap(): Promise<string> {
   try {
-    // Fetch all sheep farms (no filtering for complete sitemap)
-    const response = await fetchSheepFarms({ limit: 1000 }); // High limit for sitemap
-    const sheepFarms = response.data;
+    // Filter data for MVP countries only
+    const filteredSheepFarms = sheepFarmsData.filter((farm: any) => 
+      MVP_COUNTRIES.includes(farm.country)
+    );
 
-    const urls = sheepFarms.map(farm => ({
+    const urls = filteredSheepFarms.map((farm: any) => ({
       url: `/sheepfarms/${farm.country.toLowerCase()}/${encodeURIComponent(farm.name)}`,
       lastModified: formatDateForSitemap(new Date()),
       changeFrequency: 'monthly',
