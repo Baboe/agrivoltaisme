@@ -115,9 +115,15 @@ export async function fetchSolarParkByName(name: string): Promise<SolarPark | nu
 }
 
 // Get single sheep farm by name (for detail pages)
-export async function fetchSheepFarmByName(name: string): Promise<SheepFarm | null> {
+export async function fetchSheepFarmByName(name: string, country?: string): Promise<SheepFarm | null> {
   try {
-    const response = await fetch(`/api/sheep-farms?search=${encodeURIComponent(name)}&limit=1`);
+    const searchParams = new URLSearchParams();
+    searchParams.append('search', encodeURIComponent(name));
+    if (country) {
+      searchParams.append('country', country.toLowerCase());
+    }
+    searchParams.append('limit', '1');
+    const response = await fetch(`/api/sheep-farms?${searchParams.toString()}`);
     const data = await response.json();
     return data.data.length > 0 ? data.data[0] : null;
   } catch (error) {
