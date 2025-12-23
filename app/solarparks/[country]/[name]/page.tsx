@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { MapPin, Phone, Mail, Globe, Sun, ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import ClaimCorrectionForm from "@/components/claim-correction-form";
 
 // Function to convert grazing status enum to display text
 function getGrazingStatusDisplay(status: string): string {
@@ -204,6 +205,11 @@ export default async function SolarParkDetailPage({ params }: PageProps) {
                       <p className="text-sm text-gray-600 mt-1">
                         {getGrazingStatusMicrocopy(solarPark.grazing_status)}
                       </p>
+                      <ClaimCorrectionForm
+                        solarParkName={solarPark.name}
+                        solarParkLocation={location}
+                        currentStatus={solarPark.grazing_status}
+                      />
                     </div>
                   </div>
                   <Badge variant="secondary" className="bg-green-100 text-green-800">
