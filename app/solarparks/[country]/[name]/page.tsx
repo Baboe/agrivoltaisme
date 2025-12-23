@@ -26,6 +26,24 @@ function getGrazingStatusDisplay(status: string): string {
   }
 }
 
+// Function to get credibility microcopy for grazing status
+function getGrazingStatusMicrocopy(status: string): string {
+  switch (status) {
+    case 'not_compatible':
+      return 'System-assigned (high confidence)';
+    case 'potentially_compatible':
+      return 'Based on available infrastructure data';
+    case 'grazing_ready':
+      return 'Infrastructure supports grazing (verification recommended)';
+    case 'actively_grazed':
+      return 'Sheep currently grazing on-site';
+    case 'proven_case_study':
+      return 'Documented grazing project';
+    default:
+      return '';
+  }
+}
+
 interface PageProps {
   params: {
     country: string;
@@ -183,6 +201,9 @@ export default async function SolarParkDetailPage({ params }: PageProps) {
                       <Badge variant="outline" className="text-lg px-4 py-2 bg-blue-50 text-blue-800 border-blue-200">
                         {getGrazingStatusDisplay(solarPark.grazing_status)}
                       </Badge>
+                      <p className="text-sm text-gray-600 mt-1">
+                        {getGrazingStatusMicrocopy(solarPark.grazing_status)}
+                      </p>
                     </div>
                   </div>
                   <Badge variant="secondary" className="bg-green-100 text-green-800">
