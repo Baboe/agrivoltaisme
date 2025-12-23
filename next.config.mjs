@@ -9,6 +9,21 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        destination: 'https://www.ombaa.com/:path*',
+        permanent: true,
+        has: [
+          {
+            type: 'host',
+            value: 'ombaa.eu',
+          },
+        ],
+      },
+    ]
+  },
 }
 
 export default nextConfig

@@ -8,11 +8,11 @@ import { CheckCircle, Users, Globe, TrendingUp, Leaf } from "lucide-react"
 export const metadata: Metadata = {
   title: "About Ombaa",
   description: "Learn about Ombaa's mission to connect solar farms with shepherds.",
-  alternates: { canonical: "https://ombaa.eu/about" },
+  alternates: { canonical: "https://www.ombaa.com/about" },
   openGraph: {
     title: "About Ombaa",
     description: "Learn about Ombaa's mission to connect solar farms with shepherds.",
-    url: "https://ombaa.eu/about",
+    url: "https://www.ombaa.com/about",
     siteName: "Ombaa",
   },
   twitter: {
@@ -189,7 +189,7 @@ export default function AboutPage() {
                 <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
                   <Image
                     src="/placeholder.svg?height=96&width=96"
-                    alt="Team member"
+                    alt="Portrait of Emma Bergman, Co-Founder and CEO of Ombaa"
                     width={96}
                     height={96}
                     className="object-cover"
@@ -197,12 +197,13 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-lg font-semibold">Emma Bergman</h3>
                 <p className="text-gray-600 text-sm">Co-Founder & CEO</p>
+                <p className="text-gray-600 text-sm mt-2">Background in renewable energy data platforms and land-use optimization.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
                 <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
                   <Image
                     src="/placeholder.svg?height=96&width=96"
-                    alt="Team member"
+                    alt="Portrait of Thomas Visser, Co-Founder and CTO of Ombaa"
                     width={96}
                     height={96}
                     className="object-cover"
@@ -210,12 +211,13 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-lg font-semibold">Thomas Visser</h3>
                 <p className="text-gray-600 text-sm">Co-Founder & CTO</p>
+                <p className="text-gray-600 text-sm mt-2">Background in software development for agricultural technology and data integration.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
                 <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
                   <Image
                     src="/placeholder.svg?height=96&width=96"
-                    alt="Team member"
+                    alt="Portrait of Sophie Laurent, Head of Partnerships at Ombaa"
                     width={96}
                     height={96}
                     className="object-cover"
@@ -223,6 +225,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-lg font-semibold">Sophie Laurent</h3>
                 <p className="text-gray-600 text-sm">Head of Partnerships</p>
+                <p className="text-gray-600 text-sm mt-2">Background in partnership development for sustainable agriculture and renewable energy projects.</p>
               </div>
             </div>
           </div>

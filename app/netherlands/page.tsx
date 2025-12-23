@@ -253,7 +253,7 @@ export default function NetherlandsPage() {
             "@type": "WebPage",
             "name": "Solar Grazing in Netherlands",
             "description": "Discover solar parks and sheep farms in Netherlands. Find shepherds for vegetation management and solar grazing partnerships across Dutch provinces.",
-            "url": "https://ombaa.eu/netherlands",
+            "url": "https://www.ombaa.com/netherlands",
             "isPartOf": {
               "@type": "WebSite",
               "name": "Ombaa Directory",
