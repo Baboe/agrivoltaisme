@@ -13,6 +13,10 @@ export interface SolarPark {
     latitude: number;
     longitude: number;
   };
+  grazing_status: 'not_compatible' | 'potentially_compatible' | 'grazing_ready' | 'actively_grazed' | 'proven_case_study';
+  leading_edge_height: '<20_in' | '20_30_in' | '>30_in' | 'unknown';
+  wire_safety_status: 'safe_bundled' | 'exposed_looping' | 'unknown';
+  water_access: 'on_site_water' | 'no_water' | 'unknown';
 }
 
 export interface SheepFarm {
@@ -53,6 +57,7 @@ export interface SearchParams {
   country?: string;
   region?: string;
   search?: string;
+  grazingStatus?: string;
   page?: number;
   limit?: number;
   sortBy?: string;
@@ -62,7 +67,7 @@ export interface SearchParams {
 // Solar Parks API
 export async function fetchSolarParks(params: SearchParams = {}): Promise<ApiResponse<SolarPark>> {
   const searchParams = new URLSearchParams();
-  
+
   Object.entries(params).forEach(([key, value]) => {
     if (value !== undefined && value !== '') {
       searchParams.append(key, value.toString());

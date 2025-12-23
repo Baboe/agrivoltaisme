@@ -4,7 +4,7 @@
     "location": "De Lotten 3, 9415 Hijken, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -12,14 +12,18 @@
     "coordinates": {
       "latitude": 52.8829834,
       "longitude": 6.5177059
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepark Midden-Groningen",
     "location": "Buitenhuizen 1, 9615 AA Sappemeer, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -27,14 +31,18 @@
     "coordinates": {
       "latitude": 53.1760291,
       "longitude": 6.7671302
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "NL Solarpark De Kwekerij B.V.",
     "location": "Gildebongerd 65A, 7038 DB Zeddam, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 7.0,
+    "total_hectares": 7,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 6 53819281",
@@ -42,14 +50,18 @@
     "coordinates": {
       "latitude": 51.9072676,
       "longitude": 6.2607749
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Galecop",
     "location": "PJ, Galecopperzoom, Nieuwegein, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 6 33765735",
@@ -57,14 +69,18 @@
     "coordinates": {
       "latitude": 52.058732,
       "longitude": 5.078087
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepark Vlagtwedde",
     "location": "Mussel A Kanaal Oost 3, 9541 XW Vlagtwedde, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -72,14 +88,18 @@
     "coordinates": {
       "latitude": 52.9854821,
       "longitude": 7.0718361
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepark Meerdorpen",
     "location": "Atoomweg 6B, 9743 AK Groningen, Nederland",
     "country": "Netherlands",
     "region": "Groningen",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 50 820 0492",
@@ -87,14 +107,18 @@
     "coordinates": {
       "latitude": 53.1985345,
       "longitude": 6.6433284
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepark Emmen",
     "location": "Veenakkers 25, 7881 XA Emmer-Compascuum, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -102,14 +126,18 @@
     "coordinates": {
       "latitude": 52.8154738,
       "longitude": 6.978671
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Park Sellingen",
     "location": "Beetserwijk 9551, 9551 VH Sellingen, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -117,14 +145,18 @@
     "coordinates": {
       "latitude": 52.9446954,
       "longitude": 7.0916533
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar park Delfzijl",
     "location": "Oosterlaan, 9936 HN Farmsum, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -132,14 +164,18 @@
     "coordinates": {
       "latitude": 53.30122,
       "longitude": 6.9567587
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Volt4U Zonnepanelen",
     "location": "Vogelpoelweg 8, 3961 NL Wijk bij Duurstede, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 343 764 129",
@@ -147,14 +183,18 @@
     "coordinates": {
       "latitude": 51.9738076,
       "longitude": 5.3175395
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "ESK-SOLAR ZONNEPARK",
     "location": "Fahrenheitstraat 14, 8861 NB Harlingen, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 6 47551503",
@@ -162,14 +202,18 @@
     "coordinates": {
       "latitude": 53.1807033,
       "longitude": 5.4603405
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarvation",
     "location": "Wisentweg 64, 8219 PL Lelystad, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 320 793 003",
@@ -177,14 +221,18 @@
     "coordinates": {
       "latitude": 52.5220457,
       "longitude": 5.580418
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepark Services Nederland",
     "location": "Beneluxweg 132, 9636 HV Zuidbroek, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 30 781 0000",
@@ -192,14 +240,18 @@
     "coordinates": {
       "latitude": 53.1644067,
       "longitude": 6.8751114
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Kameleon Solar",
     "location": "Belder 1, 4704 RK Roosendaal, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 165 763 826",
@@ -207,14 +259,18 @@
     "coordinates": {
       "latitude": 51.5561896,
       "longitude": 4.4712038
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Green Farm Energy",
     "location": "Wassenaarseweg 20, 2596 CH Den Haag, Nederland",
     "country": "Netherlands",
     "region": "Zuid-Holland",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 85 081 0080",
@@ -222,14 +278,18 @@
     "coordinates": {
       "latitude": 52.0908504,
       "longitude": 4.3139122
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Atama Solar Energy BV",
     "location": "Nijverheidsweg 35, 6662 NG Elst, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 88 297 3400",
@@ -237,14 +297,18 @@
     "coordinates": {
       "latitude": 51.9135556,
       "longitude": 5.8687442
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Sunvest",
     "location": "Nijverheidsweg 16A, Unit 2A2, 3534 AM Utrecht, Nederland",
     "country": "Netherlands",
     "region": "Utrecht",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 6 19206307",
@@ -252,14 +316,18 @@
     "coordinates": {
       "latitude": 52.1025425,
       "longitude": 5.0786812
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnedaken Nederland",
     "location": "Kromme-Elleboog 2, 9684 XA Finsterwolde, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Wild flowers",
     "contact_email": "",
     "contact_phone": "+31 597 857 696",
@@ -267,14 +335,18 @@
     "coordinates": {
       "latitude": 53.1931683,
       "longitude": 7.0642983
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Group Holland (Bouw) B.V.",
     "location": "Schoolstraat 147, 3864 ME Nijkerkerveen, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -282,14 +354,18 @@
     "coordinates": {
       "latitude": 52.1868782,
       "longitude": 5.493849
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarfeld",
     "location": "9936 HN Farmsum, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -297,14 +373,18 @@
     "coordinates": {
       "latitude": 53.3004809,
       "longitude": 6.9567751
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarfeld",
     "location": "9936 TG Farmsum, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -312,14 +392,18 @@
     "coordinates": {
       "latitude": 53.2967551,
       "longitude": 6.9578778
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarfeld",
     "location": "9936 TG Farmsum, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -327,14 +411,18 @@
     "coordinates": {
       "latitude": 53.2839177,
       "longitude": 6.9749333
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Symm Energy BV",
     "location": "Melkrijder 19a, 3861 SG Nijkerk, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 6 43152218",
@@ -342,14 +430,18 @@
     "coordinates": {
       "latitude": 52.2308746,
       "longitude": 5.4628886
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "SolarNRG Trading B.V.",
     "location": "Mercuriusplein 40, 2685 LP Poeldijk, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 174 444 171",
@@ -357,14 +449,18 @@
     "coordinates": {
       "latitude": 52.0202776,
       "longitude": 4.2126209
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Park Marum BV",
     "location": "9363 XD Marum, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -372,14 +468,18 @@
     "coordinates": {
       "latitude": 53.1353915,
       "longitude": 6.2801007
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Marstek Power",
     "location": "Bieskade 2, 2492 TP Den Haag, Nederland",
     "country": "Netherlands",
     "region": "Zuid-Holland",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 85 401 7089",
@@ -387,14 +487,18 @@
     "coordinates": {
       "latitude": 52.0594401,
       "longitude": 4.4176745
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepark Braambergen",
     "location": "Kemphaanweg 2, 1358 AB Almere, Nederland",
     "country": "Netherlands",
     "region": "Flevoland",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 800 0700",
@@ -402,14 +506,18 @@
     "coordinates": {
       "latitude": 52.3352155,
       "longitude": 5.2855803
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepark de Lichtkiem",
     "location": "9406 XK Assen, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -417,14 +525,18 @@
     "coordinates": {
       "latitude": 53.0081281,
       "longitude": 6.5237969
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepark AVRI Solar B.V.",
     "location": "4191 NK Geldermalsen, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -432,14 +544,18 @@
     "coordinates": {
       "latitude": 51.8669953,
       "longitude": 5.3252541
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "IX Zon",
     "location": "Schipholweg 103, 2316 XC Leiden, Nederland",
     "country": "Netherlands",
     "region": "Zuid-Holland",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 88 886 0808",
@@ -447,14 +563,18 @@
     "coordinates": {
       "latitude": 52.1694948,
       "longitude": 4.4885155
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepark kampen",
     "location": "Rietsteeg 4, 8293 PC Mastenbroek, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -462,14 +582,18 @@
     "coordinates": {
       "latitude": 52.5789587,
       "longitude": 5.9796273
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepark Melissant (Sunstroom)",
     "location": "Bouwdijk 23, 3248 LA Melissant, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 6 41132035",
@@ -477,14 +601,18 @@
     "coordinates": {
       "latitude": 51.774319,
       "longitude": 4.0369101
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepanelen park",
     "location": "2992 SC Barendrecht, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -492,14 +620,18 @@
     "coordinates": {
       "latitude": 51.8410591,
       "longitude": 4.5175397
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepark Andijk",
     "location": "1619 PE Andijk, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -507,14 +639,18 @@
     "coordinates": {
       "latitude": 52.7374175,
       "longitude": 5.229168
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepark Zuyderzon",
     "location": "Caissonweg 1332, 1332 BX Almere, Nederland",
     "country": "Netherlands",
     "region": "Flevoland",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 6 31317632",
@@ -522,14 +658,18 @@
     "coordinates": {
       "latitude": 52.420039,
       "longitude": 5.242145
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Campus Purmerend",
     "location": "t/o, Westerweg 79, 1446 AG Purmerend, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -537,14 +677,18 @@
     "coordinates": {
       "latitude": 52.5225522,
       "longitude": 5.0058513
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "SolarParking",
     "location": "Rubberstraat 6a, 1411 AL Naarden, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 35 887 8700",
@@ -552,14 +696,18 @@
     "coordinates": {
       "latitude": 52.3028407,
       "longitude": 5.1468641
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Sunergetic B.V.",
     "location": "Vossenkoog 6, 1822 BG Alkmaar, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 85 222 0026",
@@ -567,14 +715,18 @@
     "coordinates": {
       "latitude": 52.6441332,
       "longitude": 4.783254
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Influx Group | Duurzaam Friesland",
     "location": "De Bird 15-6, 8918 EX Leeuwarden, Nederland",
     "country": "Netherlands",
     "region": "Friesland",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 6 38582434",
@@ -582,14 +734,18 @@
     "coordinates": {
       "latitude": 53.2141972,
       "longitude": 5.789351
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "PSE Energy",
     "location": "Valkenburgerweg 223, 6419 AT Heerlen, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 800 5557755",
@@ -597,14 +753,18 @@
     "coordinates": {
       "latitude": 50.8779294,
       "longitude": 5.9542178
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Energiepark Groensebos BV",
     "location": "Heerdstraat, 6111 RA Sint Joost, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 6 16140351",
@@ -612,14 +772,18 @@
     "coordinates": {
       "latitude": 51.1115352,
       "longitude": 5.9282185
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Wienhoek",
     "location": "Mosberg 45, 4708 NA Roosendaal, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -627,14 +791,18 @@
     "coordinates": {
       "latitude": 51.5256875,
       "longitude": 4.429202
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepark Scaldia",
     "location": "4389 PS Ritthem, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -642,14 +810,18 @@
     "coordinates": {
       "latitude": 51.4582831,
       "longitude": 3.7100285
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepark Services Nederland",
     "location": "Drieharingstraat 6, 3511 BJ Utrecht, Nederland",
     "country": "Netherlands",
     "region": "Utrecht",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 30 781 0000",
@@ -657,14 +829,18 @@
     "coordinates": {
       "latitude": 52.0920299,
       "longitude": 5.1158787
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "TPSolar Nederland BV",
     "location": "Melbournestraat 9, unit 7, 1175 RM Lijnden, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 23 741 0144",
@@ -672,14 +848,18 @@
     "coordinates": {
       "latitude": 52.349737,
       "longitude": 4.7676308
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Zonnepanelen park",
     "location": "Deventerseweg 14, 2994 LD Barendrecht, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -687,14 +867,18 @@
     "coordinates": {
       "latitude": 51.8625557,
       "longitude": 4.5125476
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarlandschapspark De Kwekerij",
     "location": "Stekweg, 7255 LM Hengelo, Nederland",
     "country": "Netherlands",
     "region": "",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -702,14 +886,18 @@
     "coordinates": {
       "latitude": 52.0566743,
       "longitude": 6.3091029
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarduck",
     "location": "Weena 70, 3012 CM Rotterdam, Nederland",
     "country": "Netherlands",
     "region": "Zuid-Holland",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+31 85 732 6783",
@@ -717,14 +905,18 @@
     "coordinates": {
       "latitude": 51.9237365,
       "longitude": 4.476217
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "centrale photovoltaïque flottante de Piolenc",
     "location": "84420 Piolenc, France",
     "country": "France",
     "region": "Provence-Alpes-Côte d'Azur",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -732,14 +924,18 @@
     "coordinates": {
       "latitude": 44.1533822,
       "longitude": 4.7267674
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc Solaire Logelbach VOLTALIA",
     "location": "68124 Wintzenheim, France",
     "country": "France",
     "region": "Grand Est",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -747,14 +943,18 @@
     "coordinates": {
       "latitude": 48.0822929,
       "longitude": 7.3175298
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc solaire Les Clapas",
     "location": "249H+7V, 12230 La Cavalerie, France",
     "country": "France",
     "region": "Occitanie",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -762,14 +962,18 @@
     "coordinates": {
       "latitude": 44.0181857,
       "longitude": 3.1296863
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc Solaire de Jugy",
     "location": "Rte de Baudinet, 71700 Boyer, France",
     "country": "France",
     "region": "Bourgogne-Franche-Comté",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -777,14 +981,18 @@
     "coordinates": {
       "latitude": 46.6059595,
       "longitude": 4.8829836
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "So Landes l Photovoltaïque l Borne de recharge l",
     "location": "16 Rte des Savonniers, 40180 Hinx, France",
     "country": "France",
     "region": "Nouvelle-Aquitaine",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 6 32 94 56 49",
@@ -792,14 +1000,18 @@
     "coordinates": {
       "latitude": 43.7075272,
       "longitude": -0.9344325
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Centrale solaire SOL'R PARC CHARENTE",
     "location": "Unnamed Road, 16220 Rouzède, France",
     "country": "France",
     "region": "Nouvelle-Aquitaine",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -807,14 +1019,18 @@
     "coordinates": {
       "latitude": 45.7233622,
       "longitude": 0.5812359
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc solaire de Mine d'Or",
     "location": "11600 Villanière, France",
     "country": "France",
     "region": "Occitanie",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -822,14 +1038,18 @@
     "coordinates": {
       "latitude": 43.3455068,
       "longitude": 2.3533683
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Centrale solaire de la Petite Vicomté",
     "location": "62 D952, 49130 Les Ponts-de-Cé, France",
     "country": "France",
     "region": "Pays de la Loire",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -837,14 +1057,18 @@
     "coordinates": {
       "latitude": 47.4332368,
       "longitude": -0.476062
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc de centrales photovoltaïques de la Colle des Mées",
     "location": "04190 Les Mées, France",
     "country": "France",
     "region": "Provence-Alpes-Côte d'Azur",
-    "total_hectares": 100.0,
+    "total_hectares": 100,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -852,14 +1076,18 @@
     "coordinates": {
       "latitude": 44.0161351,
       "longitude": 5.9923356
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc solaire Laudun",
     "location": "3PP5+MR, 30290 Laudun-l'Ardoise, France",
     "country": "France",
     "region": "Hauts-de-France",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -867,14 +1095,18 @@
     "coordinates": {
       "latitude": 44.0867,
       "longitude": 4.7096
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc Photovoltaïque SOL'R PARC Charente",
     "location": "V4HC+XM, 16230 Luxé, France",
     "country": "France",
     "region": "Nouvelle-Aquitaine",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -882,14 +1114,18 @@
     "coordinates": {
       "latitude": 45.8799375,
       "longitude": 0.1216875
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Mon Parc Solaire",
     "location": "1 place saint Louis, 78550 Bazainville, France",
     "country": "France",
     "region": "Auvergne-Rhône-Alpes",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 9 70 70 10 11",
@@ -897,14 +1133,18 @@
     "coordinates": {
       "latitude": 48.8039634,
       "longitude": 1.6669132
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc photovoltaïque Les Survoltés",
     "location": "30250 Aubais, France",
     "country": "France",
     "region": "Occitanie",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -912,14 +1152,18 @@
     "coordinates": {
       "latitude": 43.7466611,
       "longitude": 4.1436072
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc photovoltaique de La Fare-les-Oliviers",
     "location": "13580 La Fare-les-Oliviers, France",
     "country": "France",
     "region": "Provence-Alpes-Côte d'Azur",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -927,14 +1171,18 @@
     "coordinates": {
       "latitude": 43.5453084,
       "longitude": 5.1827547
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc solaire de La Mailleraie",
     "location": "PM3J+WQ, 24560 Faurilles, France",
     "country": "France",
     "region": "Nouvelle-Aquitaine",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -942,14 +1190,18 @@
     "coordinates": {
       "latitude": 44.7048422,
       "longitude": 0.6819238
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc Solaire De La Fossette",
     "location": "13270 Fos-sur-Mer, France",
     "country": "France",
     "region": "Provence-Alpes-Côte d'Azur",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -957,14 +1209,18 @@
     "coordinates": {
       "latitude": 43.46788,
       "longitude": 4.892512
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc solaire",
     "location": "CR 110, 34500 Béziers, France",
     "country": "France",
     "region": "Occitanie",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -972,14 +1228,18 @@
     "coordinates": {
       "latitude": 43.3443,
       "longitude": 3.141343
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Bâtiment Gratuit, Île-de-France: hangar agricole, serre solaire, autoconsommation",
     "location": null,
     "country": "France",
     "region": "",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 6 76 28 84 97",
@@ -987,14 +1247,18 @@
     "coordinates": {
       "latitude": 48.6807824,
       "longitude": 2.5026636
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Centrale photovoltaïque de Crucey-Villages",
     "location": "La Françonnière, 28270 Crucey-Villages, France",
     "country": "France",
     "region": "Centre-Val de Loire",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 2 37 48 21 72",
@@ -1002,14 +1266,18 @@
     "coordinates": {
       "latitude": 48.6383808,
       "longitude": 1.1139816
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc Solaire de Mézières-Lez-Cléry",
     "location": "45370 Mézières-lez-Cléry, France",
     "country": "France",
     "region": "Centre-Val de Loire",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1017,14 +1285,18 @@
     "coordinates": {
       "latitude": 47.8141859,
       "longitude": 1.8350201
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc solaire photovoltaïque",
     "location": "Les Rochettes, 39800 Picarreau, France",
     "country": "France",
     "region": "Bourgogne-Franche-Comté",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1032,14 +1304,18 @@
     "coordinates": {
       "latitude": 46.7449217,
       "longitude": 5.7512055
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Centrale Solaire De Pascialone",
     "location": "20250 Poggio-di-Venaco, France",
     "country": "France",
     "region": "Corse",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1047,14 +1323,18 @@
     "coordinates": {
       "latitude": 42.2708646,
       "longitude": 9.2191326
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Group France Eco Logis",
     "location": null,
     "country": "France",
     "region": "",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 6 61 87 20 20",
@@ -1062,14 +1342,18 @@
     "coordinates": {
       "latitude": 43.5407596,
       "longitude": 5.0218235
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Ferme Solaire",
     "location": "25 Av. Sainte-Victoire, 13100 Aix-en-Provence, France",
     "country": "France",
     "region": "Auvergne-Rhône-Alpes",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 4 12 28 02 41",
@@ -1077,14 +1361,18 @@
     "coordinates": {
       "latitude": 43.5320503,
       "longitude": 5.4533674
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc photovoltaïque des Tonnelles à St Varent",
     "location": "Les Tonnelles, 79330 Saint-Varent, France",
     "country": "France",
     "region": "Auvergne-Rhône-Alpes",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1092,14 +1380,18 @@
     "coordinates": {
       "latitude": 46.8863262,
       "longitude": -0.2490153
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc photovoltaique de Villegly",
     "location": "7CVG+Q5, 11600 Villegly, France",
     "country": "France",
     "region": "Occitanie",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1107,14 +1399,18 @@
     "coordinates": {
       "latitude": 43.294402,
       "longitude": 2.42541
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Concept' Energy Panneaux Solaires et Photovoltaïque",
     "location": "846 Route de Castelnau sur Gupie, 33580 Saint-Vivien-de-Monségur, France",
     "country": "France",
     "region": "Auvergne-Rhône-Alpes",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 5 54 13 02 46",
@@ -1122,14 +1418,18 @@
     "coordinates": {
       "latitude": 44.609081,
       "longitude": 0.114298
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc solaire Lac de Longchamps",
     "location": "52100 Perthes, France",
     "country": "France",
     "region": "Grand Est",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1137,14 +1437,18 @@
     "coordinates": {
       "latitude": 48.6666854,
       "longitude": 4.7804234
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Parc solaire",
     "location": "32550 Pavie, France",
     "country": "France",
     "region": "Occitanie",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1152,14 +1456,18 @@
     "coordinates": {
       "latitude": 43.6059951,
       "longitude": 0.6235486
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Photovoltaïque 83 - CCPV83",
     "location": "951 Av. Alphonse Lavallée, 83210 La Farlède, France",
     "country": "France",
     "region": "Provence-Alpes-Côte d'Azur",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 4 94 61 14 39",
@@ -1167,14 +1475,18 @@
     "coordinates": {
       "latitude": 43.1536067,
       "longitude": 6.0410417
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Centrale solaire Les Mées",
     "location": "04700 Puimichel, France",
     "country": "France",
     "region": "Provence-Alpes-Côte d'Azur",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1182,14 +1494,18 @@
     "coordinates": {
       "latitude": 43.9663763,
       "longitude": 5.9816004
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Metz",
     "location": "13 Rue Dembour, 57000 Metz, France",
     "country": "France",
     "region": "Grand Est",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 6 28 84 54 13",
@@ -1197,14 +1513,18 @@
     "coordinates": {
       "latitude": 49.10654,
       "longitude": 6.178518
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "France Solar",
     "location": "194 Av. de Strasbourg, 67170 Brumath, France",
     "country": "France",
     "region": "Grand Est",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 3 88 24 41 59",
@@ -1212,14 +1532,18 @@
     "coordinates": {
       "latitude": 48.7081352,
       "longitude": 7.7079214
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "WILLER JEROME",
     "location": "939 Chem. de Vermillere, 84160 Cadenet, France",
     "country": "France",
     "region": "Provence-Alpes-Côte d'Azur",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 6 52 77 62 59",
@@ -1227,14 +1551,18 @@
     "coordinates": {
       "latitude": 43.7429378,
       "longitude": 5.3573571
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "EnerVivo photovoltaïque",
     "location": "687 Rue du Moulin de Sémalen, 34000 Montpellier, France",
     "country": "France",
     "region": "Occitanie",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 6 76 49 59 01",
@@ -1242,14 +1570,18 @@
     "coordinates": {
       "latitude": 43.6108648,
       "longitude": 3.8957322
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "French Solar Industry",
     "location": "362 Rue des Safranés, 13830 Roquefort-la-Bédoule, France",
     "country": "France",
     "region": "Provence-Alpes-Côte d'Azur",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 9 80 80 38 24",
@@ -1257,14 +1589,18 @@
     "coordinates": {
       "latitude": 43.2578941,
       "longitude": 5.5873899
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Arkolia",
     "location": "ZAC de PIOM, 536 Rue du Rajol, 34130 Mauguio, France",
     "country": "France",
     "region": "Occitanie",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 4 67 40 47 03",
@@ -1272,14 +1608,18 @@
     "coordinates": {
       "latitude": 43.5847195,
       "longitude": 3.9430742
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "PRONERGIE PLUS",
     "location": "18 Av. De Plaisance, 47600 Nérac, France",
     "country": "France",
     "region": "Nouvelle-Aquitaine",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 6 43 85 92 52",
@@ -1287,14 +1627,18 @@
     "coordinates": {
       "latitude": 44.1406374,
       "longitude": 0.3426461
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Enair France",
     "location": "16 Pagueres de Luz, 31800 Lodes, France",
     "country": "France",
     "region": "Occitanie",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 7 83 18 25 72",
@@ -1302,14 +1646,18 @@
     "coordinates": {
       "latitude": 43.1732126,
       "longitude": 0.6817568
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Vercors Solaire",
     "location": "70 Tarze, 38680 Saint-André-en-Royans, France",
     "country": "France",
     "region": "Auvergne-Rhône-Alpes",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 7 55 62 49 94",
@@ -1317,14 +1665,18 @@
     "coordinates": {
       "latitude": 45.088825,
       "longitude": 5.331594
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "AgriSolarPV",
     "location": "34 Av. Clément Fayat, 32500 Fleurance, France",
     "country": "France",
     "region": "Occitanie",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+33 6 74 68 84 72",
@@ -1332,14 +1684,18 @@
     "coordinates": {
       "latitude": 43.8533213,
       "longitude": 0.6546433
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fermes solaires",
     "location": "225 Rue des Templiers, 59000 Lille, France",
     "country": "France",
     "region": "Hauts-de-France",
-    "total_hectares": 20.0,
+    "total_hectares": 20,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+48 664 607 308",
@@ -1347,14 +1703,18 @@
     "coordinates": {
       "latitude": 50.6337848,
       "longitude": 3.0217842
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Sywell solar farm",
     "location": "Mears Ashby, Northampton NN6 0BW, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1362,14 +1722,18 @@
     "coordinates": {
       "latitude": 52.3044563,
       "longitude": -0.7774846
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Cirencester Hybrid Solar Farm",
     "location": "Hybrid Solar Farm, Witpit Ln, Cirencester GL7 5PW, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1377,14 +1741,18 @@
     "coordinates": {
       "latitude": 51.710987,
       "longitude": -1.9299015
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Hartwell Solar Farm",
     "location": "Stonepit Farm, Hanslope Road, Hartwell, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1392,14 +1760,18 @@
     "coordinates": {
       "latitude": 52.1335969,
       "longitude": -0.844297
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Sandy Solar Panel Farm",
     "location": "1 Beamish Cl, Sandy SG19 1SD, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1407,14 +1779,18 @@
     "coordinates": {
       "latitude": 52.145019,
       "longitude": -0.2814864
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Gretton Solar Farm",
     "location": "Alderton, Cheltenham GL54 5HJ, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1422,14 +1798,18 @@
     "coordinates": {
       "latitude": 51.9851061,
       "longitude": -2.0054937
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Bilton-somerdon solar farm",
     "location": "319 Main Rd, Hull HU11 4DT, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+44 7598 546038",
@@ -1437,14 +1817,18 @@
     "coordinates": {
       "latitude": 53.7756902,
       "longitude": -0.2369192
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Long meadow solar farm",
     "location": "Unnamed Road, Leighton Buzzard LU7, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1452,14 +1836,18 @@
     "coordinates": {
       "latitude": 51.8486635,
       "longitude": -0.6362627
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Outwood Solar Farm",
     "location": "Outwood Farm Rd, Billericay CM11 2NA, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1467,14 +1855,18 @@
     "coordinates": {
       "latitude": 51.6184858,
       "longitude": 0.458157
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Watnall Solar Farm",
     "location": "Nottingham NG16 1HY, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1482,14 +1874,18 @@
     "coordinates": {
       "latitude": 53.0208539,
       "longitude": -1.2442292
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Atherstone Solar Farm",
     "location": "Mount Farm/Warton La, Atherstone CV9 3DT, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1497,14 +1893,18 @@
     "coordinates": {
       "latitude": 52.6105473,
       "longitude": -1.5624802
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "SantaPod Solar farm",
     "location": "Odell, Wellingborough NN29 7XA, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1512,14 +1912,18 @@
     "coordinates": {
       "latitude": 52.2363696,
       "longitude": -0.5954282
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "skeeby solar farm",
     "location": "Darlington Rd, Richmond DL10 7ED, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1527,14 +1931,18 @@
     "coordinates": {
       "latitude": 54.4123893,
       "longitude": -1.703373
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Creswell Solar Farm",
     "location": "Elmton, Worksop S80 4HT, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1542,14 +1950,18 @@
     "coordinates": {
       "latitude": 53.2513671,
       "longitude": -1.2122469
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Pressock Solar Farm",
     "location": "Forfar DD8 2SN, United Kingdom",
     "country": "United Kingdom",
     "region": "Scotland",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1557,14 +1969,18 @@
     "coordinates": {
       "latitude": 56.6355638,
       "longitude": -2.7060488
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Raventhorpe Solar Farm",
     "location": "Solar farm, Second Cottage, Raventhorpe, Scunthorpe DN16 3RH, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1572,14 +1988,18 @@
     "coordinates": {
       "latitude": 53.5582859,
       "longitude": -0.5823751
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Egmanton Solar Farm",
     "location": "Weston Rd, Newark NG22 0HH, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1587,14 +2007,18 @@
     "coordinates": {
       "latitude": 53.2110286,
       "longitude": -0.8799858
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Energy (UK) Ltd.",
     "location": "1 Wade House Ln, Drax, Selby YO8 8PN, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+44 800 022 3330",
@@ -1602,14 +2026,18 @@
     "coordinates": {
       "latitude": 53.7237739,
       "longitude": -0.9868363
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Condover Solar Park",
     "location": "Condover, Shrewsbury SY5 7AN, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+44 1942 718551",
@@ -1617,14 +2045,18 @@
     "coordinates": {
       "latitude": 52.6553301,
       "longitude": -2.729382
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Loch Craigs Solar Park",
     "location": "Stevenston KA20 4LB, United Kingdom",
     "country": "United Kingdom",
     "region": "Scotland",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1632,14 +2064,18 @@
     "coordinates": {
       "latitude": 55.656765,
       "longitude": -4.7377729
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Toyota Deeside Solar Park",
     "location": "Unnamed Road, CH5, Deeside, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1647,14 +2083,18 @@
     "coordinates": {
       "latitude": 53.2282872,
       "longitude": -3.0247801
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "West Raynham Solar Farm",
     "location": "Fakenham NR21 7PL, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1662,14 +2102,18 @@
     "coordinates": {
       "latitude": 52.7874045,
       "longitude": 0.7421309
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Aylesford Solar Park",
     "location": "Aylesford ME20 7FG, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1677,14 +2121,18 @@
     "coordinates": {
       "latitude": 51.310044,
       "longitude": 0.461014
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Place Farm Solar Park",
     "location": "Kenardington, Ashford TN26 2LX, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1692,14 +2140,18 @@
     "coordinates": {
       "latitude": 51.063185,
       "longitude": 0.8125149
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Gedling Solar Farm",
     "location": "Nottingham NG4 4PE, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1707,14 +2159,18 @@
     "coordinates": {
       "latitude": 52.9896406,
       "longitude": -1.079802
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Shotwick Solar Park",
     "location": "A548, Deeside CH64 5SP, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+44 20 3667 8100",
@@ -1722,14 +2178,18 @@
     "coordinates": {
       "latitude": 53.2385404,
       "longitude": -3.0182895
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Park",
     "location": "Leighton Buzzard LU7 9NE, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1737,14 +2197,18 @@
     "coordinates": {
       "latitude": 51.9251368,
       "longitude": -0.6033745
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Recycle Solar Technologies Limited",
     "location": "Woodhouse Road, Scunthorpe DN16 1BD, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+44 1724 304305",
@@ -1752,14 +2216,18 @@
     "coordinates": {
       "latitude": 53.5740221,
       "longitude": -0.6253222
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Mount Pleasant Solar Park",
     "location": "Standard Rd, Buckley CH7 3LY, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1767,14 +2235,18 @@
     "coordinates": {
       "latitude": 53.1775239,
       "longitude": -3.063312
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "South Farm Solar Park",
     "location": "Louse Ln, Spetisbury, Blandford Forum DT11 9EJ, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1782,14 +2254,18 @@
     "coordinates": {
       "latitude": 50.8069403,
       "longitude": -2.1359295
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Wessex Solar Energy",
     "location": "Barmoor Farm House, Hepscott, Morpeth NE61 6LB, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+44 345 222 5615",
@@ -1797,14 +2273,18 @@
     "coordinates": {
       "latitude": 55.1513961,
       "longitude": -1.6671398
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Wilbees Solar park",
     "location": "Unnamed Road, Polegate BN26 6SA, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1812,14 +2292,18 @@
     "coordinates": {
       "latitude": 50.839329,
       "longitude": 0.185973
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Shack",
     "location": "Unit 17 Green Lane Workspace, N Seaton Rd, Ashington NE63 0EF, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+44 7479 351951",
@@ -1827,14 +2311,18 @@
     "coordinates": {
       "latitude": 55.1756951,
       "longitude": -1.5681097
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Farm",
     "location": "Hurstbourne Priors, Whitchurch RG28 7RF, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1842,14 +2330,18 @@
     "coordinates": {
       "latitude": 51.2202701,
       "longitude": -1.3445424
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Marsh House Solar Park",
     "location": "Bentley, Farnham GU10 5EF, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1857,14 +2349,18 @@
     "coordinates": {
       "latitude": 51.2054821,
       "longitude": -0.8486751
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Bradley Road Solar Park",
     "location": "Southwick, Trowbridge BA14 9RH, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+44 1670 517888",
@@ -1872,14 +2368,18 @@
     "coordinates": {
       "latitude": 51.2921174,
       "longitude": -2.2220093
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Park - Woodhall Farm - Lower Broadheath",
     "location": "Worcester, UK",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1887,14 +2387,18 @@
     "coordinates": {
       "latitude": 52.2183737,
       "longitude": -2.3150181
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Blue House Solar Farm",
     "location": "JPMJ+H8, Billingham TS22 5PH, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1902,14 +2406,18 @@
     "coordinates": {
       "latitude": 54.6338154,
       "longitude": -1.2691514
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Malmaynes Solar Park",
     "location": "Malmaynes Hall Rd, Rochester ME3 9QU, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1917,14 +2425,18 @@
     "coordinates": {
       "latitude": 51.4486741,
       "longitude": 0.6129251
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Aspatria Solar Farm",
     "location": "Unnamed Rd,Wigton, Aspatria CA7 3JU, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1932,14 +2444,18 @@
     "coordinates": {
       "latitude": 54.7784868,
       "longitude": -3.3247361
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Power Park",
     "location": "Junction of Martineau Lane and A146, opposite, Arnold Miller Rd, Norwich NR1 2HX, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1947,14 +2463,18 @@
     "coordinates": {
       "latitude": 52.6110293,
       "longitude": 1.3071021
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Bristol Solar Energy Farm",
     "location": "Aztec West Business Park, 1550, Park Ave, Bristol BS32 4RX, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1962,14 +2482,18 @@
     "coordinates": {
       "latitude": 51.5458225,
       "longitude": -2.5774718
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Severn Beach Solar Farm",
     "location": "Severn Beach, Bristol BS35 4NL, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1977,14 +2501,18 @@
     "coordinates": {
       "latitude": 51.5588652,
       "longitude": -2.655562
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Larks Green Solar Farm and BESS",
     "location": "Lower Farm, Itchington, Bristol BS35 3TH, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -1992,14 +2520,18 @@
     "coordinates": {
       "latitude": 51.5807783,
       "longitude": -2.4909494
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Trecastle Solar Farm",
     "location": "Llanharry, Pontyclun CF72 9EZ, United Kingdom",
     "country": "United Kingdom",
     "region": "Wales",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2007,14 +2539,18 @@
     "coordinates": {
       "latitude": 51.5241465,
       "longitude": -3.4100603
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Hendrefawr Solar Farm",
     "location": "Aberdare CF44 9RJ, United Kingdom",
     "country": "United Kingdom",
     "region": "Wales",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2022,14 +2558,18 @@
     "coordinates": {
       "latitude": 51.7415411,
       "longitude": -3.5834118
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Poulshot Solar Farm",
     "location": "Poulshot, Devizes SN10 1RS, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2037,14 +2577,18 @@
     "coordinates": {
       "latitude": 51.3453498,
       "longitude": -2.0555764
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "PV solar farm",
     "location": "2C8J+F2, Yeovil BA22 7NB, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2052,14 +2596,18 @@
     "coordinates": {
       "latitude": 51.0160493,
       "longitude": -2.5699029
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fuse Energy Bullous Solar Park",
     "location": "Two Post Ln, Okehampton EX17 5AY, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2067,14 +2615,18 @@
     "coordinates": {
       "latitude": 50.7506461,
       "longitude": -3.8807502
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Oaklands Solar Farm",
     "location": "Unnamed Road, Wareham BH20 7PA, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2082,14 +2634,18 @@
     "coordinates": {
       "latitude": 50.7096051,
       "longitude": -2.1424784
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "NorthFarm Solar Farm",
     "location": "Spetisbury, Blandford Forum DT11 9AG, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2097,14 +2653,18 @@
     "coordinates": {
       "latitude": 50.8104373,
       "longitude": -2.1720064
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Wick Solar Farm",
     "location": "Wick Rd, Weston-super-Mare BS24 0HD, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2112,14 +2672,18 @@
     "coordinates": {
       "latitude": 51.2855175,
       "longitude": -2.9790638
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Holly Solar Farm",
     "location": "Owermoigne, Dorchester DT2 8HZ, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2127,14 +2691,18 @@
     "coordinates": {
       "latitude": 50.6797222,
       "longitude": -2.3204964
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Clifton Solar Farm",
     "location": "Clifton Maybank, Yeovil BA22 9UZ, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2142,14 +2710,18 @@
     "coordinates": {
       "latitude": 50.9126192,
       "longitude": -2.5964125
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Keele’s Low Carbon Energy Generation Park",
     "location": "Newcastle ST5 5BN, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2157,14 +2729,18 @@
     "coordinates": {
       "latitude": 52.9979337,
       "longitude": -2.2592146
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Polar Limited",
     "location": "11 Holkham Rd, Orton Southgate, Peterborough PE2 6TE, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+44 1733 813166",
@@ -2172,14 +2748,18 @@
     "coordinates": {
       "latitude": 52.5405765,
       "longitude": -0.3067475
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Green Energy Parks Limited",
     "location": "Eco Innovation Centre, City Rd, Peterborough PE1 1SA, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+44 1733 348468",
@@ -2187,14 +2767,18 @@
     "coordinates": {
       "latitude": 52.5740649,
       "longitude": -0.2402051
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "UK Eco Energy Solutions Ltd",
     "location": "Unit 1a, Kingsley Court, Kingsley Rd, Lincoln LN6 3TA, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+44 1522 700281",
@@ -2202,14 +2786,18 @@
     "coordinates": {
       "latitude": 53.2025366,
       "longitude": -0.6148
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Project Solar UK",
     "location": "Unit 1, Lakes Court, Lancaster Business Park, Burton-on-Trent DE13 9PD, United Kingdom",
     "country": "United Kingdom",
     "region": "England",
-    "total_hectares": 25.0,
+    "total_hectares": 25,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+44 800 112 3110",
@@ -2217,14 +2805,18 @@
     "coordinates": {
       "latitude": 52.8204801,
       "longitude": -1.7653263
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Steinach",
     "location": "94377 Steinach, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2232,14 +2824,18 @@
     "coordinates": {
       "latitude": 48.9392694,
       "longitude": 12.6400546
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Schrobenhausen",
     "location": "86529 Schrobenhausen, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2247,14 +2843,18 @@
     "coordinates": {
       "latitude": 48.5802426,
       "longitude": 11.2519035
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Mutlanger Heide",
     "location": "Weißdornweg 9, 73557 Mutlangen, Deutschland",
     "country": "Germany",
     "region": "Baden-Württemberg",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2262,14 +2862,18 @@
     "coordinates": {
       "latitude": 48.8125616,
       "longitude": 9.8049421
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark",
     "location": "94327 Bogen, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2277,14 +2881,18 @@
     "coordinates": {
       "latitude": 48.927456,
       "longitude": 12.6969593
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark",
     "location": "94559 Niederwinkling, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2292,14 +2900,18 @@
     "coordinates": {
       "latitude": 48.8806585,
       "longitude": 12.8323117
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark",
     "location": "A93, 93354 Siegenburg, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2307,14 +2919,18 @@
     "coordinates": {
       "latitude": 48.7625615,
       "longitude": 11.8815889
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark",
     "location": "84079 Bruckberg, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2322,14 +2938,18 @@
     "coordinates": {
       "latitude": 48.5110612,
       "longitude": 11.9830656
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Riedenburg",
     "location": "Katzensteig, 93339 Riedenburg, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 15.0,
+    "total_hectares": 15,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2337,14 +2957,18 @@
     "coordinates": {
       "latitude": 48.9703797,
       "longitude": 11.6705119
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Wolnzach",
     "location": "85283 Wolnzach, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2352,14 +2976,18 @@
     "coordinates": {
       "latitude": 48.6089143,
       "longitude": 11.668451
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Wang",
     "location": "85368 Wang, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2367,14 +2995,18 @@
     "coordinates": {
       "latitude": 48.4942845,
       "longitude": 12.0046242
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Bavaria",
     "location": "92360 Mühlhausen, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2382,14 +3014,18 @@
     "coordinates": {
       "latitude": 49.1588756,
       "longitude": 11.43399
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark",
     "location": "84030 Ergolding",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2397,14 +3033,18 @@
     "coordinates": {
       "latitude": 48.5775142,
       "longitude": 12.1467932
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark",
     "location": "84061 Ergoldsbach, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2412,14 +3052,18 @@
     "coordinates": {
       "latitude": 48.6761108,
       "longitude": 12.1962367
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark",
     "location": "E53, Deutschland",
     "country": "Germany",
     "region": "",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2427,14 +3071,18 @@
     "coordinates": {
       "latitude": 48.6392958,
       "longitude": 12.3841949
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark",
     "location": "94522 Wallersdorf",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2442,14 +3090,18 @@
     "coordinates": {
       "latitude": 48.7289472,
       "longitude": 12.7310187
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark",
     "location": "94209 Regen, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2457,14 +3109,18 @@
     "coordinates": {
       "latitude": 48.9698652,
       "longitude": 13.0539314
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark",
     "location": "94527 Aholming, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2472,14 +3128,18 @@
     "coordinates": {
       "latitude": 48.7503781,
       "longitude": 12.8771953
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark",
     "location": "94522 Wallersdorf, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2487,14 +3147,18 @@
     "coordinates": {
       "latitude": 48.7348895,
       "longitude": 12.7338854
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Schwarzach",
     "location": "94374 Schwarzach, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2502,14 +3166,18 @@
     "coordinates": {
       "latitude": 48.8960365,
       "longitude": 12.8139304
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solarstromanalage",
     "location": "Montfortstraße 4, 94560 Offenberg, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2517,14 +3185,18 @@
     "coordinates": {
       "latitude": 48.8649295,
       "longitude": 12.8854019
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solarstromanalage",
     "location": "Sandbankstraße 4, 94560 Offenberg, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2532,14 +3204,18 @@
     "coordinates": {
       "latitude": 48.8659791,
       "longitude": 12.8951384
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solarstromanalage",
     "location": "Weiherfeldstraße 4, 94560 Offenberg, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2547,14 +3223,18 @@
     "coordinates": {
       "latitude": 48.8612723,
       "longitude": 12.8974007
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solarstromanalage",
     "location": "Eichthalstraße 3, 94560 Offenberg, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2562,14 +3242,18 @@
     "coordinates": {
       "latitude": 48.8636359,
       "longitude": 12.8890482
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solarstromanalage",
     "location": "Steinbühler Weg 8, 94560 Offenberg, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2577,14 +3261,18 @@
     "coordinates": {
       "latitude": 48.8835028,
       "longitude": 12.8979291
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solarstromanalage",
     "location": "Harthamer Str. 15, 94560 Offenberg, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2592,14 +3280,18 @@
     "coordinates": {
       "latitude": 48.8737833,
       "longitude": 12.8522626
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solarstromanalage",
     "location": "Buchenweg 6, 94560 Offenberg, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2607,14 +3299,18 @@
     "coordinates": {
       "latitude": 48.8677642,
       "longitude": 12.8910584
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solarstromanalage",
     "location": "Am Weiherfeld 1, 94560 Offenberg, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2622,14 +3318,18 @@
     "coordinates": {
       "latitude": 48.8612831,
       "longitude": 12.8949716
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solarstromanalage",
     "location": "Hundshauser Str. 1, 94560 Offenberg",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2637,14 +3337,18 @@
     "coordinates": {
       "latitude": 48.8663891,
       "longitude": 12.8964101
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solastromanlage",
     "location": "Kothrettenbach 13, 93499 Zandt, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2652,14 +3356,18 @@
     "coordinates": {
       "latitude": 49.1205457,
       "longitude": 12.727122
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solastromanlage",
     "location": "Schwarzenbühl 1, 93468 Miltach, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2667,14 +3375,18 @@
     "coordinates": {
       "latitude": 49.1215924,
       "longitude": 12.7375005
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solastromanlage",
     "location": "Oberbühl 3, 93455 Traitsching, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2682,14 +3394,18 @@
     "coordinates": {
       "latitude": 49.1174392,
       "longitude": 12.651652
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solastromanlage",
     "location": "Hagendorf 11, 93455 Traitsching, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2697,14 +3413,18 @@
     "coordinates": {
       "latitude": 49.1185805,
       "longitude": 12.6599759
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Walddrehna Solar Park",
     "location": "Unnamed Road, 15926 Heideblick, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2712,14 +3432,18 @@
     "coordinates": {
       "latitude": 51.7734017,
       "longitude": 13.600577
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solastromanlage",
     "location": "Hagendorf 4, 93455 Traitsching, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2727,14 +3451,18 @@
     "coordinates": {
       "latitude": 49.1170178,
       "longitude": 12.6608603
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Hagenhöhe Solar Farm",
     "location": "PJRX+JQ, 91281 Kirchenthumbach, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2742,14 +3470,18 @@
     "coordinates": {
       "latitude": 49.7409598,
       "longitude": 11.6503269
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark",
     "location": "84152 Mengkofen, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2757,14 +3489,18 @@
     "coordinates": {
       "latitude": 48.7007355,
       "longitude": 12.385486
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark",
     "location": "94342 Straßkirchen, Deutschland",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2772,14 +3508,18 @@
     "coordinates": {
       "latitude": 48.8089334,
       "longitude": 12.7553861
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fotovoltaik-Solastromanlage",
     "location": "Haschabühl 1, 93455 Traitsching",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2787,14 +3527,18 @@
     "coordinates": {
       "latitude": 49.1167088,
       "longitude": 12.6791454
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Park Werneuchen Nord",
     "location": "16356 Werneuchen, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2802,14 +3546,18 @@
     "coordinates": {
       "latitude": 52.6431952,
       "longitude": 13.7547341
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Dallgow-Döberitz",
     "location": "14624 Dallgow-Döberitz, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2817,14 +3565,18 @@
     "coordinates": {
       "latitude": 52.5335157,
       "longitude": 13.115886
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar-Park Pentling",
     "location": "Kohlenschacht, 93080 Pentling",
     "country": "Germany",
     "region": "Bayern",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Sheep grazing",
     "contact_email": "",
     "contact_phone": null,
@@ -2832,14 +3584,18 @@
     "coordinates": {
       "latitude": 48.9993111,
       "longitude": 12.0550288
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "actively_grazed"
   },
   {
     "name": "Solarpark Perleberg (Flugplatz)",
     "location": "19348 Perleberg, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2847,14 +3603,18 @@
     "coordinates": {
       "latitude": 53.0687549,
       "longitude": 11.8143154
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Lieberose",
     "location": "Unnamed Road,03185, Turnow-Preilack, Deutschland",
     "country": "Germany",
     "region": "Sachsen",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2862,14 +3622,18 @@
     "coordinates": {
       "latitude": 51.9279218,
       "longitude": 14.405893
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Laubsdorf",
     "location": "Koppatzer Weg, 03058 Neuhausen/Spree, Deutschland",
     "country": "Germany",
     "region": "Sachsen",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Sheep grazing",
     "contact_email": "",
     "contact_phone": null,
@@ -2877,14 +3641,18 @@
     "coordinates": {
       "latitude": 51.6812844,
       "longitude": 14.4354756
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "actively_grazed"
   },
   {
     "name": "Solarpark Schönefeld",
     "location": "L70, 14947 Nuthe-Urstromtal, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2892,14 +3660,18 @@
     "coordinates": {
       "latitude": 52.0831189,
       "longitude": 13.322277
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Gottesgabe",
     "location": "J5RQ+4C, 15320 Neuhardenberg, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2907,14 +3679,18 @@
     "coordinates": {
       "latitude": 52.6403173,
       "longitude": 14.1885846
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Fernwald",
     "location": "Unnamed Road, 35463 Fernwald",
     "country": "Germany",
     "region": "Niedersachsen",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "06408 905315",
@@ -2922,14 +3698,18 @@
     "coordinates": {
       "latitude": 50.5591705,
       "longitude": 8.8137412
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Flugplatz Werneuchen-West",
     "location": "16356 Werneuchen, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2937,14 +3717,18 @@
     "coordinates": {
       "latitude": 52.6341409,
       "longitude": 13.7604149
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark",
     "location": "12529 Schönefeld, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2952,14 +3736,18 @@
     "coordinates": {
       "latitude": 52.408594,
       "longitude": 13.4558285
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Fürstenwalde Solar Park",
     "location": "Buchholzer Ch 1a, 15517 Fürstenwalde/Spree, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2967,14 +3755,18 @@
     "coordinates": {
       "latitude": 52.3928361,
       "longitude": 14.0958213
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Rüdersdorf",
     "location": "15378 Rüdersdorf bei Berlin",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "0172 3244961",
@@ -2982,14 +3774,18 @@
     "coordinates": {
       "latitude": 52.4949346,
       "longitude": 13.8572587
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Jännersdorf",
     "location": "16945 Marienfließ, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -2997,14 +3793,18 @@
     "coordinates": {
       "latitude": 53.3434355,
       "longitude": 12.0576618
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Perleberg Solar Park",
     "location": "19348 Perleberg, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -3012,14 +3812,18 @@
     "coordinates": {
       "latitude": 53.074032,
       "longitude": 11.8563563
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Finow Tower",
     "location": "16244 Schorfheide, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -3027,14 +3831,18 @@
     "coordinates": {
       "latitude": 52.8248536,
       "longitude": 13.7061931
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Neuenhagen",
     "location": "15366 Neuenhagen bei Berlin",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -3042,14 +3850,18 @@
     "coordinates": {
       "latitude": 52.5312957,
       "longitude": 13.71203
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Weesow-Willmersdorf",
     "location": "16356 Werneuchen, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -3057,14 +3869,18 @@
     "coordinates": {
       "latitude": 52.651958,
       "longitude": 13.6937826
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Groß Dölln",
     "location": "17268 Templin, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -3072,14 +3888,18 @@
     "coordinates": {
       "latitude": 53.0284493,
       "longitude": 13.5303019
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Eiche",
     "location": "16356 Ahrensfelde, Deutschland",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+49 2654 881920",
@@ -3087,14 +3907,18 @@
     "coordinates": {
       "latitude": 52.5623017,
       "longitude": 13.6030272
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solarpark Reckahn",
     "location": "14797 Kloster Lehnin",
     "country": "Germany",
     "region": "Berlin",
-    "total_hectares": 22.0,
+    "total_hectares": 22,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -3102,14 +3926,18 @@
     "coordinates": {
       "latitude": 52.3452786,
       "longitude": 12.5517965
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Kristal Solar Park",
     "location": "Marie Popelinstraat 469, 3920 Lommel, België",
     "country": "Belgium",
     "region": "",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -3117,14 +3945,18 @@
     "coordinates": {
       "latitude": 51.1999341,
       "longitude": 5.2469803
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "GreenVentures Cleantech",
     "location": "Av. J.B. Van Gysel 3, 1780 Wemmel, België",
     "country": "Belgium",
     "region": "Flanders",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+32 496 57 93 05",
@@ -3132,14 +3964,18 @@
     "coordinates": {
       "latitude": 50.9207302,
       "longitude": 4.3370165
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Power Systems",
     "location": "Abtsdreef 143/A6, 2940 Stabroek, België",
     "country": "Belgium",
     "region": "",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+32 3 640 39 50",
@@ -3147,14 +3983,18 @@
     "coordinates": {
       "latitude": 51.336614,
       "longitude": 4.355117
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "SolarPower Europe",
     "location": "Robert Schumanplein 4, 1040 Brussel, België",
     "country": "Belgium",
     "region": "Brussels",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+32 2 709 55 26",
@@ -3162,14 +4002,18 @@
     "coordinates": {
       "latitude": 50.8419272,
       "longitude": 4.3835916
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Ministry of Solar",
     "location": "Industriestraat 8c, 8755 Wingene, België",
     "country": "Belgium",
     "region": "Flanders",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+32 50 35 90 27",
@@ -3177,14 +4021,18 @@
     "coordinates": {
       "latitude": 51.0469333,
       "longitude": 3.4104892
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Belga Solar - Fabrication et installation de panneaux photovoltaïques belges",
     "location": "Zone d'activités Nord, 89, 5377 Baillonville, België",
     "country": "Belgium",
     "region": "Wallonia",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+32 86 38 81 38",
@@ -3192,14 +4040,18 @@
     "coordinates": {
       "latitude": 50.2940914,
       "longitude": 5.3505242
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar park electrowinds",
     "location": "8434 Middelkerke, België",
     "country": "Belgium",
     "region": "Flanders",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -3207,14 +4059,18 @@
     "coordinates": {
       "latitude": 51.13953,
       "longitude": 2.7646789
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "TBAC SOLAR PARK",
     "location": "Tervuursesteenweg 70, 1820 Steenokkerzeel, België",
     "country": "Belgium",
     "region": "Flanders",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": null,
@@ -3222,14 +4078,18 @@
     "coordinates": {
       "latitude": 50.8995254,
       "longitude": 4.5126484
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Batimont Solar Park",
     "location": "l, Leopold van Tyghemlaan 62, 8400 Oostende, België",
     "country": "Belgium",
     "region": "Flanders",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+32 494 58 11 71",
@@ -3237,14 +4097,18 @@
     "coordinates": {
       "latitude": 51.2168608,
       "longitude": 2.8865719
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "ebeco",
     "location": "Ondernemersstraat 5/bus 3, 3930 Hamont-Achel, België",
     "country": "Belgium",
     "region": "",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+32 488 24 42 43",
@@ -3252,14 +4116,18 @@
     "coordinates": {
       "latitude": 51.2456568,
       "longitude": 5.5149758
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Solar Engineering",
     "location": "Trawoollaan 1B, 1830 Machelen, België",
     "country": "Belgium",
     "region": "Flanders",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+32 467 09 90 99",
@@ -3267,14 +4135,18 @@
     "coordinates": {
       "latitude": 50.9175888,
       "longitude": 4.4365208
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Agrisolar",
     "location": "Robert Schumanplein 2/4, 1040 Brussel, België",
     "country": "Belgium",
     "region": "Brussels",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+32 490 64 97 52",
@@ -3282,14 +4154,18 @@
     "coordinates": {
       "latitude": 50.8419612,
       "longitude": 4.3834784
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Greenfarmerz : Installateur photovoltaïque, bornes de recharge, panneaux solaires",
     "location": null,
     "country": "Belgium",
     "region": "",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+32 2 887 84 17",
@@ -3297,14 +4173,18 @@
     "coordinates": {
       "latitude": 50.501038,
       "longitude": 4.4661
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "IQ Solar",
     "location": "Baron Van Loolaan 15, 9940 Evergem, België",
     "country": "Belgium",
     "region": "Flanders",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+32 9 279 54 05",
@@ -3312,14 +4192,18 @@
     "coordinates": {
       "latitude": 51.1267829,
       "longitude": 3.7485592
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   },
   {
     "name": "Batimont",
     "location": "Rolariusweg 7, 8800 Roeselare, België",
     "country": "Belgium",
     "region": "Flanders",
-    "total_hectares": 18.0,
+    "total_hectares": 18,
     "vegetation_type": "Mixed grass",
     "contact_email": "",
     "contact_phone": "+32 56 60 06 00",
@@ -3327,6 +4211,10 @@
     "coordinates": {
       "latitude": 50.9679618,
       "longitude": 3.1184159
-    }
+    },
+    "leading_edge_height": "unknown",
+    "wire_safety_status": "unknown",
+    "water_access": "unknown",
+    "grazing_status": "potentially_compatible"
   }
 ]
