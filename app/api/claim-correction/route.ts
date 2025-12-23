@@ -1,4 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
+import fs from 'fs';
+import path from 'path';
+
+const submissionsFile = path.join(process.cwd(), 'data', 'submissions.json');
 
 export async function POST(request: NextRequest) {
   try {
@@ -21,6 +25,30 @@ export async function POST(request: NextRequest) {
         { status: 400 }
       );
     }
+
+    // Read existing submissions
+    let submissions = [];
+    if (fs.existsSync(submissionsFile)) {
+      const data = fs.readFileSync(submissionsFile, 'utf8');
+      submissions = JSON.parse(data);
+    }
+
+    // Add new submission with timestamp
+    const submission = {
+      timestamp: new Date().toISOString(),
+      name,
+      email,
+      role,
+      relationship,
+      correction,
+      solarParkName,
+      solarParkLocation,
+      currentStatus
+    };
+    submissions.push(submission);
+
+    // Write back to file
+    fs.writeFileSync(submissionsFile, JSON.stringify(submissions, null, 2));
 
     // For now, just log the submission (in production, you'd email this)
     console.log('=== Grazing Status Claim/Correction Submission ===');
