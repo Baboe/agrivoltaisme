@@ -8,6 +8,24 @@ import { Separator } from "@/components/ui/separator";
 import { MapPin, Phone, Mail, Globe, Sun, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
+// Function to convert grazing status enum to display text
+function getGrazingStatusDisplay(status: string): string {
+  switch (status) {
+    case 'not_compatible':
+      return 'Not grazing compatible';
+    case 'potentially_compatible':
+      return 'Potentially grazing compatible';
+    case 'grazing_ready':
+      return 'Grazing ready';
+    case 'actively_grazed':
+      return 'Actively grazed';
+    case 'proven_case_study':
+      return 'Proven grazing case';
+    default:
+      return status;
+  }
+}
+
 interface PageProps {
   params: {
     country: string;
@@ -160,6 +178,11 @@ export default async function SolarParkDetailPage({ params }: PageProps) {
                     <div className="flex items-center text-gray-600 mb-4">
                       <MapPin className="h-5 w-5 mr-2" />
                       <span className="text-lg">{location}</span>
+                    </div>
+                    <div className="mb-4">
+                      <Badge variant="outline" className="text-lg px-4 py-2 bg-blue-50 text-blue-800 border-blue-200">
+                        {getGrazingStatusDisplay(solarPark.grazing_status)}
+                      </Badge>
                     </div>
                   </div>
                   <Badge variant="secondary" className="bg-green-100 text-green-800">

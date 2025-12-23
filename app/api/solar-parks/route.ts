@@ -64,6 +64,13 @@ export async function GET(request: NextRequest) {
       );
     }
 
+    // Apply grazing status filter
+    if (grazingStatus && grazingStatus !== 'all') {
+      filteredData = filteredData.filter(park =>
+        park.grazing_status === grazingStatus
+      );
+    }
+
     // Apply search filter
     if (search) {
       const searchLower = search.toLowerCase();
@@ -72,13 +79,6 @@ export async function GET(request: NextRequest) {
         (park.location && park.location.toLowerCase().includes(searchLower)) ||
         park.vegetation_type.toLowerCase().includes(searchLower) ||
         (park.region && park.region.toLowerCase().includes(searchLower))
-      );
-    }
-
-    // Apply grazing status filter
-    if (grazingStatus && grazingStatus !== 'all') {
-      filteredData = filteredData.filter(park =>
-        park.grazing_status === grazingStatus
       );
     }
 

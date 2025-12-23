@@ -19,6 +19,7 @@ interface DirectoryState {
     region: string;
     search: string;
     listingType: string;
+    grazingStatus: string;
   };
 }
 
@@ -33,6 +34,7 @@ export default function DirectoryClient() {
       region: 'all',
       search: '',
       listingType: 'all',
+      grazingStatus: 'all',
     },
   });
 
@@ -49,6 +51,7 @@ export default function DirectoryClient() {
             country: state.filters.country !== 'all' ? state.filters.country : undefined,
             region: state.filters.region !== 'all' ? state.filters.region : undefined,
             search: state.filters.search || undefined,
+            grazingStatus: state.filters.grazingStatus !== 'all' ? state.filters.grazingStatus : undefined,
             limit: 50,
           })
         );
@@ -191,7 +194,7 @@ export default function DirectoryClient() {
       {/* Search Filters */}
       <section className="py-6 bg-white shadow-md sticky top-0 z-10">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4">
             {/* Search */}
             <div className="lg:col-span-2">
               <div className="relative">
@@ -234,14 +237,31 @@ export default function DirectoryClient() {
                 </SelectContent>
               </Select>
             </div>
-            
+
+            {/* Grazing Status Filter */}
+            <div>
+              <Select value={state.filters.grazingStatus} onValueChange={(value) => handleFilterChange('grazingStatus', value)}>
+                <SelectTrigger>
+                  <SelectValue placeholder="All Grazing Status" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="all">All Grazing Status</SelectItem>
+                  <SelectItem value="grazing_ready">Grazing ready</SelectItem>
+                  <SelectItem value="actively_grazed">Actively grazed</SelectItem>
+                  <SelectItem value="potentially_compatible">Potentially compatible</SelectItem>
+                  <SelectItem value="not_compatible">Not compatible</SelectItem>
+                  <SelectItem value="proven_case_study">Proven case</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
             {/* Apply Filters Button */}
             <div>
-              <Button 
+              <Button
                 className="w-full bg-green-600 hover:bg-green-700"
                 onClick={fetchData}
               >
-                <Filter className="mr-2 h-4 w-4" /> 
+                <Filter className="mr-2 h-4 w-4" />
                 Refresh
               </Button>
             </div>
@@ -320,8 +340,8 @@ export default function DirectoryClient() {
               <p className="text-gray-500 mb-4">
                 Try adjusting your search criteria or browse all listings.
               </p>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 onClick={() => setState(prev => ({
                   ...prev,
                   filters: {
@@ -329,6 +349,7 @@ export default function DirectoryClient() {
                     region: 'all',
                     search: '',
                     listingType: 'all',
+                    grazingStatus: 'all',
                   },
                 }))}
               >
