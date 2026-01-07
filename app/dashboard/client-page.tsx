@@ -114,15 +114,48 @@ export default function DashboardPage() {
             <Sheep className="h-8 w-8 text-green-600" />
           )}
         </div>
-        <h2 className="text-xl font-bold mb-2">Get Started with Ombaa</h2>
-        <p className="text-gray-600 max-w-md mx-auto mb-4">
-          {user.role === "solar_farm"
-            ? "List your first solar farm property to start connecting with shepherds for eco-friendly grazing."
-            : "Complete your shepherd profile and start browsing available grazing opportunities at solar farms."}
+        <h2 className="text-xl font-bold mb-2">Can we Get Started</h2>
+        <p className="text-gray-600 max-w-md mx-auto mb-6">
+          To start counting visitors and page views, follow these steps.
         </p>
-        <Button className="bg-green-600 hover:bg-green-700">
-          {user.role === "solar_farm" ? "Add Your First Property" : "Browse Opportunities"}
-        </Button>
+        <div className="bg-white rounded-lg border border-gray-200 p-6 text-left max-w-2xl mx-auto">
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="text-lg font-semibold">Next.js</h3>
+          </div>
+          <ol className="space-y-4 text-gray-700">
+            <li>
+              <p className="font-semibold">1. Install our package</p>
+              <p className="text-sm text-gray-600 mt-1">
+                Start by installing @vercel/analytics in your existing project.
+              </p>
+              <div className="mt-2 rounded-md bg-gray-100 px-3 py-2 text-sm font-mono text-gray-800">
+                npm i @vercel/analytics
+              </div>
+            </li>
+            <li>
+              <p className="font-semibold">2. Add the React component</p>
+              <p className="text-sm text-gray-600 mt-1">
+                Import and use the {"<Analytics />"} React component into your app&apos;s layout.
+              </p>
+              <div className="mt-2 rounded-md bg-gray-100 px-3 py-2 text-sm font-mono text-gray-800">
+                import {"{ Analytics }"} from &quot;@vercel/analytics/next&quot;
+              </div>
+              <p className="text-xs text-gray-500 mt-2">
+                For full examples and further reference, please refer to our documentation.
+              </p>
+            </li>
+            <li>
+              <p className="font-semibold">3. Deploy &amp; Visit your Site</p>
+              <p className="text-sm text-gray-600 mt-1">
+                Deploy your changes and visit the deployment to collect your page views.
+              </p>
+              <p className="text-xs text-gray-500 mt-2">
+                If you don&apos;t see data after 30 seconds, please check for content blockers and try
+                to navigate between pages on your site.
+              </p>
+            </li>
+          </ol>
+        </div>
       </div>
     </div>
   )
