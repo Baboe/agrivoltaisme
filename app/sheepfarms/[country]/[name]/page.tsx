@@ -18,7 +18,7 @@ interface PageProps {
 // Generate static metadata for SEO
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const decodedName = decodeURIComponent(params.name);
-  const sheepFarm = await fetchSheepFarmByName(decodedName);
+  const sheepFarm = await fetchSheepFarmByName(decodedName, params.country);
   
   if (!sheepFarm) {
     return {
@@ -100,7 +100,7 @@ export async function generateStructuredData(sheepFarm: any) {
 
 export default async function SheepFarmDetailPage({ params }: PageProps) {
   const decodedName = decodeURIComponent(params.name);
-  const sheepFarm = await fetchSheepFarmByName(decodedName);
+  const sheepFarm = await fetchSheepFarmByName(decodedName, params.country);
 
   if (!sheepFarm) {
     notFound();

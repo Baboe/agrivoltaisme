@@ -55,7 +55,7 @@ interface PageProps {
 // Generate static metadata for SEO
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const decodedName = decodeURIComponent(params.name);
-  const solarPark = await fetchSolarParkByName(decodedName);
+  const solarPark = await fetchSolarParkByName(decodedName, params.country);
   
   if (!solarPark) {
     return {
@@ -132,7 +132,7 @@ export async function generateStructuredData(solarPark: any) {
 
 export default async function SolarParkDetailPage({ params }: PageProps) {
   const decodedName = decodeURIComponent(params.name);
-  const solarPark = await fetchSolarParkByName(decodedName);
+  const solarPark = await fetchSolarParkByName(decodedName, params.country);
 
   if (!solarPark) {
     notFound();
