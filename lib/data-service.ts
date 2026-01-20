@@ -103,11 +103,27 @@ export async function fetchSheepFarms(params: SearchParams = {}): Promise<ApiRes
 }
 
 // Get single solar park by name (for detail pages)
-export async function fetchSolarParkByName(name: string): Promise<SolarPark | null> {
+const normalizeCountryValue = (country: string): string => country.trim().toLowerCase();
+
+const isMatchingCountry = (recordCountry: string, requestedCountry: string): boolean => {
+  return normalizeCountryValue(recordCountry) === normalizeCountryValue(requestedCountry);
+};
+
+export async function fetchSolarParkByName(name: string, country: string): Promise<SolarPark | null> {
   try {
-    const response = await fetch(`/api/solar-parks?search=${encodeURIComponent(name)}&limit=1`);
+    const searchParams = new URLSearchParams();
+    searchParams.append('search', name);
+    searchParams.append('country', normalizeCountryValue(country));
+    searchParams.append('limit', '1');
+    const response = await fetch(`/api/solar-parks?${searchParams.toString()}`);
     const data = await response.json();
-    return data.data.length > 0 ? data.data[0] : null;
+    const record = data.data.length > 0 ? data.data[0] : null;
+
+    if (!record || !isMatchingCountry(record.country, country)) {
+      return null;
+    }
+
+    return record;
   } catch (error) {
     console.error('Error fetching solar park:', error);
     return null;
@@ -115,17 +131,21 @@ export async function fetchSolarParkByName(name: string): Promise<SolarPark | nu
 }
 
 // Get single sheep farm by name (for detail pages)
-export async function fetchSheepFarmByName(name: string, country?: string): Promise<SheepFarm | null> {
+export async function fetchSheepFarmByName(name: string, country: string): Promise<SheepFarm | null> {
   try {
     const searchParams = new URLSearchParams();
-    searchParams.append('search', encodeURIComponent(name));
-    if (country) {
-      searchParams.append('country', country.toLowerCase());
-    }
+    searchParams.append('search', name);
+    searchParams.append('country', normalizeCountryValue(country));
     searchParams.append('limit', '1');
     const response = await fetch(`/api/sheep-farms?${searchParams.toString()}`);
     const data = await response.json();
-    return data.data.length > 0 ? data.data[0] : null;
+    const record = data.data.length > 0 ? data.data[0] : null;
+
+    if (!record || !isMatchingCountry(record.country, country)) {
+      return null;
+    }
+
+    return record;
   } catch (error) {
     console.error('Error fetching sheep farm:', error);
     return null;
