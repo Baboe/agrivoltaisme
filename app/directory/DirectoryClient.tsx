@@ -30,7 +30,7 @@ export default function DirectoryClient() {
     loading: true,
     error: null,
     filters: {
-      country: 'all',
+      country: 'netherlands',  // NL-first: default to Netherlands
       region: 'all',
       search: '',
       listingType: 'all',
@@ -133,7 +133,7 @@ export default function DirectoryClient() {
         <section className="bg-gradient-to-br from-green-600 to-green-700 text-white py-12">
           <div className="container mx-auto px-4">
             <h1 className="text-3xl md:text-4xl font-bold mb-4">Solar Grazing Directory</h1>
-            <p className="text-xl mb-8">Connect with shepherds and solar farms across Netherlands, Belgium, France, and Germany</p>
+            <p className="text-xl mb-8">Loading Netherlands listings — our most comprehensive market</p>
           </div>
         </section>
         <section className="py-12">
@@ -178,7 +178,9 @@ export default function DirectoryClient() {
         <div className="container mx-auto px-4">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">Solar Grazing Directory</h1>
           <p className="text-xl mb-8">
-            Connect with shepherds and solar farms across Netherlands, Belgium, France, and Germany
+            {state.filters.country === 'netherlands' 
+              ? 'Explore the Netherlands — our most comprehensive market with 119 verified listings'
+              : 'Connect with shepherds and solar farms across Europe'}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button asChild size="lg" className="bg-white text-green-700 hover:bg-gray-100">
@@ -212,14 +214,14 @@ export default function DirectoryClient() {
             <div>
               <Select value={state.filters.country} onValueChange={(value) => handleFilterChange('country', value)}>
                 <SelectTrigger>
-                  <SelectValue placeholder="All Countries" />
+                  <SelectValue placeholder="Netherlands" />
                 </SelectTrigger>
                 <SelectContent>
+                  <SelectItem value="netherlands">🇳🇱 Netherlands</SelectItem>
+                  <SelectItem value="germany">🇩🇪 Germany</SelectItem>
+                  <SelectItem value="france">🇫🇷 France</SelectItem>
+                  <SelectItem value="belgium">🇧🇪 Belgium</SelectItem>
                   <SelectItem value="all">All Countries</SelectItem>
-                  <SelectItem value="netherlands">Netherlands</SelectItem>
-                  <SelectItem value="belgium">Belgium</SelectItem>
-                  <SelectItem value="france">France</SelectItem>
-                  <SelectItem value="germany">Germany</SelectItem>
                 </SelectContent>
               </Select>
             </div>
@@ -345,7 +347,7 @@ export default function DirectoryClient() {
                 onClick={() => setState(prev => ({
                   ...prev,
                   filters: {
-                    country: 'all',
+                    country: 'netherlands',
                     region: 'all',
                     search: '',
                     listingType: 'all',
@@ -353,7 +355,7 @@ export default function DirectoryClient() {
                   },
                 }))}
               >
-                Clear Filters
+                Reset to Netherlands
               </Button>
             </div>
           </div>
