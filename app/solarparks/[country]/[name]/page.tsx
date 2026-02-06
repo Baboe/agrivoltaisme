@@ -5,9 +5,15 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { MapPin, Phone, Mail, Globe, Sun, ArrowLeft } from "lucide-react";
+import { MapPin, Phone, Mail, Globe, Sun, ArrowLeft, Droplets, Ruler, Zap } from "lucide-react";
 import Link from "next/link";
 import ClaimCorrectionForm from "@/components/claim-correction-form";
+import { 
+  VerificationBadge, 
+  isUnknownValue, 
+  isPlaceholderHectares, 
+  isDefaultVegetation 
+} from "@/components/verification-badge";
 
 // Function to convert grazing status enum to display text
 function getGrazingStatusDisplay(status: string): string {
@@ -42,6 +48,35 @@ function getGrazingStatusMicrocopy(status: string): string {
       return 'Documented grazing project';
     default:
       return '';
+  }
+}
+
+// Format technical specifications with human-readable values
+function formatLeadingEdgeHeight(value: string): string {
+  switch (value) {
+    case '<20_in': return 'Under 20 inches';
+    case '20_30_in': return '20-30 inches';
+    case '>30_in': return 'Over 30 inches';
+    case 'unknown': return 'Unknown';
+    default: return value;
+  }
+}
+
+function formatWireSafetyStatus(value: string): string {
+  switch (value) {
+    case 'safe_bundled': return 'Safe (bundled)';
+    case 'exposed_looping': return 'Exposed/looping';
+    case 'unknown': return 'Unknown';
+    default: return value;
+  }
+}
+
+function formatWaterAccess(value: string): string {
+  switch (value) {
+    case 'on_site_water': return 'On-site water';
+    case 'no_water': return 'No water';
+    case 'unknown': return 'Unknown';
+    default: return value;
   }
 }
 
@@ -140,6 +175,14 @@ export default async function SolarParkDetailPage({ params }: PageProps) {
 
   const location = formatLocation(solarPark.location, solarPark.region, solarPark.country);
   const contact = formatContactInfo(solarPark.contact_phone, solarPark.contact_email, solarPark.website);
+  
+  // Determine which fields need verification badges
+  const hectaresNeedsVerification = isPlaceholderHectares(solarPark.total_hectares);
+  const vegetationNeedsVerification = isDefaultVegetation(solarPark.vegetation_type);
+  const leadingEdgeUnknown = isUnknownValue(solarPark.leading_edge_height);
+  const wireSafetyUnknown = isUnknownValue(solarPark.wire_safety_status);
+  const waterAccessUnknown = isUnknownValue(solarPark.water_access);
+  const hasNoContact = !contact.phone && !contact.email && !contact.website;
 
   // Generate breadcrumbs for navigation
   const breadcrumbs = [
@@ -239,11 +282,17 @@ export default async function SolarParkDetailPage({ params }: PageProps) {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Park Size</h4>
-                    <p className="text-gray-600">{solarPark.total_hectares} hectares</p>
+                    <div className="flex items-center gap-2">
+                      <p className="text-gray-600">{solarPark.total_hectares} hectares</p>
+                      {hectaresNeedsVerification && <VerificationBadge variant="not-verified" />}
+                    </div>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Vegetation Type</h4>
-                    <p className="text-gray-600">{solarPark.vegetation_type}</p>
+                    <div className="flex items-center gap-2">
+                      <p className="text-gray-600">{solarPark.vegetation_type}</p>
+                      {vegetationNeedsVerification && <VerificationBadge variant="not-verified" />}
+                    </div>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Country</h4>
@@ -255,6 +304,53 @@ export default async function SolarParkDetailPage({ params }: PageProps) {
                       <p className="text-gray-600">{solarPark.region}</p>
                     </div>
                   )}
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Grazing Infrastructure */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center">
+                  <Zap className="mr-2 h-5 w-5" />
+                  Grazing Infrastructure
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div>
+                    <div className="flex items-center gap-2 mb-2">
+                      <Ruler className="h-4 w-4 text-gray-500" />
+                      <h4 className="font-semibold text-gray-900">Leading Edge Height</h4>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <p className="text-gray-600">{formatLeadingEdgeHeight(solarPark.leading_edge_height)}</p>
+                      {leadingEdgeUnknown && <VerificationBadge variant="unknown" />}
+                    </div>
+                    <p className="text-xs text-gray-500 mt-1">Minimum clearance for sheep access</p>
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2 mb-2">
+                      <Zap className="h-4 w-4 text-gray-500" />
+                      <h4 className="font-semibold text-gray-900">Wire Safety</h4>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <p className="text-gray-600">{formatWireSafetyStatus(solarPark.wire_safety_status)}</p>
+                      {wireSafetyUnknown && <VerificationBadge variant="unknown" />}
+                    </div>
+                    <p className="text-xs text-gray-500 mt-1">Cable management status</p>
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2 mb-2">
+                      <Droplets className="h-4 w-4 text-gray-500" />
+                      <h4 className="font-semibold text-gray-900">Water Access</h4>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <p className="text-gray-600">{formatWaterAccess(solarPark.water_access)}</p>
+                      {waterAccessUnknown && <VerificationBadge variant="unknown" />}
+                    </div>
+                    <p className="text-xs text-gray-500 mt-1">On-site water availability</p>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -292,7 +388,7 @@ export default async function SolarParkDetailPage({ params }: PageProps) {
                 <CardTitle>Contact Information</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                {contact.phone && (
+                {contact.phone ? (
                   <div className="flex items-center">
                     <Phone className="h-5 w-5 text-gray-400 mr-3" />
                     <div>
@@ -302,9 +398,17 @@ export default async function SolarParkDetailPage({ params }: PageProps) {
                       </a>
                     </div>
                   </div>
+                ) : (
+                  <div className="flex items-center">
+                    <Phone className="h-5 w-5 text-gray-300 mr-3" />
+                    <div>
+                      <p className="font-medium text-gray-400">Phone</p>
+                      <p className="text-gray-400 text-sm">Not available</p>
+                    </div>
+                  </div>
                 )}
                 
-                {contact.email && (
+                {contact.email ? (
                   <div className="flex items-center">
                     <Mail className="h-5 w-5 text-gray-400 mr-3" />
                     <div>
@@ -314,9 +418,17 @@ export default async function SolarParkDetailPage({ params }: PageProps) {
                       </a>
                     </div>
                   </div>
+                ) : (
+                  <div className="flex items-center">
+                    <Mail className="h-5 w-5 text-gray-300 mr-3" />
+                    <div>
+                      <p className="font-medium text-gray-400">Email</p>
+                      <p className="text-gray-400 text-sm">Not available</p>
+                    </div>
+                  </div>
                 )}
 
-                {contact.website && (
+                {contact.website ? (
                   <div className="flex items-center">
                     <Globe className="h-5 w-5 text-gray-400 mr-3" />
                     <div>
@@ -329,6 +441,14 @@ export default async function SolarParkDetailPage({ params }: PageProps) {
                       >
                         Visit Website
                       </a>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="flex items-center">
+                    <Globe className="h-5 w-5 text-gray-300 mr-3" />
+                    <div>
+                      <p className="font-medium text-gray-400">Website</p>
+                      <p className="text-gray-400 text-sm">Not available</p>
                     </div>
                   </div>
                 )}
@@ -348,13 +468,19 @@ export default async function SolarParkDetailPage({ params }: PageProps) {
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
-                  <div className="flex justify-between">
+                  <div className="flex justify-between items-center">
                     <span className="text-gray-600">Total Area</span>
-                    <span className="font-medium">{solarPark.total_hectares} ha</span>
+                    <div className="flex items-center gap-1">
+                      <span className="font-medium">{solarPark.total_hectares} ha</span>
+                      {hectaresNeedsVerification && <VerificationBadge variant="not-verified" />}
+                    </div>
                   </div>
-                  <div className="flex justify-between">
+                  <div className="flex justify-between items-center">
                     <span className="text-gray-600">Vegetation</span>
-                    <span className="font-medium">{solarPark.vegetation_type}</span>
+                    <div className="flex items-center gap-1">
+                      <span className="font-medium">{solarPark.vegetation_type}</span>
+                      {vegetationNeedsVerification && <VerificationBadge variant="not-verified" />}
+                    </div>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Seeking</span>
