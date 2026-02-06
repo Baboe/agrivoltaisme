@@ -27,4 +27,21 @@ Continue building your app on:
 1. Create and modify your project using [v0.dev](https://v0.dev)
 2. Deploy your chats from the v0 interface
 3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository"# Build verification - all Metadata imports are correctly implemented"  
+4. Vercel deploys the latest version from this repository
+
+---
+
+## Development Notes
+
+### Claims Storage (Temporary)
+
+The "Claim Your Listing" feature (`/api/claims/*`) currently uses **file-based storage** (`data/claims.json`).
+
+⚠️ **This is ephemeral on Vercel** — data will not persist between deployments or serverless cold starts. This is intentional for the development phase.
+
+**For production**, replace with:
+- PostgreSQL/Supabase
+- Vercel KV/Redis
+- External database
+
+The `claims.json` file is gitignored (contains PII). The claims service (`lib/claims-service.ts`) is designed for easy migration to a real database.  

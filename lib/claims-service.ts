@@ -61,6 +61,9 @@ export interface ClaimResult {
 }
 
 // File-based storage (simple, works with serverless)
+// ⚠️ TEMPORARY DEV STORAGE: Ephemeral on Vercel - data won't persist between 
+// deployments or cold starts. Replace with PostgreSQL/Supabase for production.
+// See README.md for migration notes.
 const CLAIMS_FILE = path.join(process.cwd(), 'data', 'claims.json');
 
 function ensureDataDir() {
