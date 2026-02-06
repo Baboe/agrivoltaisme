@@ -1,6 +1,7 @@
 import { type Metadata } from "next";
 import { notFound } from "next/navigation";
 import { fetchSolarParkByName, formatLocation, formatContactInfo } from "@/lib/data-service";
+import { isListingClaimed, generateListingId } from "@/lib/claims-service";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -8,6 +9,8 @@ import { Separator } from "@/components/ui/separator";
 import { MapPin, Phone, Mail, Globe, Sun, ArrowLeft, Droplets, Ruler, Zap } from "lucide-react";
 import Link from "next/link";
 import ClaimCorrectionForm from "@/components/claim-correction-form";
+import ClaimBusinessLink from "@/components/claim-business-link";
+import ClaimedBadge from "@/components/claimed-badge";
 import { 
   VerificationBadge, 
   isUnknownValue, 
@@ -175,6 +178,10 @@ export default async function SolarParkDetailPage({ params }: PageProps) {
 
   const location = formatLocation(solarPark.location, solarPark.region, solarPark.country);
   const contact = formatContactInfo(solarPark.contact_phone, solarPark.contact_email, solarPark.website);
+  
+  // Check claim status
+  const listingId = generateListingId(solarPark.name, 'solar-park');
+  const isClaimed = isListingClaimed(listingId);
   
   // Determine which fields need verification badges
   const hectaresNeedsVerification = isPlaceholderHectares(solarPark.total_hectares);
@@ -385,7 +392,10 @@ export default async function SolarParkDetailPage({ params }: PageProps) {
             {/* Contact Information */}
             <Card>
               <CardHeader>
-                <CardTitle>Contact Information</CardTitle>
+                <div className="flex items-center justify-between">
+                  <CardTitle>Contact Information</CardTitle>
+                  {isClaimed && <ClaimedBadge />}
+                </div>
               </CardHeader>
               <CardContent className="space-y-4">
                 {contact.phone ? (
@@ -450,6 +460,19 @@ export default async function SolarParkDetailPage({ params }: PageProps) {
                       <p className="font-medium text-gray-400">Website</p>
                       <p className="text-gray-400 text-sm">Not available</p>
                     </div>
+                  </div>
+                )}
+
+                {!isClaimed && (
+                  <div className="pt-2">
+                    <ClaimBusinessLink
+                      listingId={listingId}
+                      listingName={solarPark.name}
+                      listingType="solar-park"
+                    />
+                    <p className="text-xs text-gray-400 mt-1">
+                      Help us keep OMBAA accurate by verifying ownership.
+                    </p>
                   </div>
                 )}
 
