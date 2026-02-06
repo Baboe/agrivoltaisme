@@ -1,12 +1,15 @@
 import { type Metadata } from "next";
 import { notFound } from "next/navigation";
 import { fetchSheepFarmByName, formatLocation, formatContactInfo } from "@/lib/data-service";
+import { isListingClaimed, generateListingId } from "@/lib/claims-service";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { MapPin, Phone, Mail, Globe, ArrowLeft, Users, Wheat } from "lucide-react";
 import Link from "next/link";
+import ClaimBusinessLink from "@/components/claim-business-link";
+import ClaimedBadge from "@/components/claimed-badge";
 import { 
   VerificationBadge, 
   isPlaceholderFlockSize, 
@@ -114,6 +117,10 @@ export default async function SheepFarmDetailPage({ params }: PageProps) {
 
   const location = formatLocation(sheepFarm.location, sheepFarm.region, sheepFarm.country);
   const contact = formatContactInfo(sheepFarm.contact_phone, sheepFarm.contact_email, sheepFarm.website);
+
+  // Check claim status
+  const listingId = generateListingId(sheepFarm.name, 'sheep-farm');
+  const isClaimed = isListingClaimed(listingId);
 
   // Determine which fields need verification badges
   const flockSizeNeedsVerification = isPlaceholderFlockSize(sheepFarm.flock_size);
@@ -297,7 +304,10 @@ export default async function SheepFarmDetailPage({ params }: PageProps) {
             {/* Contact Information */}
             <Card>
               <CardHeader>
-                <CardTitle>Contact Information</CardTitle>
+                <div className="flex items-center justify-between">
+                  <CardTitle>Contact Information</CardTitle>
+                  {isClaimed && <ClaimedBadge />}
+                </div>
               </CardHeader>
               <CardContent className="space-y-4">
                 {contact.phone ? (
@@ -362,6 +372,19 @@ export default async function SheepFarmDetailPage({ params }: PageProps) {
                       <p className="font-medium text-gray-400">Website</p>
                       <p className="text-gray-400 text-sm">Not available</p>
                     </div>
+                  </div>
+                )}
+
+                {!isClaimed && (
+                  <div className="pt-2">
+                    <ClaimBusinessLink
+                      listingId={listingId}
+                      listingName={sheepFarm.name}
+                      listingType="sheep-farm"
+                    />
+                    <p className="text-xs text-gray-400 mt-1">
+                      Help us keep OMBAA accurate by verifying ownership.
+                    </p>
                   </div>
                 )}
 
