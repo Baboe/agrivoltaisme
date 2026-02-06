@@ -28,3 +28,7 @@ next-env.d.ts
 
 # raw data dumps (crawled from Google Places, etc.)
 /data/raw/
+
+# claims data (contains PII - keep structure, ignore actual data)
+# Note: claims.json is gitignored in production but we keep an empty template
+/data/claims.json
