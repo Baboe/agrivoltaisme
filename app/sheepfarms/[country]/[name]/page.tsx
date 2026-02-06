@@ -7,6 +7,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { MapPin, Phone, Mail, Globe, ArrowLeft, Users, Wheat } from "lucide-react";
 import Link from "next/link";
+import { 
+  VerificationBadge, 
+  isPlaceholderFlockSize, 
+  isDefaultBreed, 
+  isDefaultGrazingType 
+} from "@/components/verification-badge";
 
 interface PageProps {
   params: {
@@ -109,6 +115,11 @@ export default async function SheepFarmDetailPage({ params }: PageProps) {
   const location = formatLocation(sheepFarm.location, sheepFarm.region, sheepFarm.country);
   const contact = formatContactInfo(sheepFarm.contact_phone, sheepFarm.contact_email, sheepFarm.website);
 
+  // Determine which fields need verification badges
+  const flockSizeNeedsVerification = isPlaceholderFlockSize(sheepFarm.flock_size);
+  const breedNeedsVerification = isDefaultBreed(sheepFarm.breed);
+  const grazingTypeNeedsVerification = isDefaultGrazingType(sheepFarm.grazing_type);
+
   // Generate breadcrumbs for navigation
   const breadcrumbs = [
     { name: "Home", href: "/" },
@@ -195,15 +206,24 @@ export default async function SheepFarmDetailPage({ params }: PageProps) {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Flock Size</h4>
-                    <p className="text-gray-600">{sheepFarm.flock_size} sheep</p>
+                    <div className="flex items-center gap-2">
+                      <p className="text-gray-600">{sheepFarm.flock_size} sheep</p>
+                      {flockSizeNeedsVerification && <VerificationBadge variant="not-verified" />}
+                    </div>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Sheep Breed</h4>
-                    <p className="text-gray-600">{sheepFarm.breed}</p>
+                    <div className="flex items-center gap-2">
+                      <p className="text-gray-600">{sheepFarm.breed}</p>
+                      {breedNeedsVerification && <VerificationBadge variant="not-verified" />}
+                    </div>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Grazing Type</h4>
-                    <p className="text-gray-600">{sheepFarm.grazing_type}</p>
+                    <div className="flex items-center gap-2">
+                      <p className="text-gray-600">{sheepFarm.grazing_type}</p>
+                      {grazingTypeNeedsVerification && <VerificationBadge variant="not-verified" />}
+                    </div>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Country</h4>
@@ -280,7 +300,7 @@ export default async function SheepFarmDetailPage({ params }: PageProps) {
                 <CardTitle>Contact Information</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                {contact.phone && (
+                {contact.phone ? (
                   <div className="flex items-center">
                     <Phone className="h-5 w-5 text-gray-400 mr-3" />
                     <div>
@@ -290,9 +310,17 @@ export default async function SheepFarmDetailPage({ params }: PageProps) {
                       </a>
                     </div>
                   </div>
+                ) : (
+                  <div className="flex items-center">
+                    <Phone className="h-5 w-5 text-gray-300 mr-3" />
+                    <div>
+                      <p className="font-medium text-gray-400">Phone</p>
+                      <p className="text-gray-400 text-sm">Not available</p>
+                    </div>
+                  </div>
                 )}
                 
-                {contact.email && (
+                {contact.email ? (
                   <div className="flex items-center">
                     <Mail className="h-5 w-5 text-gray-400 mr-3" />
                     <div>
@@ -302,9 +330,17 @@ export default async function SheepFarmDetailPage({ params }: PageProps) {
                       </a>
                     </div>
                   </div>
+                ) : (
+                  <div className="flex items-center">
+                    <Mail className="h-5 w-5 text-gray-300 mr-3" />
+                    <div>
+                      <p className="font-medium text-gray-400">Email</p>
+                      <p className="text-gray-400 text-sm">Not available</p>
+                    </div>
+                  </div>
                 )}
 
-                {contact.website && (
+                {contact.website ? (
                   <div className="flex items-center">
                     <Globe className="h-5 w-5 text-gray-400 mr-3" />
                     <div>
@@ -317,6 +353,14 @@ export default async function SheepFarmDetailPage({ params }: PageProps) {
                       >
                         Visit Website
                       </a>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="flex items-center">
+                    <Globe className="h-5 w-5 text-gray-300 mr-3" />
+                    <div>
+                      <p className="font-medium text-gray-400">Website</p>
+                      <p className="text-gray-400 text-sm">Not available</p>
                     </div>
                   </div>
                 )}
@@ -336,17 +380,26 @@ export default async function SheepFarmDetailPage({ params }: PageProps) {
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
-                  <div className="flex justify-between">
+                  <div className="flex justify-between items-center">
                     <span className="text-gray-600">Flock Size</span>
-                    <span className="font-medium">{sheepFarm.flock_size} sheep</span>
+                    <div className="flex items-center gap-1">
+                      <span className="font-medium">{sheepFarm.flock_size} sheep</span>
+                      {flockSizeNeedsVerification && <VerificationBadge variant="not-verified" />}
+                    </div>
                   </div>
-                  <div className="flex justify-between">
+                  <div className="flex justify-between items-center">
                     <span className="text-gray-600">Breed</span>
-                    <span className="font-medium">{sheepFarm.breed}</span>
+                    <div className="flex items-center gap-1">
+                      <span className="font-medium">{sheepFarm.breed}</span>
+                      {breedNeedsVerification && <VerificationBadge variant="not-verified" />}
+                    </div>
                   </div>
-                  <div className="flex justify-between">
+                  <div className="flex justify-between items-center">
                     <span className="text-gray-600">Specialty</span>
-                    <span className="font-medium text-green-600">{sheepFarm.grazing_type}</span>
+                    <div className="flex items-center gap-1">
+                      <span className="font-medium text-green-600">{sheepFarm.grazing_type}</span>
+                      {grazingTypeNeedsVerification && <VerificationBadge variant="not-verified" />}
+                    </div>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Services</span>
