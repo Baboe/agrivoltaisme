@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Users, Sun, ArrowRight } from "lucide-react";
+import { getCountryStats } from "@/lib/stats-service";
 
 export const metadata: Metadata = {
   title: "Solar Grazing in Belgium | Solar Parks & Sheep Farms Directory",
@@ -26,6 +27,9 @@ export const metadata: Metadata = {
 };
 
 export default function BelgiumPage() {
+  // Get real stats from data files (server component)
+  const stats = getCountryStats('belgium');
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -48,8 +52,8 @@ export default function BelgiumPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold">1,200+</p>
-                <p className="text-green-100">Solar parks seeking shepherds</p>
+                <p className="text-2xl font-bold">{stats.solarParks}</p>
+                <p className="text-green-100">Solar parks in directory</p>
               </CardContent>
             </Card>
             
@@ -61,8 +65,8 @@ export default function BelgiumPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold">1,800+</p>
-                <p className="text-green-100">Sheep farms available</p>
+                <p className="text-2xl font-bold">{stats.sheepFarms}</p>
+                <p className="text-green-100">Sheep farms in directory</p>
               </CardContent>
             </Card>
             
@@ -70,12 +74,12 @@ export default function BelgiumPage() {
               <CardHeader className="pb-2">
                 <CardTitle className="flex items-center text-lg">
                   <MapPin className="h-5 w-5 mr-2" />
-                  Regions
+                  Total Listings
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold">3</p>
-                <p className="text-green-100">Belgian regions covered</p>
+                <p className="text-2xl font-bold">{stats.total}</p>
+                <p className="text-green-100">Verified listings</p>
               </CardContent>
             </Card>
           </div>
@@ -90,20 +94,17 @@ export default function BelgiumPage() {
             {[
               { 
                 name: "Flanders (Vlaanderen)", 
-                cities: "Brussels, Antwerp, Ghent, Bruges", 
-                count: "1800+ listings",
+                cities: "Antwerp, Ghent, Bruges, Leuven", 
                 description: "Major industrial and agricultural region"
               },
               { 
                 name: "Wallonia (Wallonie)", 
                 cities: "Liège, Charleroi, Namur, Mons", 
-                count: "800+ listings",
                 description: "Industrial heritage with growing renewable energy"
               },
               { 
                 name: "Brussels-Capital", 
                 cities: "Brussels, Schaerbeek, Anderlecht", 
-                count: "400+ listings",
                 description: "Urban center with innovative sustainability projects"
               },
             ].map((region) => (
@@ -113,8 +114,7 @@ export default function BelgiumPage() {
                   <p className="text-sm text-gray-600">{region.description}</p>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-3">{region.cities}</p>
-                  <p className="text-sm text-green-600 font-medium mb-4">{region.count}</p>
+                  <p className="text-gray-600 mb-4">{region.cities}</p>
                   <Button variant="outline" size="sm" asChild>
                     <Link href={`/directory?country=belgium&region=${encodeURIComponent(region.name)}`}>
                       Explore {region.name}
@@ -241,7 +241,7 @@ export default function BelgiumPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Start Your Solar Grazing Partnership?</h2>
           <p className="text-xl mb-8 text-green-100">
-            Join hundreds of solar parks and sheep farms already connected through Ombaa
+            Browse our verified directory of solar parks and sheep farms in Belgium
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-green-700 hover:bg-gray-100" asChild>

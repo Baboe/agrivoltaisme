@@ -3,7 +3,8 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { MapPin, Users, Sun, ArrowRight } from "lucide-react";
+import { MapPin, Users, Sun, ArrowRight, Clock } from "lucide-react";
+import { getCountryStats } from "@/lib/stats-service";
 
 export const metadata: Metadata = {
   title: "Solar Grazing in Germany | Solar Parks & Sheep Farms Directory",
@@ -26,6 +27,9 @@ export const metadata: Metadata = {
 };
 
 export default function GermanyPage() {
+  // Get real stats from data files (server component)
+  const stats = getCountryStats('germany');
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -34,7 +38,15 @@ export default function GermanyPage() {
           <div className="flex items-center mb-6">
             <span className="text-4xl mr-4">🇩🇪</span>
             <div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-2">Solar Grazing in Germany</h1>
+              <div className="flex items-center gap-3 mb-2">
+                <h1 className="text-3xl md:text-4xl font-bold">Solar Grazing in Germany</h1>
+                {!stats.isMvp && (
+                  <Badge className="bg-yellow-500 text-yellow-900 hover:bg-yellow-400">
+                    <Clock className="h-3 w-3 mr-1" />
+                    Coming Soon
+                  </Badge>
+                )}
+              </div>
               <p className="text-xl text-green-100">Connecting solar parks with sheep farmers across German states</p>
             </div>
           </div>
@@ -48,8 +60,8 @@ export default function GermanyPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold">1,500+</p>
-                <p className="text-green-100">Solar parks seeking shepherds</p>
+                <p className="text-2xl font-bold">{stats.solarParks}</p>
+                <p className="text-green-100">Solar parks identified</p>
               </CardContent>
             </Card>
             
@@ -61,8 +73,8 @@ export default function GermanyPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold">2,200+</p>
-                <p className="text-green-100">Sheep farms available</p>
+                <p className="text-2xl font-bold">{stats.sheepFarms}</p>
+                <p className="text-green-100">Sheep farms identified</p>
               </CardContent>
             </Card>
             
@@ -70,15 +82,24 @@ export default function GermanyPage() {
               <CardHeader className="pb-2">
                 <CardTitle className="flex items-center text-lg">
                   <MapPin className="h-5 w-5 mr-2" />
-                  States
+                  Total Listings
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold">16</p>
-                <p className="text-green-100">German states covered</p>
+                <p className="text-2xl font-bold">{stats.total}</p>
+                <p className="text-green-100">In our database</p>
               </CardContent>
             </Card>
           </div>
+
+          {!stats.isMvp && (
+            <div className="mt-6 p-4 bg-yellow-500/20 border border-yellow-400/30 rounded-lg">
+              <p className="text-yellow-100">
+                <strong>Coming Soon:</strong> Germany directory is currently being verified. 
+                Join our waitlist to be notified when German listings go live.
+              </p>
+            </div>
+          )}
         </div>
       </section>
 
@@ -91,37 +112,31 @@ export default function GermanyPage() {
               { 
                 name: "Bayern (Bavaria)", 
                 cities: "Munich, Nuremberg, Augsburg, Regensburg", 
-                count: "400+ listings",
                 description: "Leading solar energy producer in Germany"
               },
               { 
                 name: "Baden-Württemberg", 
                 cities: "Stuttgart, Mannheim, Karlsruhe, Freiburg", 
-                count: "350+ listings",
                 description: "Innovation hub for renewable energy"
               },
               { 
-                name: "Berlin", 
-                cities: "Berlin, Potsdam, Cottbus, Eberswalde", 
-                count: "200+ listings",
-                description: "Urban center with solar park expansion"
+                name: "Brandenburg", 
+                cities: "Potsdam, Cottbus, Frankfurt (Oder)", 
+                description: "Major solar farm development region"
               },
               { 
                 name: "Nordrhein-Westfalen", 
                 cities: "Cologne, Düsseldorf, Dortmund, Essen", 
-                count: "280+ listings",
                 description: "Industrial region embracing solar grazing"
               },
               { 
                 name: "Niedersachsen", 
-                cities: "Hanover, Bremen, Oldenburg, Braunschweig", 
-                count: "220+ listings",
+                cities: "Hanover, Oldenburg, Braunschweig", 
                 description: "Agricultural state with solar potential"
               },
               { 
                 name: "Sachsen", 
                 cities: "Dresden, Leipzig, Chemnitz, Zwickau", 
-                count: "150+ listings",
                 description: "Eastern Germany renewable energy growth"
               },
             ].map((state) => (
@@ -131,11 +146,10 @@ export default function GermanyPage() {
                   <p className="text-sm text-gray-600">{state.description}</p>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-3">{state.cities}</p>
-                  <p className="text-sm text-green-600 font-medium mb-4">{state.count}</p>
-                  <Button variant="outline" size="sm" asChild>
-                    <Link href={`/directory?country=germany&region=${encodeURIComponent(state.name)}`}>
-                      Explore {state.name}
+                  <p className="text-gray-600 mb-4">{state.cities}</p>
+                  <Button variant="outline" size="sm" asChild disabled={!stats.isMvp}>
+                    <Link href={stats.isMvp ? `/directory?country=germany&region=${encodeURIComponent(state.name)}` : "#"}>
+                      {stats.isMvp ? `Explore ${state.name}` : 'Coming Soon'}
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
                   </Button>
@@ -146,130 +160,37 @@ export default function GermanyPage() {
         </div>
       </section>
 
-      {/* Featured Solar Parks */}
-      <section className="py-12 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center mb-8">
-            <h2 className="text-3xl font-bold">Featured Solar Parks in Germany</h2>
-            <Button asChild variant="outline">
-              <Link href="/directory?country=germany&listingType=solar-farm">
-                View All Solar Parks
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
+      {/* Waitlist CTA for non-MVP countries */}
+      {!stats.isMvp && (
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl font-bold mb-4">Get Notified When Germany Launches</h2>
+            <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
+              We're verifying {stats.total} listings in Germany. Join our waitlist to be the first to access the German solar grazing directory.
+            </p>
+            <Button size="lg" className="bg-green-600 hover:bg-green-700" asChild>
+              <Link href="/#waitlist">Join Waitlist</Link>
             </Button>
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              { name: "Solar Park Weesow-Willmersdorf", size: "187 hectares", region: "Berlin" },
-              { name: "Walddrehna Solar Park", size: "120 hectares", region: "Sachsen" },
-              { name: "Solar Park Werneuchen Nord", size: "95 hectares", region: "Berlin" },
-            ].map((park) => (
-              <Card key={park.name} className="hover:shadow-md transition-shadow">
-                <CardHeader>
-                  <div className="flex justify-between items-start">
-                    <CardTitle className="text-lg">{park.name}</CardTitle>
-                    <Badge variant="secondary" className="bg-green-100 text-green-800">
-                      <Sun className="h-3 w-3 mr-1" />
-                      Solar Park
-                    </Badge>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-2">
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Size:</span>
-                      <span className="font-medium">{park.size}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">State:</span>
-                      <span className="font-medium">{park.region}</span>
-                    </div>
-                  </div>
-                  <Button className="w-full mt-4 bg-green-600 hover:bg-green-700" asChild>
-                    <Link href={`/solarparks/germany/${encodeURIComponent(park.name)}`}>
-                      View Details
-                    </Link>
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Featured Sheep Farms */}
-      <section className="py-12 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center mb-8">
-            <h2 className="text-3xl font-bold">Featured Sheep Farms in Germany</h2>
-            <Button asChild variant="outline">
-              <Link href="/directory?country=germany&listingType=shepherd">
-                View All Sheep Farms
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              { name: "Schafhof Werneck", flock: "500 sheep", breed: "Merinoland", region: "Bayern" },
-              { name: "Schäferei Bärenbach", flock: "320 sheep", breed: "Rauhwolliges Pommersches", region: "Nordrhein-Westfalen" },
-              { name: "Bio-Schafhof Wildberg", flock: "280 sheep", breed: "Schwarzbraunes Bergschaf", region: "Baden-Württemberg" },
-            ].map((farm) => (
-              <Card key={farm.name} className="hover:shadow-md transition-shadow">
-                <CardHeader>
-                  <div className="flex justify-between items-start">
-                    <CardTitle className="text-lg">{farm.name}</CardTitle>
-                    <Badge variant="secondary" className="bg-blue-100 text-blue-800">
-                      <Users className="h-3 w-3 mr-1" />
-                      Sheep Farm
-                    </Badge>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-2">
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Flock Size:</span>
-                      <span className="font-medium">{farm.flock}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Breed:</span>
-                      <span className="font-medium">{farm.breed}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">State:</span>
-                      <span className="font-medium">{farm.region}</span>
-                    </div>
-                  </div>
-                  <Button className="w-full mt-4 bg-green-600 hover:bg-green-700" asChild>
-                    <Link href={`/sheepfarms/germany/${encodeURIComponent(farm.name)}`}>
-                      View Details
-                    </Link>
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Call to Action */}
       <section className="py-12 bg-green-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Start Your Solar Grazing Partnership?</h2>
+          <h2 className="text-3xl font-bold mb-4">Explore Available Regions</h2>
           <p className="text-xl mb-8 text-green-100">
-            Join hundreds of solar parks and sheep farms already connected through Ombaa
+            While Germany is coming soon, browse our verified listings in the Netherlands and Belgium
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-green-700 hover:bg-gray-100" asChild>
-              <Link href="/directory?country=germany">Browse Germany Listings</Link>
+              <Link href="/netherlands">Browse Netherlands</Link>
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
-              <Link href="/directory?country=germany&listingType=solar-farm">Find Solar Parks</Link>
+              <Link href="/belgium">Browse Belgium</Link>
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
-              <Link href="/directory?country=germany&listingType=shepherd">Find Sheep Farms</Link>
+              <Link href="/directory">Full Directory</Link>
             </Button>
           </div>
         </div>
@@ -284,7 +205,7 @@ export default function GermanyPage() {
             "@type": "WebPage",
             "name": "Solar Grazing in Germany",
             "description": "Discover solar parks and sheep farms in Germany. Find shepherds for vegetation management and solar grazing partnerships across German states.",
-            "url": "https://ombaa.eu/germany",
+            "url": "https://ombaa.com/germany",
             "isPartOf": {
               "@type": "WebSite",
               "name": "Ombaa Directory",

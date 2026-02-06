@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Users, Sun, ArrowRight } from "lucide-react";
+import { getCountryStats } from "@/lib/stats-service";
 
 export const metadata: Metadata = {
   title: "Solar Grazing in Netherlands | Solar Parks & Sheep Farms Directory",
@@ -26,6 +27,9 @@ export const metadata: Metadata = {
 };
 
 export default function NetherlandsPage() {
+  // Get real stats from data files (server component)
+  const stats = getCountryStats('netherlands');
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -48,8 +52,8 @@ export default function NetherlandsPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold">1,500+</p>
-                <p className="text-green-100">Solar parks seeking shepherds</p>
+                <p className="text-2xl font-bold">{stats.solarParks}</p>
+                <p className="text-green-100">Solar parks in directory</p>
               </CardContent>
             </Card>
             
@@ -61,8 +65,8 @@ export default function NetherlandsPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold">2,000+</p>
-                <p className="text-green-100">Sheep farms available</p>
+                <p className="text-2xl font-bold">{stats.sheepFarms}</p>
+                <p className="text-green-100">Sheep farms in directory</p>
               </CardContent>
             </Card>
             
@@ -70,12 +74,12 @@ export default function NetherlandsPage() {
               <CardHeader className="pb-2">
                 <CardTitle className="flex items-center text-lg">
                   <MapPin className="h-5 w-5 mr-2" />
-                  Provinces
+                  Total Listings
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold">12</p>
-                <p className="text-green-100">Dutch provinces covered</p>
+                <p className="text-2xl font-bold">{stats.total}</p>
+                <p className="text-green-100">Verified listings</p>
               </CardContent>
             </Card>
           </div>
@@ -88,20 +92,19 @@ export default function NetherlandsPage() {
           <h2 className="text-3xl font-bold mb-8 text-center">Browse by Province</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { name: "Noord-Holland", cities: "Amsterdam, Haarlem, Alkmaar", count: "150+ listings" },
-              { name: "Zuid-Holland", cities: "Rotterdam, Den Haag, Dordrecht", count: "200+ listings" },
-              { name: "Utrecht", cities: "Utrecht, Amersfoort, Zeist", count: "120+ listings" },
-              { name: "Gelderland", cities: "Arnhem, Nijmegen, Apeldoorn", count: "180+ listings" },
-              { name: "Noord-Brabant", cities: "Eindhoven, Tilburg, Breda", count: "220+ listings" },
-              { name: "Limburg", cities: "Maastricht, Venlo, Sittard", count: "100+ listings" },
+              { name: "Noord-Holland", cities: "Amsterdam, Haarlem, Alkmaar" },
+              { name: "Zuid-Holland", cities: "Rotterdam, Den Haag, Dordrecht" },
+              { name: "Utrecht", cities: "Utrecht, Amersfoort, Zeist" },
+              { name: "Gelderland", cities: "Arnhem, Nijmegen, Apeldoorn" },
+              { name: "Noord-Brabant", cities: "Eindhoven, Tilburg, Breda" },
+              { name: "Limburg", cities: "Maastricht, Venlo, Sittard" },
             ].map((province) => (
               <Card key={province.name} className="hover:shadow-md transition-shadow">
                 <CardHeader>
                   <CardTitle className="text-lg">{province.name}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-3">{province.cities}</p>
-                  <p className="text-sm text-green-600 font-medium mb-4">{province.count}</p>
+                  <p className="text-gray-600 mb-4">{province.cities}</p>
                   <Button variant="outline" size="sm" asChild>
                     <Link href={`/directory?country=netherlands&region=${encodeURIComponent(province.name)}`}>
                       Explore {province.name}
@@ -228,7 +231,7 @@ export default function NetherlandsPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Start Your Solar Grazing Partnership?</h2>
           <p className="text-xl mb-8 text-green-100">
-            Join hundreds of solar parks and sheep farms already connected through Ombaa
+            Browse our verified directory of solar parks and sheep farms in the Netherlands
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-green-700 hover:bg-gray-100" asChild>
