@@ -251,9 +251,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <CountryCard
-              country="France"
-              imageUrl="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20250521_1151_Sheep%20Graze%20Under%20Solar%20Panels_simple_compose_01jvs40pmyfk98xmnm3jj57fz4-B9McXKWoZZnP6IT95qkfglMPgO5gdb.png"
-              description="Discover solar grazing opportunities across France, from Provence to Normandy."
+              country="Netherlands"
+              imageUrl="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20250521_1201_Solar%20Grazing%20Sheep_simple_compose_01jvs4jh70frcv4dag8zfsgzqy-ACRvlKzoKTGUJuelKSoMCTK0q8NyeF.png"
+              description="Our most active market. 119 listings across Dutch provinces with verified shepherds and solar parks."
+              featured={true}
             />
             <CountryCard
               country="Germany"
@@ -261,9 +262,9 @@ export default function Home() {
               description="Explore Bavaria, Brandenburg, and other German regions with active solar grazing."
             />
             <CountryCard
-              country="Netherlands"
-              imageUrl="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20250521_1201_Solar%20Grazing%20Sheep_simple_compose_01jvs4jh70frcv4dag8zfsgzqy-ACRvlKzoKTGUJuelKSoMCTK0q8NyeF.png"
-              description="Connect with shepherds and solar farms in the Netherlands' sustainable energy landscape."
+              country="France"
+              imageUrl="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20250521_1151_Sheep%20Graze%20Under%20Solar%20Panels_simple_compose_01jvs40pmyfk98xmnm3jj57fz4-B9McXKWoZZnP6IT95qkfglMPgO5gdb.png"
+              description="Discover solar grazing opportunities across France, from Provence to Normandy."
             />
           </div>
 

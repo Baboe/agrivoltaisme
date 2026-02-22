@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Users, Sun, ArrowRight } from "lucide-react";
+import { getCountryStats } from "@/lib/stats-service";
+import { getFeaturedSolarParks, getFeaturedSheepFarms, hasEnoughForFeatured } from "@/lib/featured-service";
 
 export const metadata: Metadata = {
   title: "Solar Grazing in Belgium | Solar Parks & Sheep Farms Directory",
@@ -26,6 +28,15 @@ export const metadata: Metadata = {
 };
 
 export default function BelgiumPage() {
+  // Get real stats from data files (server component)
+  const stats = getCountryStats('belgium');
+  
+  // Get real featured listings from data
+  const featuredSolarParks = getFeaturedSolarParks('belgium', 3);
+  const featuredSheepFarms = getFeaturedSheepFarms('belgium', 3);
+  const showFeaturedSolar = hasEnoughForFeatured('belgium', 'solar');
+  const showFeaturedSheep = hasEnoughForFeatured('belgium', 'sheep');
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -48,8 +59,8 @@ export default function BelgiumPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold">1,200+</p>
-                <p className="text-green-100">Solar parks seeking shepherds</p>
+                <p className="text-2xl font-bold">{stats.solarParks}</p>
+                <p className="text-green-100">Solar parks in directory</p>
               </CardContent>
             </Card>
             
@@ -61,8 +72,8 @@ export default function BelgiumPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold">1,800+</p>
-                <p className="text-green-100">Sheep farms available</p>
+                <p className="text-2xl font-bold">{stats.sheepFarms}</p>
+                <p className="text-green-100">Sheep farms in directory</p>
               </CardContent>
             </Card>
             
@@ -70,12 +81,12 @@ export default function BelgiumPage() {
               <CardHeader className="pb-2">
                 <CardTitle className="flex items-center text-lg">
                   <MapPin className="h-5 w-5 mr-2" />
-                  Regions
+                  Total Listings
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold">3</p>
-                <p className="text-green-100">Belgian regions covered</p>
+                <p className="text-2xl font-bold">{stats.total}</p>
+                <p className="text-green-100">Verified listings</p>
               </CardContent>
             </Card>
           </div>
@@ -90,20 +101,17 @@ export default function BelgiumPage() {
             {[
               { 
                 name: "Flanders (Vlaanderen)", 
-                cities: "Brussels, Antwerp, Ghent, Bruges", 
-                count: "1800+ listings",
+                cities: "Antwerp, Ghent, Bruges, Leuven", 
                 description: "Major industrial and agricultural region"
               },
               { 
                 name: "Wallonia (Wallonie)", 
                 cities: "Liège, Charleroi, Namur, Mons", 
-                count: "800+ listings",
                 description: "Industrial heritage with growing renewable energy"
               },
               { 
                 name: "Brussels-Capital", 
                 cities: "Brussels, Schaerbeek, Anderlecht", 
-                count: "400+ listings",
                 description: "Urban center with innovative sustainability projects"
               },
             ].map((region) => (
@@ -113,8 +121,7 @@ export default function BelgiumPage() {
                   <p className="text-sm text-gray-600">{region.description}</p>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-3">{region.cities}</p>
-                  <p className="text-sm text-green-600 font-medium mb-4">{region.count}</p>
+                  <p className="text-gray-600 mb-4">{region.cities}</p>
                   <Button variant="outline" size="sm" asChild>
                     <Link href={`/directory?country=belgium&region=${encodeURIComponent(region.name)}`}>
                       Explore {region.name}
@@ -128,120 +135,145 @@ export default function BelgiumPage() {
         </div>
       </section>
 
-      {/* Featured Solar Parks */}
-      <section className="py-12 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center mb-8">
-            <h2 className="text-3xl font-bold">Featured Solar Parks in Belgium</h2>
-            <Button asChild variant="outline">
+      {/* Featured Solar Parks - Only show if enough listings */}
+      {showFeaturedSolar && featuredSolarParks.length > 0 ? (
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="flex justify-between items-center mb-8">
+              <h2 className="text-3xl font-bold">Featured Solar Parks in Belgium</h2>
+              <Button asChild variant="outline">
+                <Link href="/directory?country=belgium&listingType=solar-farm">
+                  View All Solar Parks
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {featuredSolarParks.map((park) => (
+                <Card key={park.name} className="hover:shadow-md transition-shadow">
+                  <CardHeader>
+                    <div className="flex justify-between items-start">
+                      <CardTitle className="text-lg">{park.name}</CardTitle>
+                      <Badge variant="secondary" className="bg-green-100 text-green-800">
+                        <Sun className="h-3 w-3 mr-1" />
+                        Solar Park
+                      </Badge>
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-2">
+                      <div className="flex justify-between">
+                        <span className="text-gray-600">Size:</span>
+                        <span className="font-medium">{park.size}</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="text-gray-600">Location:</span>
+                        <span className="font-medium">{park.region}</span>
+                      </div>
+                    </div>
+                    <Button className="w-full mt-4 bg-green-600 hover:bg-green-700" asChild>
+                      <Link href={`/solarparks/belgium/${park.slug}`}>
+                        View Details
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : (
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl font-bold mb-4">Solar Parks in Belgium</h2>
+            <p className="text-gray-600 mb-6">Explore our directory of solar parks seeking grazing partnerships.</p>
+            <Button size="lg" className="bg-green-600 hover:bg-green-700" asChild>
               <Link href="/directory?country=belgium&listingType=solar-farm">
-                View All Solar Parks
+                Browse All Solar Parks
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              { name: "Solar Park Antwerp Port", size: "150 hectares", region: "Flanders" },
-              { name: "Parc Solaire de Charleroi", size: "110 hectares", region: "Wallonia" },
-              { name: "Zonneweide Brussel", size: "85 hectares", region: "Brussels-Capital" },
-            ].map((park) => (
-              <Card key={park.name} className="hover:shadow-md transition-shadow">
-                <CardHeader>
-                  <div className="flex justify-between items-start">
-                    <CardTitle className="text-lg">{park.name}</CardTitle>
-                    <Badge variant="secondary" className="bg-green-100 text-green-800">
-                      <Sun className="h-3 w-3 mr-1" />
-                      Solar Park
-                    </Badge>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-2">
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Size:</span>
-                      <span className="font-medium">{park.size}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Region:</span>
-                      <span className="font-medium">{park.region}</span>
-                    </div>
-                  </div>
-                  <Button className="w-full mt-4 bg-green-600 hover:bg-green-700" asChild>
-                    <Link href={`/solarparks/belgium/${encodeURIComponent(park.name)}`}>
-                      View Details
-                    </Link>
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
 
-      {/* Featured Sheep Farms */}
-      <section className="py-12 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center mb-8">
-            <h2 className="text-3xl font-bold">Featured Sheep Farms in Belgium</h2>
-            <Button asChild variant="outline">
+      {/* Featured Sheep Farms - Only show if enough listings, otherwise show CTA */}
+      {showFeaturedSheep && featuredSheepFarms.length > 0 ? (
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <div className="flex justify-between items-center mb-8">
+              <h2 className="text-3xl font-bold">Featured Sheep Farms in Belgium</h2>
+              <Button asChild variant="outline">
+                <Link href="/directory?country=belgium&listingType=shepherd">
+                  View All Sheep Farms
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {featuredSheepFarms.map((farm) => (
+                <Card key={farm.name} className="hover:shadow-md transition-shadow">
+                  <CardHeader>
+                    <div className="flex justify-between items-start">
+                      <CardTitle className="text-lg">{farm.name}</CardTitle>
+                      <Badge variant="secondary" className="bg-blue-100 text-blue-800">
+                        <Users className="h-3 w-3 mr-1" />
+                        Sheep Farm
+                      </Badge>
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-2">
+                      <div className="flex justify-between">
+                        <span className="text-gray-600">Flock Size:</span>
+                        <span className="font-medium">{farm.flockSize}</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="text-gray-600">Breed:</span>
+                        <span className="font-medium">{farm.breed}</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="text-gray-600">Location:</span>
+                        <span className="font-medium">{farm.region}</span>
+                      </div>
+                    </div>
+                    <Button className="w-full mt-4 bg-green-600 hover:bg-green-700" asChild>
+                      <Link href={`/sheepfarms/belgium/${farm.slug}`}>
+                        View Details
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : (
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl font-bold mb-4">Sheep Farms in Belgium</h2>
+            <p className="text-gray-600 mb-6">
+              We're growing our network of sheep farms in Belgium. 
+              Browse our current listings or check back soon for more.
+            </p>
+            <Button size="lg" className="bg-green-600 hover:bg-green-700" asChild>
               <Link href="/directory?country=belgium&listingType=shepherd">
-                View All Sheep Farms
+                Browse All Listings
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              { name: "Mouton Farm des Ardennes", flock: "400 sheep", breed: "Ardennes", region: "Wallonia" },
-              { name: "Schapenboerderij Vlaanderen", flock: "250 sheep", breed: "Flemish", region: "Flanders" },
-              { name: "Ferme de la Senne", flock: "180 sheep", breed: "Brussels", region: "Brussels-Capital" },
-            ].map((farm) => (
-              <Card key={farm.name} className="hover:shadow-md transition-shadow">
-                <CardHeader>
-                  <div className="flex justify-between items-start">
-                    <CardTitle className="text-lg">{farm.name}</CardTitle>
-                    <Badge variant="secondary" className="bg-blue-100 text-blue-800">
-                      <Users className="h-3 w-3 mr-1" />
-                      Sheep Farm
-                    </Badge>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-2">
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Flock Size:</span>
-                      <span className="font-medium">{farm.flock}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Breed:</span>
-                      <span className="font-medium">{farm.breed}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Region:</span>
-                      <span className="font-medium">{farm.region}</span>
-                    </div>
-                  </div>
-                  <Button className="w-full mt-4 bg-green-600 hover:bg-green-700" asChild>
-                    <Link href={`/sheepfarms/belgium/${encodeURIComponent(farm.name)}`}>
-                      View Details
-                    </Link>
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Call to Action */}
       <section className="py-12 bg-green-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Start Your Solar Grazing Partnership?</h2>
           <p className="text-xl mb-8 text-green-100">
-            Join hundreds of solar parks and sheep farms already connected through Ombaa
+            Browse our verified directory of solar parks and sheep farms in Belgium
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-green-700 hover:bg-gray-100" asChild>
