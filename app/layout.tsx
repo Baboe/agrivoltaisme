@@ -1,19 +1,19 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Manrope } from "next/font/google"
+import Script from "next/script"
 import "./globals.css"
 import { AuthProvider } from "@/contexts/auth-context"
 import { ThemeProvider } from "@/components/theme-provider"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
-import Script from "next/script"
 
-const inter = Inter({ subsets: ["latin"] })
+const manrope = Manrope({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Ombaa - Solar Grazing Marketplace",
-  description: "Connect solar farms with shepherds for eco-friendly grazing as an alternative to mechanical mowing",
-    generator: 'v0.dev'
+  title: "Ombaa | Grazing Solutions for Solar Parks",
+  description:
+    "Ombaa helps solar park operators reduce vegetation management costs through sheep grazing, site assessment, and managed partner matching.",
 }
 
 export default function RootLayout({
@@ -23,19 +23,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>{/* Keep the default head content */}</head>
-      <body className={inter.className}>
-        {/* Google Tag Manager (noscript) */}
+      <body className={manrope.className}>
         <noscript
           dangerouslySetInnerHTML={{
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQP8LMRD"
           height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
           }}
         />
-        {/* End Google Tag Manager (noscript) */}
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <AuthProvider>
-            <div className="flex flex-col min-h-screen">
+            <div className="flex min-h-screen flex-col">
               <SiteHeader />
               <main className="flex-1">{children}</main>
               <SiteFooter />
@@ -43,7 +40,6 @@ export default function RootLayout({
           </AuthProvider>
         </ThemeProvider>
 
-        {/* Google Tag Manager */}
         <Script id="google-tag-manager" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -53,9 +49,7 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-NQP8LMRD');
           `}
         </Script>
-        {/* End Google Tag Manager */}
 
-        {/* Google Analytics (GA4) */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-HJZ5BJSPSP" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
@@ -65,7 +59,6 @@ export default function RootLayout({
             gtag('config', 'G-HJZ5BJSPSP');
           `}
         </Script>
-        {/* End Google Analytics */}
       </body>
     </html>
   )

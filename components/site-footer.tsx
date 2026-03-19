@@ -1,112 +1,49 @@
 import Link from "next/link"
-import { Facebook, Twitter, Linkedin, Mail, MapPin } from "lucide-react"
+
+const footerLinks = [
+  { href: "/#request-assessment", label: "Request Assessment" },
+  { href: "/directory", label: "Coverage" },
+  { href: "/register/shepherd", label: "Register as Grazing Partner" },
+  { href: "/contact", label: "Contact" },
+]
 
 export default function SiteFooter() {
   return (
-    <footer className="bg-gray-800 text-white py-12">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div>
-            <h3 className="text-xl font-bold mb-4">Ombaa</h3>
-            <p className="mb-4 text-gray-300">
-              Europe's first one-click marketplace that swaps costly mowing for eco-friendly sheep, matched and
-              monitored in real time.
-            </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-green-400 transition-colors">
-                <Facebook className="h-5 w-5" />
-                <span className="sr-only">Facebook</span>
-              </a>
-              <a href="#" className="text-white hover:text-green-400 transition-colors">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </a>
-              <a href="#" className="text-white hover:text-green-400 transition-colors">
-                <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
-              </a>
-            </div>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/" className="text-gray-300 hover:text-green-400 transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="/about" className="text-gray-300 hover:text-green-400 transition-colors">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link href="/how-it-works" className="text-gray-300 hover:text-green-400 transition-colors">
-                  How It Works
-                </Link>
-              </li>
-              <li>
-                <Link href="/directory" className="text-gray-300 hover:text-green-400 transition-colors">
-                  Directory
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-gray-300 hover:text-green-400 transition-colors">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-bold mb-4">Regions</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/regions/france" className="text-gray-300 hover:text-green-400 transition-colors">
-                  France
-                </Link>
-              </li>
-              <li>
-                <Link href="/regions/germany" className="text-gray-300 hover:text-green-400 transition-colors">
-                  Germany
-                </Link>
-              </li>
-              <li>
-                <Link href="/regions/spain" className="text-gray-300 hover:text-green-400 transition-colors">
-                  Spain
-                </Link>
-              </li>
-              <li>
-                <Link href="/regions/italy" className="text-gray-300 hover:text-green-400 transition-colors">
-                  Italy
-                </Link>
-              </li>
-              <li>
-                <Link href="/regions/netherlands" className="text-gray-300 hover:text-green-400 transition-colors">
-                  Netherlands
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-bold mb-4">Contact</h3>
-            <ul className="space-y-2">
-              <li className="flex items-start">
-                <Mail className="h-5 w-5 text-green-400 mr-2 mt-0.5 shrink-0" />
-                <span className="text-gray-300">info@ombaa.eu</span>
-              </li>
-              <li className="flex items-start">
-                <MapPin className="h-5 w-5 text-green-400 mr-2 mt-0.5 shrink-0" />
-                <span className="text-gray-300">Brussels, Belgium</span>
-              </li>
-            </ul>
-          </div>
+    <footer className="border-t border-emerald-950/10 bg-[#163128] text-stone-50">
+      <div className="container mx-auto grid gap-10 px-4 py-12 md:grid-cols-[1.2fr_0.8fr]">
+        <div className="max-w-xl">
+          <h2 className="text-2xl font-semibold tracking-[-0.04em] text-white">Ombaa</h2>
+          <p className="mt-4 text-sm leading-7 text-emerald-50/80">
+            Practical grazing support for solar parks. Ombaa helps operators assess site fit, find grazing partners,
+            and move toward workable vegetation management arrangements.
+          </p>
+          <p className="mt-6 text-sm text-emerald-100/80">
+            Contact:{" "}
+            <a href="mailto:info@ombaa.eu" className="font-medium text-white hover:text-emerald-200">
+              info@ombaa.eu
+            </a>
+          </p>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p className="text-gray-400">&copy; {new Date().getFullYear()} Ombaa. All rights reserved.</p>
+        <div>
+          <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-emerald-200">Navigation</h3>
+          <div className="mt-5 grid gap-3">
+            {footerLinks.map((link) => (
+              <Link
+                key={link.label}
+                href={link.href}
+                className="text-sm text-emerald-50/80 transition-colors hover:text-white"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div className="border-t border-white/10">
+        <div className="container mx-auto px-4 py-5 text-sm text-emerald-50/60">
+          &copy; {new Date().getFullYear()} Ombaa. Vegetation management support for solar parks.
         </div>
       </div>
     </footer>

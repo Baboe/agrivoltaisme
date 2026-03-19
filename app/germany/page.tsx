@@ -95,8 +95,8 @@ export default function GermanyPage() {
           {!stats.isMvp && (
             <div className="mt-6 p-4 bg-yellow-500/20 border border-yellow-400/30 rounded-lg">
               <p className="text-yellow-100">
-                <strong>Coming Soon:</strong> Germany directory is currently being verified. 
-                Join our waitlist to be notified when German listings go live.
+                <strong>Coverage note:</strong> Germany is in Ombaa&apos;s broader dataset, but public directory coverage
+                is not live yet. Request an assessment if you manage a site in Germany.
               </p>
             </div>
           )}
@@ -160,16 +160,17 @@ export default function GermanyPage() {
         </div>
       </section>
 
-      {/* Waitlist CTA for non-MVP countries */}
+      {/* Assessment CTA for non-MVP countries */}
       {!stats.isMvp && (
         <section className="py-12 bg-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-4">Get Notified When Germany Launches</h2>
+            <h2 className="text-3xl font-bold mb-4">Manage a site in Germany?</h2>
             <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-              We're verifying {stats.total} listings in Germany. Join our waitlist to be the first to access the German solar grazing directory.
+              Ombaa has {stats.total} Germany records in the wider dataset. Request a grazing assessment if you want us
+              to review a German site directly.
             </p>
             <Button size="lg" className="bg-green-600 hover:bg-green-700" asChild>
-              <Link href="/#waitlist">Join Waitlist</Link>
+              <Link href="/#request-assessment">Request Assessment</Link>
             </Button>
           </div>
         </section>
@@ -180,7 +181,7 @@ export default function GermanyPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Explore Available Regions</h2>
           <p className="text-xl mb-8 text-green-100">
-            While Germany is coming soon, browse our verified listings in the Netherlands and Belgium
+            While Germany is not yet part of the public directory, you can browse current coverage in the Netherlands and Belgium
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-green-700 hover:bg-gray-100" asChild>

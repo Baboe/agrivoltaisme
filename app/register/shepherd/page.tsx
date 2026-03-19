@@ -1,20 +1,21 @@
-import ShepherdRegisterClient from "./client-page"
 import type { Metadata } from "next"
 
+import ShepherdRegisterClient from "./client-page"
+
 export const metadata: Metadata = {
-  title: "Register Shepherd – Ombaa",
-  description: "Sign up as a shepherd to offer grazing services on Ombaa.",
-  alternates: { canonical: "https://ombaa.eu/register/shepherd" },
+  title: "Register as a grazing partner | Ombaa",
+  description: "Create an Ombaa account to register your grazing service for solar park opportunities.",
+  alternates: { canonical: "https://ombaa.com/register/shepherd" },
   openGraph: {
-    title: "Register Shepherd – Ombaa",
-    description: "Sign up as a shepherd to offer grazing services on Ombaa.",
-    url: "https://ombaa.eu/register/shepherd",
+    title: "Register as a grazing partner | Ombaa",
+    description: "Create an Ombaa account to register your grazing service for solar park opportunities.",
+    url: "https://ombaa.com/register/shepherd",
     siteName: "Ombaa",
   },
   twitter: {
     card: "summary",
-    title: "Register Shepherd – Ombaa",
-    description: "Sign up as a shepherd to offer grazing services on Ombaa.",
+    title: "Register as a grazing partner | Ombaa",
+    description: "Create an Ombaa account to register your grazing service for solar park opportunities.",
   },
 }
 

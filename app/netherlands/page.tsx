@@ -86,7 +86,7 @@ export default function NetherlandsPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-2xl font-bold">{stats.total}</p>
-                <p className="text-green-100">Verified listings</p>
+                <p className="text-green-100">Listings in directory data</p>
               </CardContent>
             </Card>
           </div>
@@ -260,7 +260,7 @@ export default function NetherlandsPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Start Your Solar Grazing Partnership?</h2>
           <p className="text-xl mb-8 text-green-100">
-            Browse our verified directory of solar parks and sheep farms in the Netherlands
+            Browse current directory coverage for solar parks and sheep farms in the Netherlands
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-green-700 hover:bg-gray-100" asChild>

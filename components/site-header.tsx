@@ -1,163 +1,82 @@
 "use client"
 
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
 import { useState } from "react"
+import { Button } from "@/components/ui/button"
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+
+const navLinks = [
+  { href: "/#how-it-works", label: "How It Works" },
+  { href: "/directory", label: "Coverage" },
+  { href: "/contact", label: "Contact" },
+]
 
 export default function SiteHeader() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-white">
-      <div className="container flex h-16 items-center justify-between">
-        <div className="flex items-center">
-          <Link href="/" className="text-2xl font-bold text-green-600">
-            Ombaa
-          </Link>
-        </div>
+    <header className="sticky top-0 z-50 w-full border-b border-stone-200/80 bg-white/95 backdrop-blur">
+      <div className="container flex h-16 items-center justify-between px-4">
+        <Link href="/" className="text-2xl font-semibold tracking-[-0.04em] text-emerald-900">
+          Ombaa
+        </Link>
 
-        <nav className="hidden md:flex items-center space-x-8">
-          <Link href="/" className="text-gray-700 hover:text-green-600 transition-colors">
-            Home
-          </Link>
-          <Link href="/about" className="text-gray-700 hover:text-green-600 transition-colors">
-            About
-          </Link>
-          <div className="relative group">
-            <Link href="/directory" className="text-gray-700 hover:text-green-600 transition-colors">
-              Directory
+        <nav className="hidden items-center gap-7 md:flex">
+          {navLinks.map((link) => (
+            <Link
+              key={link.label}
+              href={link.href}
+              className="text-sm font-medium text-slate-600 transition-colors hover:text-emerald-800"
+            >
+              {link.label}
             </Link>
-            <div className="absolute top-full left-0 mt-1 w-48 bg-white border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
-              <div className="p-2">
-                <Link href="/directory" className="block px-3 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 rounded">
-                  All Listings
-                </Link>
-                <Link href="/netherlands" className="block px-3 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 rounded">
-                  Netherlands
-                </Link>
-                <Link href="/belgium" className="block px-3 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 rounded">
-                  Belgium
-                </Link>
-                <Link href="/france" className="block px-3 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 rounded">
-                  France
-                </Link>
-                <Link href="/germany" className="block px-3 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 rounded">
-                  Germany
-                </Link>
-                <Link href="/directory?listingType=solar-farm" className="block px-3 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 rounded">
-                  Solar Parks
-                </Link>
-                <Link href="/directory?listingType=shepherd" className="block px-3 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600 rounded">
-                  Sheep Farms
-                </Link>
-              </div>
-            </div>
-          </div>
-          <Link href="/contact" className="text-gray-700 hover:text-green-600 transition-colors">
-            Contact
-          </Link>
+          ))}
         </nav>
 
-        <div className="flex items-center space-x-4">
-          <Button asChild variant="outline" className="hidden md:inline-flex">
-            <Link href="#waitlist">Join Waitlist</Link>
+        <div className="hidden items-center gap-3 md:flex">
+          <Button asChild variant="ghost" className="text-slate-700 hover:bg-emerald-50 hover:text-emerald-800">
+            <Link href="/register/shepherd">Grazing Partners</Link>
           </Button>
-
-          <Sheet open={isOpen} onOpenChange={setIsOpen}>
-            <SheetTrigger asChild className="md:hidden">
-              <Button variant="outline" size="icon">
-                <Menu className="h-5 w-5" />
-                <span className="sr-only">Toggle menu</span>
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="right">
-              <nav className="flex flex-col space-y-4 mt-8">
-                <Link
-                  href="/"
-                  className="text-gray-700 hover:text-green-600 transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Home
-                </Link>
-                <Link
-                  href="/about"
-                  className="text-gray-700 hover:text-green-600 transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  About
-                </Link>
-                <div className="space-y-2">
-                  <span className="text-sm font-medium text-gray-900">Directory</span>
-                  <div className="pl-4 space-y-2">
-                    <Link
-                      href="/directory"
-                      className="block text-sm text-gray-600 hover:text-green-600 transition-colors"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      All Listings
-                    </Link>
-                    <Link
-                      href="/netherlands"
-                      className="block text-sm text-gray-600 hover:text-green-600 transition-colors"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Netherlands
-                    </Link>
-                    <Link
-                      href="/belgium"
-                      className="block text-sm text-gray-600 hover:text-green-600 transition-colors"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Belgium
-                    </Link>
-                    <Link
-                      href="/france"
-                      className="block text-sm text-gray-600 hover:text-green-600 transition-colors"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      France
-                    </Link>
-                    <Link
-                      href="/germany"
-                      className="block text-sm text-gray-600 hover:text-green-600 transition-colors"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Germany
-                    </Link>
-                    <Link
-                      href="/directory?listingType=solar-farm"
-                      className="block text-sm text-gray-600 hover:text-green-600 transition-colors"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Solar Parks
-                    </Link>
-                    <Link
-                      href="/directory?listingType=shepherd"
-                      className="block text-sm text-gray-600 hover:text-green-600 transition-colors"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Sheep Farms
-                    </Link>
-                  </div>
-                </div>
-                <Link
-                  href="/contact"
-                  className="text-gray-700 hover:text-green-600 transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Contact
-                </Link>
-                <Button asChild className="mt-4 w-full">
-                  <Link href="#waitlist" onClick={() => setIsOpen(false)}>
-                    Join Waitlist
-                  </Link>
-                </Button>
-              </nav>
-            </SheetContent>
-          </Sheet>
+          <Button asChild className="bg-emerald-800 text-white hover:bg-emerald-700">
+            <Link href="/#request-assessment">Request Assessment</Link>
+          </Button>
         </div>
+
+        <Sheet open={isOpen} onOpenChange={setIsOpen}>
+          <SheetTrigger asChild className="md:hidden">
+            <Button variant="outline" size="icon" className="border-stone-300">
+              <Menu className="h-5 w-5" />
+              <span className="sr-only">Toggle menu</span>
+            </Button>
+          </SheetTrigger>
+          <SheetContent side="right" className="w-[320px] border-stone-200 bg-white">
+            <div className="mt-8 flex flex-col gap-3">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  className="rounded-2xl px-3 py-3 text-base font-medium text-slate-700 transition-colors hover:bg-emerald-50 hover:text-emerald-800"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {link.label}
+                </Link>
+              ))}
+              <Link
+                href="/register/shepherd"
+                className="rounded-2xl px-3 py-3 text-base font-medium text-slate-700 transition-colors hover:bg-emerald-50 hover:text-emerald-800"
+                onClick={() => setIsOpen(false)}
+              >
+                Grazing Partners
+              </Link>
+              <Button asChild className="mt-4 bg-emerald-800 text-white hover:bg-emerald-700">
+                <Link href="/#request-assessment" onClick={() => setIsOpen(false)}>
+                  Request Assessment
+                </Link>
+              </Button>
+            </div>
+          </SheetContent>
+        </Sheet>
       </div>
     </header>
   )

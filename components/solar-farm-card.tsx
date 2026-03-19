@@ -36,14 +36,9 @@ export default function SolarFarmCard({ name, location, size, vegetationType, de
 
           <p className="text-gray-600 text-sm">{description}</p>
 
-          <div className="flex gap-2">
-            <Button className="flex-1 bg-green-600 hover:bg-green-700" asChild>
-              <Link href={`/solarparks/${country.toLowerCase()}/${encodeURIComponent(name)}`}>
-                View Details
-              </Link>
-            </Button>
-            <Button variant="outline" className="flex-1">Contact</Button>
-          </div>
+          <Button className="w-full bg-green-600 hover:bg-green-700" asChild>
+            <Link href={`/solarparks/${country.toLowerCase()}/${encodeURIComponent(name)}`}>View Details</Link>
+          </Button>
         </div>
       </CardContent>
     </Card>

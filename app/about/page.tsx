@@ -1,254 +1,173 @@
-import Image from "next/image"
 import Link from "next/link"
 import type { Metadata } from "next"
+import { ArrowRight, FileSearch, Handshake, MapPinned } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { CheckCircle, Users, Globe, TrendingUp, Leaf } from "lucide-react"
+import { getPublicMarketStats } from "@/lib/public-market-stats"
 
 export const metadata: Metadata = {
   title: "About Ombaa",
-  description: "Learn about Ombaa's mission to connect solar farms with shepherds.",
-  alternates: { canonical: "https://www.ombaa.com/about" },
+  description:
+    "Learn how Ombaa helps solar park operators assess site fit, find grazing partners, and structure practical grazing arrangements.",
+  alternates: { canonical: "https://ombaa.com/about" },
   openGraph: {
     title: "About Ombaa",
-    description: "Learn about Ombaa's mission to connect solar farms with shepherds.",
-    url: "https://www.ombaa.com/about",
+    description:
+      "Learn how Ombaa helps solar park operators assess site fit, find grazing partners, and structure practical grazing arrangements.",
+    url: "https://ombaa.com/about",
     siteName: "Ombaa",
   },
   twitter: {
     card: "summary",
     title: "About Ombaa",
-    description: "Learn about Ombaa's mission to connect solar farms with shepherds.",
+    description:
+      "Learn how Ombaa helps solar park operators assess site fit, find grazing partners, and structure practical grazing arrangements.",
   },
 }
 
 export default function AboutPage() {
+  const coverage = getPublicMarketStats()
+
   return (
-    <div className="flex flex-col min-h-screen">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-green-600 to-green-700 text-white py-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Ombaa</h1>
-            <p className="text-xl opacity-90">
-              Europe's first one-click marketplace that swaps costly mowing for eco-friendly sheep, matched and
-              monitored in real time.
+    <div className="min-h-screen bg-stone-50">
+      <section className="border-b border-stone-200 bg-white">
+        <div className="container mx-auto px-4 py-16 md:py-20">
+          <div className="max-w-3xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-emerald-700">About Ombaa</p>
+            <h1 className="mt-4 text-4xl font-semibold tracking-[-0.04em] text-slate-950 md:text-5xl">
+              A practical grazing service for solar parks
+            </h1>
+            <p className="mt-6 text-lg leading-8 text-slate-600">
+              Ombaa is repositioning around a simple commercial job: helping solar park operators and land managers
+              reduce vegetation management costs through sheep grazing where it is a practical fit.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Mission Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6 text-center">Our Mission</h2>
-            <p className="text-lg text-gray-700 mb-8">
-              At Ombaa, we're on a mission to transform vegetation management at solar farms across Europe by connecting
-              solar farm operators with local shepherds. We believe that sustainable solutions can be both economically
-              viable and environmentally beneficial.
-            </p>
-            <p className="text-lg text-gray-700 mb-8">
-              Our platform facilitates partnerships that replace costly mechanical mowing with eco-friendly sheep
-              grazing, creating a win-win situation for all parties involved while promoting biodiversity and reducing
-              carbon emissions.
-            </p>
-            <div className="bg-green-50 p-6 rounded-lg border border-green-100 mb-8">
-              <h3 className="text-xl font-semibold mb-3 text-green-800">Our Vision</h3>
-              <p className="text-gray-700">
-                We envision a future where every solar farm in Europe integrates sustainable grazing practices, creating
-                a harmonious relationship between renewable energy production and traditional agriculture while
-                maximizing economic and environmental benefits.
-              </p>
-            </div>
+      <section className="border-b border-stone-200 bg-stone-50">
+        <div className="container mx-auto px-4 py-16">
+          <div className="grid gap-4 lg:grid-cols-3">
+            <Card className="rounded-3xl border-stone-200 bg-white">
+              <CardContent className="p-6">
+                <FileSearch className="h-7 w-7 text-emerald-700" />
+                <h2 className="mt-5 text-xl font-semibold text-slate-900">Site assessment first</h2>
+                <p className="mt-3 text-sm leading-7 text-slate-600">
+                  Ombaa starts with the operating realities of the site, not with a broad marketplace promise.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="rounded-3xl border-stone-200 bg-white">
+              <CardContent className="p-6">
+                <MapPinned className="h-7 w-7 text-emerald-700" />
+                <h2 className="mt-5 text-xl font-semibold text-slate-900">Coverage informed by data</h2>
+                <p className="mt-3 text-sm leading-7 text-slate-600">
+                  Directory data helps Ombaa understand where solar parks and grazing partners already exist across
+                  markets.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="rounded-3xl border-stone-200 bg-white">
+              <CardContent className="p-6">
+                <Handshake className="h-7 w-7 text-emerald-700" />
+                <h2 className="mt-5 text-xl font-semibold text-slate-900">Managed arrangement support</h2>
+                <p className="mt-3 text-sm leading-7 text-slate-600">
+                  If the fit looks good, Ombaa helps move from initial match to a workable grazing arrangement.
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
 
-      {/* The Problem We're Solving */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6 text-center">The Problem We're Solving</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-              <Card>
-                <CardContent className="pt-6">
-                  <h3 className="text-xl font-semibold mb-3">For Solar Farms</h3>
-                  <ul className="space-y-3">
-                    <li className="flex gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
-                      <span>High maintenance costs for mechanical mowing</span>
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
-                      <span>Increased fire risks from dry vegetation</span>
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
-                      <span>Environmental impact of mechanical mowing</span>
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
-                      <span>Difficulty finding reliable grazing partners</span>
-                    </li>
-                  </ul>
+      <section className="border-b border-stone-200 bg-white">
+        <div className="container mx-auto grid gap-10 px-4 py-16 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-emerald-700">What Ombaa checks</p>
+            <h2 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-slate-950">
+              The decision is operational before it is commercial
+            </h2>
+            <p className="mt-5 text-base leading-8 text-slate-600">
+              Sheep grazing can be useful, but only if the site supports it. Ombaa screens for the practical details
+              that shape whether an introduction is worth making.
+            </p>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-3">
+            {[
+              {
+                title: "Site constraints",
+                description: "Panel clearance, electrical layout, fencing, water, and physical access.",
+              },
+              {
+                title: "Vegetation goals",
+                description: "How the operator wants to manage growth, maintenance cycles, and fire load.",
+              },
+              {
+                title: "Partner coverage",
+                description: "Whether relevant grazing partner coverage exists within a practical operating radius.",
+              },
+            ].map((item) => (
+              <Card key={item.title} className="rounded-3xl border-stone-200 bg-stone-50">
+                <CardContent className="p-6">
+                  <h3 className="text-lg font-semibold text-slate-900">{item.title}</h3>
+                  <p className="mt-3 text-sm leading-7 text-slate-600">{item.description}</p>
                 </CardContent>
               </Card>
-              <Card>
-                <CardContent className="pt-6">
-                  <h3 className="text-xl font-semibold mb-3">For Shepherds</h3>
-                  <ul className="space-y-3">
-                    <li className="flex gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
-                      <span>Limited access to grazing land</span>
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
-                      <span>Challenges in finding consistent income sources</span>
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
-                      <span>Complex contract negotiations</span>
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
-                      <span>Difficulty connecting with solar farm operators</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Our Approach */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6 text-center">Our Approach</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                  <Globe className="h-6 w-6 text-green-600" />
-                </div>
-                <h3 className="text-xl font-semibold mb-3">European Focus</h3>
-                <p className="text-gray-700">
-                  We're building a pan-European network of solar farms and shepherds, starting with key markets in
-                  France, Germany, and the Netherlands, with plans to expand across the continent.
-                </p>
+      <section className="border-b border-stone-200 bg-stone-50">
+        <div className="container mx-auto px-4 py-16">
+          <div className="max-w-3xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-emerald-700">Current coverage</p>
+            <h2 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-slate-950">
+              Public country coverage already visible on the site
+            </h2>
+          </div>
+
+          <div className="mt-10 grid gap-4 md:grid-cols-3">
+            {[
+              { label: "Solar park records", value: coverage.solarParks },
+              { label: "Grazing partner records", value: coverage.sheepFarms },
+              { label: "Public country pages", value: coverage.countryCount },
+            ].map((item) => (
+              <div key={item.label} className="rounded-3xl border border-stone-200 bg-white p-6">
+                <p className="text-3xl font-semibold tracking-[-0.03em] text-slate-950">{item.value}</p>
+                <p className="mt-2 text-sm leading-6 text-slate-600">{item.label}</p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                  <TrendingUp className="h-6 w-6 text-green-600" />
-                </div>
-                <h3 className="text-xl font-semibold mb-3">Data-Driven Matching</h3>
-                <p className="text-gray-700">
-                  Our platform uses advanced algorithms to match solar farms with the most suitable shepherds based on
-                  location, flock size, availability, and specific site requirements.
-                </p>
-              </div>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                  <Users className="h-6 w-6 text-green-600" />
-                </div>
-                <h3 className="text-xl font-semibold mb-3">Community Building</h3>
-                <p className="text-gray-700">
-                  We're creating a community of solar farm operators and shepherds who share knowledge, best practices,
-                  and success stories to advance the adoption of solar grazing.
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                  <Leaf className="h-6 w-6 text-green-600" />
-                </div>
-                <h3 className="text-xl font-semibold mb-3">Sustainability Impact</h3>
-                <p className="text-gray-700">
-                  We measure and report on the environmental benefits of solar grazing, including reduced carbon
-                  emissions, increased biodiversity, and improved soil health.
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6 text-center">Our Team</h2>
-            <p className="text-lg text-gray-700 mb-8 text-center">
-              Ombaa was founded by a team of renewable energy experts, agricultural specialists, and technology
-              innovators who share a passion for sustainable solutions.
+      <section className="bg-[#163128] text-stone-50">
+        <div className="container mx-auto flex flex-col gap-6 px-4 py-14 lg:flex-row lg:items-center lg:justify-between">
+          <div className="max-w-2xl">
+            <h2 className="text-3xl font-semibold tracking-[-0.03em] text-white">
+              Ready to review a site or register as a grazing partner?
+            </h2>
+            <p className="mt-4 text-base leading-8 text-emerald-50/85">
+              The clearest next step is to submit a site for review or register grazing partner interest.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
-                <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
-                  <Image
-                    src="/placeholder.svg?height=96&width=96"
-                    alt="Portrait of Emma Bergman, Co-Founder and CEO of Ombaa"
-                    width={96}
-                    height={96}
-                    className="object-cover"
-                  />
-                </div>
-                <h3 className="text-lg font-semibold">Emma Bergman</h3>
-                <p className="text-gray-600 text-sm">Co-Founder & CEO</p>
-                <p className="text-gray-600 text-sm mt-2">Background in renewable energy data platforms and land-use optimization.</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
-                <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
-                  <Image
-                    src="/placeholder.svg?height=96&width=96"
-                    alt="Portrait of Thomas Visser, Co-Founder and CTO of Ombaa"
-                    width={96}
-                    height={96}
-                    className="object-cover"
-                  />
-                </div>
-                <h3 className="text-lg font-semibold">Thomas Visser</h3>
-                <p className="text-gray-600 text-sm">Co-Founder & CTO</p>
-                <p className="text-gray-600 text-sm mt-2">Background in software development for agricultural technology and data integration.</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
-                <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
-                  <Image
-                    src="/placeholder.svg?height=96&width=96"
-                    alt="Portrait of Sophie Laurent, Head of Partnerships at Ombaa"
-                    width={96}
-                    height={96}
-                    className="object-cover"
-                  />
-                </div>
-                <h3 className="text-lg font-semibold">Sophie Laurent</h3>
-                <p className="text-gray-600 text-sm">Head of Partnerships</p>
-                <p className="text-gray-600 text-sm mt-2">Background in partnership development for sustainable agriculture and renewable energy projects.</p>
-              </div>
-            </div>
           </div>
-        </div>
-      </section>
-
-      {/* Join Us CTA */}
-      <section className="py-16 bg-green-600 text-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">Join the Solar Grazing Revolution</h2>
-            <p className="text-xl opacity-90 mb-8">
-              Whether you're a solar farm operator looking to reduce costs and improve sustainability, or a shepherd
-              seeking new grazing opportunities, Ombaa is here to connect you.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="bg-white text-green-700 hover:bg-gray-100">
-                <Link href="/directory">Browse Directory</Link>
-              </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-green-500">
-                <Link href="/#waitlist">Join Waitlist</Link>
-              </Button>
-            </div>
+          <div className="flex flex-col gap-4 sm:flex-row">
+            <Button asChild size="lg" className="bg-white text-emerald-950 hover:bg-stone-100">
+              <Link href="/#request-assessment">
+                Request assessment
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-white/25 bg-white/5 text-white hover:bg-white/10 hover:text-white"
+            >
+              <Link href="/register/shepherd">Register as grazing partner</Link>
+            </Button>
           </div>
         </div>
       </section>

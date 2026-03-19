@@ -1,20 +1,21 @@
-import SolarFarmRegisterClient from "./client-page"
 import type { Metadata } from "next"
 
+import SolarFarmRegisterClient from "./client-page"
+
 export const metadata: Metadata = {
-  title: "Register Solar Farm – Ombaa",
-  description: "Sign up your solar farm to find grazing partners on Ombaa.",
-  alternates: { canonical: "https://ombaa.eu/register/solar_farm" },
+  title: "Create operator account | Ombaa",
+  description: "Create an Ombaa operator account for your solar park team.",
+  alternates: { canonical: "https://ombaa.com/register/solar_farm" },
   openGraph: {
-    title: "Register Solar Farm – Ombaa",
-    description: "Sign up your solar farm to find grazing partners on Ombaa.",
-    url: "https://ombaa.eu/register/solar_farm",
+    title: "Create operator account | Ombaa",
+    description: "Create an Ombaa operator account for your solar park team.",
+    url: "https://ombaa.com/register/solar_farm",
     siteName: "Ombaa",
   },
   twitter: {
     card: "summary",
-    title: "Register Solar Farm – Ombaa",
-    description: "Sign up your solar farm to find grazing partners on Ombaa.",
+    title: "Create operator account | Ombaa",
+    description: "Create an Ombaa operator account for your solar park team.",
   },
 }
 

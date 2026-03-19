@@ -1,7 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { CheckCircle, MapPin } from "lucide-react"
+import { MapPin } from "lucide-react"
 import Link from "next/link"
 
 interface ShepherdCardProps {
@@ -11,7 +10,6 @@ interface ShepherdCardProps {
   breed: string
   experience: number
   description: string
-  verified: boolean
   country: string
 }
 
@@ -22,20 +20,12 @@ export default function ShepherdCard({
   breed,
   experience,
   description,
-  verified,
   country,
 }: ShepherdCardProps) {
   return (
     <Card className="overflow-hidden transition-all hover:shadow-md hover:border-green-200">
       <CardHeader className="pb-2">
-        <div className="flex justify-between items-start">
-          <CardTitle className="text-xl">{name}</CardTitle>
-          {verified && (
-            <Badge className="bg-green-600 hover:bg-green-700">
-              <CheckCircle className="h-3 w-3 mr-1" /> Verified
-            </Badge>
-          )}
-        </div>
+        <CardTitle className="text-xl">{name}</CardTitle>
         <div className="flex items-center text-gray-500 text-sm">
           <MapPin className="h-4 w-4 mr-1" /> {location}
         </div>
@@ -59,14 +49,9 @@ export default function ShepherdCard({
 
           <p className="text-gray-600 text-sm">{description}</p>
 
-          <div className="flex gap-2">
-            <Button className="flex-1 bg-green-600 hover:bg-green-700" asChild>
-              <Link href={`/sheepfarms/${country.toLowerCase()}/${encodeURIComponent(name)}`}>
-                View Details
-              </Link>
-            </Button>
-            <Button variant="outline" className="flex-1">Contact</Button>
-          </div>
+          <Button className="w-full bg-green-600 hover:bg-green-700" asChild>
+            <Link href={`/sheepfarms/${country.toLowerCase()}/${encodeURIComponent(name)}`}>View Details</Link>
+          </Button>
         </div>
       </CardContent>
     </Card>

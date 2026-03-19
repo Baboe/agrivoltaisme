@@ -1,20 +1,23 @@
-import ContactPageClient from "./client-page"
 import type { Metadata } from "next"
+import ContactPageClient from "./client-page"
 
 export const metadata: Metadata = {
-  title: "Contact Ombaa",
-  description: "Get in touch with the Ombaa team for questions about solar grazing.",
-  alternates: { canonical: "https://ombaa.eu/contact" },
+  title: "Talk to Ombaa",
+  description:
+    "Contact Ombaa to request a grazing assessment, discuss vegetation management needs, or register grazing partner interest.",
+  alternates: { canonical: "https://ombaa.com/contact" },
   openGraph: {
-    title: "Contact Ombaa",
-    description: "Get in touch with the Ombaa team for questions about solar grazing.",
-    url: "https://ombaa.eu/contact",
+    title: "Talk to Ombaa",
+    description:
+      "Contact Ombaa to request a grazing assessment, discuss vegetation management needs, or register grazing partner interest.",
+    url: "https://ombaa.com/contact",
     siteName: "Ombaa",
   },
   twitter: {
     card: "summary",
-    title: "Contact Ombaa",
-    description: "Get in touch with the Ombaa team for questions about solar grazing.",
+    title: "Talk to Ombaa",
+    description:
+      "Contact Ombaa to request a grazing assessment, discuss vegetation management needs, or register grazing partner interest.",
   },
 }
 

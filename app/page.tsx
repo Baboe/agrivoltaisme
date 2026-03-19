@@ -1,23 +1,30 @@
-import HomeClient from "./home-client"
 import type { Metadata } from "next"
 
+import HomeClient from "./home-client"
+import { getPublicMarketStats } from "@/lib/public-market-stats"
+
 export const metadata: Metadata = {
-  title: "Ombaa – Solar Grazing Marketplace",
-  description: "Connect solar farms with shepherds for eco-friendly grazing across Europe.",
+  title: "Ombaa | Grazing Solutions for Solar Parks",
+  description:
+    "Ombaa helps solar park operators reduce vegetation management costs through sheep grazing, site assessment, and managed partner matching.",
   alternates: { canonical: "https://ombaa.com/" },
   openGraph: {
-    title: "Ombaa – Solar Grazing Marketplace",
-    description: "Connect solar farms with shepherds for eco-friendly grazing across Europe.",
+    title: "Ombaa | Grazing Solutions for Solar Parks",
+    description:
+      "Ombaa helps solar park operators reduce vegetation management costs through sheep grazing, site assessment, and managed partner matching.",
     url: "https://ombaa.com/",
     siteName: "Ombaa",
   },
   twitter: {
     card: "summary",
-    title: "Ombaa – Solar Grazing Marketplace",
-    description: "Connect solar farms with shepherds for eco-friendly grazing across Europe.",
+    title: "Ombaa | Grazing Solutions for Solar Parks",
+    description:
+      "Ombaa helps solar park operators reduce vegetation management costs through sheep grazing, site assessment, and managed partner matching.",
   },
 }
 
 export default function Home() {
-  return <HomeClient />
+  const coverage = getPublicMarketStats()
+
+  return <HomeClient {...coverage} />
 }
