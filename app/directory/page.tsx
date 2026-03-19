@@ -1,3 +1,4 @@
+import { Suspense } from "react"
 import type { Metadata } from "next"
 import DirectoryClient from "./DirectoryClient"
 
@@ -23,5 +24,20 @@ export const metadata: Metadata = {
 }
 
 export default function DirectoryPage() {
-  return <DirectoryClient />
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen bg-stone-50">
+          <div className="container mx-auto px-4 py-20">
+            <div className="surface-card mx-auto max-w-lg p-10 text-center">
+              <div className="mx-auto h-12 w-12 animate-spin rounded-full border-b-2 border-emerald-700"></div>
+              <p className="mt-5 text-base text-slate-600">Loading directory...</p>
+            </div>
+          </div>
+        </div>
+      }
+    >
+      <DirectoryClient />
+    </Suspense>
+  )
 }

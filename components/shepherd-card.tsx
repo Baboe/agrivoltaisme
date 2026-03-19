@@ -8,20 +8,12 @@ interface ShepherdCardProps {
   location: string
   flockSize: number
   breed: string
-  experience: number
+  grazingType: string
   description: string
   country: string
 }
 
-export default function ShepherdCard({
-  name,
-  location,
-  flockSize,
-  breed,
-  experience,
-  description,
-  country,
-}: ShepherdCardProps) {
+export default function ShepherdCard({ name, location, flockSize, breed, grazingType, description, country }: ShepherdCardProps) {
   return (
     <Card className="surface-card overflow-hidden transition-all duration-200 hover:-translate-y-0.5 hover:border-emerald-200">
       <CardHeader className="p-7 pb-3">
@@ -45,12 +37,13 @@ export default function ShepherdCard({
               <p>{breed}</p>
             </div>
             <div className="rounded-2xl bg-stone-50 p-3">
-              <p className="font-medium text-slate-700">Experience</p>
-              <p>{experience} years</p>
+              <p className="font-medium text-slate-700">Grazing Type</p>
+              <p>{grazingType}</p>
             </div>
           </div>
 
           <p className="text-sm leading-7 text-slate-600">{description}</p>
+          <p className="text-xs font-medium uppercase tracking-[0.18em] text-slate-400">Public directory record</p>
 
           <Button className="w-full rounded-full bg-emerald-800 text-white hover:bg-emerald-700" asChild>
             <Link href={`/sheepfarms/${country.toLowerCase()}/${encodeURIComponent(name)}`}>View Details</Link>

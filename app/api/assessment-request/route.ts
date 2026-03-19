@@ -36,13 +36,13 @@ function persistRequest(entry: Record<string, string>) {
 }
 
 async function sendNotificationEmail(entry: Record<string, string>) {
-  const to = process.env.ASSESSMENT_TO_EMAIL
-  const from = process.env.FROM_EMAIL
+  const to = process.env.ASSESSMENT_TO_EMAIL || "info@ombaa.com"
+  const from = process.env.FROM_EMAIL || "info@ombaa.com"
   const host = process.env.SMTP_HOST
   const user = process.env.SMTP_USER
   const pass = process.env.SMTP_PASS
 
-  if (!to || !from || !host || !user || !pass) {
+  if (!host || !user || !pass) {
     return false
   }
 

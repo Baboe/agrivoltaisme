@@ -298,7 +298,7 @@ export default function BelgiumPage() {
             "@type": "WebPage",
             "name": "Solar Grazing in Belgium",
             "description": "Discover solar parks and sheep farms in Belgium. Find shepherds for vegetation management and solar grazing partnerships across Belgian regions.",
-            "url": "https://www.ombaa.com/belgium",
+            "url": "https://ombaa.com/belgium",
             "isPartOf": {
               "@type": "WebSite",
               "name": "Ombaa Directory",

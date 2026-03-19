@@ -1,8 +1,9 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Link from "next/link"
-import { ArrowRight, Filter, MapPin, Search } from "lucide-react"
+import { usePathname, useRouter, useSearchParams } from "next/navigation"
+import { ArrowRight, Check, Copy, MapPin, Search, X } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -16,14 +17,18 @@ interface DirectoryState {
   sheepFarms: SheepFarm[]
   loading: boolean
   error: string | null
-  filters: {
-    country: string
-    region: string
-    search: string
-    listingType: string
-    grazingStatus: string
-  }
+  filters: DirectoryFilters
 }
+
+type DirectoryFilters = {
+  country: string
+  region: string
+  search: string
+  listingType: string
+  grazingStatus: string
+}
+
+type DirectoryFilterKey = keyof DirectoryFilters
 
 const countryLabels: Record<string, string> = {
   netherlands: "Netherlands",
@@ -33,20 +38,84 @@ const countryLabels: Record<string, string> = {
   all: "All countries",
 }
 
+const listingTypeLabels: Record<string, string> = {
+  all: "All listings",
+  shepherd: "Grazing partners only",
+  "solar-farm": "Solar parks only",
+}
+
+const grazingStatusLabels: Record<string, string> = {
+  all: "All grazing status",
+  grazing_ready: "Grazing ready",
+  actively_grazed: "Actively grazed",
+  potentially_compatible: "Potentially compatible",
+  not_compatible: "Not compatible",
+  proven_case_study: "Proven case",
+}
+
+const DEFAULT_FILTERS = {
+  country: 'netherlands',
+  region: 'all',
+  search: '',
+  listingType: 'all',
+  grazingStatus: 'all',
+} satisfies DirectoryFilters
+
+const VALID_COUNTRIES = new Set(['netherlands', 'germany', 'france', 'belgium', 'all'])
+const VALID_LISTING_TYPES = new Set(['all', 'shepherd', 'solar-farm'])
+const VALID_GRAZING_STATUSES = new Set([
+  'all',
+  'grazing_ready',
+  'actively_grazed',
+  'potentially_compatible',
+  'not_compatible',
+  'proven_case_study',
+])
+
+function readFiltersFromSearchParams(searchParams: { get(key: string): string | null }): DirectoryState["filters"] {
+  const country = searchParams.get('country') || DEFAULT_FILTERS.country
+  const listingType = searchParams.get('listingType') || DEFAULT_FILTERS.listingType
+  const grazingStatus = searchParams.get('grazingStatus') || DEFAULT_FILTERS.grazingStatus
+
+  return {
+    country: VALID_COUNTRIES.has(country) ? country : DEFAULT_FILTERS.country,
+    region: searchParams.get('region') || DEFAULT_FILTERS.region,
+    search: searchParams.get('search') || DEFAULT_FILTERS.search,
+    listingType: VALID_LISTING_TYPES.has(listingType) ? listingType : DEFAULT_FILTERS.listingType,
+    grazingStatus: VALID_GRAZING_STATUSES.has(grazingStatus) ? grazingStatus : DEFAULT_FILTERS.grazingStatus,
+  }
+}
+
+function buildDirectoryQuery(filters: DirectoryState["filters"]) {
+  const params = new URLSearchParams()
+
+  if (filters.country !== DEFAULT_FILTERS.country) params.set('country', filters.country)
+  if (filters.region !== DEFAULT_FILTERS.region) params.set('region', filters.region)
+  if (filters.search) params.set('search', filters.search)
+  if (filters.listingType !== DEFAULT_FILTERS.listingType) params.set('listingType', filters.listingType)
+  if (filters.grazingStatus !== DEFAULT_FILTERS.grazingStatus) params.set('grazingStatus', filters.grazingStatus)
+
+  return params.toString()
+}
+
+function getDefaultFilterValue(key: DirectoryFilterKey) {
+  return DEFAULT_FILTERS[key]
+}
+
 export default function DirectoryClient() {
+  const router = useRouter()
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
+  const syncedQueryRef = useRef(searchParams.toString())
+
   const [state, setState] = useState<DirectoryState>({
     solarParks: [],
     sheepFarms: [],
     loading: true,
     error: null,
-    filters: {
-      country: 'netherlands',
-      region: 'all',
-      search: '',
-      listingType: 'all',
-      grazingStatus: 'all',
-    },
+    filters: readFiltersFromSearchParams(searchParams),
   })
+  const [copyState, setCopyState] = useState<'idle' | 'copied' | 'error'>('idle')
 
   const fetchData = async () => {
     setState((previous) => ({ ...previous, loading: true, error: null }))
@@ -114,11 +183,52 @@ export default function DirectoryClient() {
     fetchData()
   }, [state.filters])
 
+  useEffect(() => {
+    const nextFilters = readFiltersFromSearchParams(searchParams)
+    const nextQuery = buildDirectoryQuery(nextFilters)
+
+    syncedQueryRef.current = nextQuery
+
+    setState((previous) => {
+      const currentQuery = buildDirectoryQuery(previous.filters)
+
+      if (currentQuery === nextQuery) {
+        return previous
+      }
+
+      return {
+        ...previous,
+        filters: nextFilters,
+      }
+    })
+  }, [searchParams])
+
+  useEffect(() => {
+    const query = buildDirectoryQuery(state.filters)
+
+    if (query === syncedQueryRef.current) {
+      return
+    }
+
+    syncedQueryRef.current = query
+    router.replace(query ? `${pathname}?${query}` : pathname, { scroll: false })
+  }, [pathname, router, state.filters])
+
+  useEffect(() => {
+    if (copyState === 'idle') {
+      return
+    }
+
+    const timeoutId = window.setTimeout(() => setCopyState('idle'), 2200)
+    return () => window.clearTimeout(timeoutId)
+  }, [copyState])
+
   const handleFilterChange = (key: keyof DirectoryState['filters'], value: string) => {
     setState((previous) => ({
       ...previous,
       filters: {
         ...previous.filters,
+        region: key === 'country' ? DEFAULT_FILTERS.region : previous.filters.region,
         [key]: value,
       },
     }))
@@ -134,8 +244,57 @@ export default function DirectoryClient() {
     }))
   }
 
+  const resetFilters = () => {
+    setState((previous) => ({
+      ...previous,
+      filters: { ...DEFAULT_FILTERS },
+    }))
+  }
+
+  const handleFilterRemoval = (key: DirectoryFilterKey) => {
+    setState((previous) => ({
+      ...previous,
+      filters: {
+        ...previous.filters,
+        region: key === 'country' ? DEFAULT_FILTERS.region : previous.filters.region,
+        [key]: getDefaultFilterValue(key),
+      },
+    }))
+  }
+
+  const handleCopyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href)
+      setCopyState('copied')
+    } catch (error) {
+      console.error('Failed to copy directory link:', error)
+      setCopyState('error')
+    }
+  }
+
   const visibleResultCount = state.solarParks.length + state.sheepFarms.length
   const selectedCountryLabel = countryLabels[state.filters.country] || state.filters.country
+  const activeFilters = [
+    state.filters.country !== DEFAULT_FILTERS.country
+      ? { key: 'country', label: countryLabels[state.filters.country] || state.filters.country }
+      : null,
+    state.filters.region !== DEFAULT_FILTERS.region
+      ? { key: 'region', label: `Region: ${state.filters.region}` }
+      : null,
+    state.filters.search
+      ? { key: 'search', label: `Search: ${state.filters.search}` }
+      : null,
+    state.filters.listingType !== DEFAULT_FILTERS.listingType
+      ? { key: 'listingType', label: listingTypeLabels[state.filters.listingType] || state.filters.listingType }
+      : null,
+    state.filters.grazingStatus !== DEFAULT_FILTERS.grazingStatus
+      ? {
+          key: 'grazingStatus',
+          label: grazingStatusLabels[state.filters.grazingStatus] || state.filters.grazingStatus,
+        }
+      : null,
+  ].filter((item): item is { key: DirectoryFilterKey; label: string } => Boolean(item))
+  const hasCustomFilters = activeFilters.length > 0
 
   if (state.loading) {
     return (
@@ -266,7 +425,7 @@ export default function DirectoryClient() {
       <section className="sticky top-[74px] z-30 border-b border-stone-200/80 bg-stone-50/90 py-5 backdrop-blur-xl">
         <div className="container mx-auto px-4">
           <div className="surface-card p-4 sm:p-5">
-            <div className="grid grid-cols-1 gap-4 lg:grid-cols-[2fr_1fr_1fr_1fr_auto]">
+            <div className="grid grid-cols-1 gap-4 lg:grid-cols-[2fr_1fr_1fr_1fr]">
               <div>
                 <div className="relative">
                   <Search className="absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
@@ -322,23 +481,62 @@ export default function DirectoryClient() {
                   </SelectContent>
                 </Select>
               </div>
-
-              <div>
-                <Button
-                  className="h-12 w-full rounded-full bg-emerald-800 px-6 text-white hover:bg-emerald-700 lg:w-auto"
-                  onClick={fetchData}
-                >
-                  <Filter className="mr-2 h-4 w-4" />
-                  Refresh
-                </Button>
-              </div>
             </div>
 
-            <p className="mt-4 text-sm leading-6 text-slate-500">
-              Showing {visibleResultCount} results
-              {state.filters.search && ` for "${state.filters.search}"`}
-              {state.filters.country !== 'all' && ` in ${selectedCountryLabel}`}
-            </p>
+            <div className="mt-4 border-t border-stone-200 pt-4">
+              <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
+                <div>
+                  <p className="text-sm leading-6 text-slate-500">
+                    Showing {visibleResultCount} results
+                    {state.filters.search && ` for "${state.filters.search}"`}
+                    {state.filters.country !== 'all' && ` in ${selectedCountryLabel}`}
+                  </p>
+                  <p className="mt-1 text-sm leading-6 text-slate-400">
+                    Filters stay in the URL so filtered views can be shared internally.
+                  </p>
+
+                  {hasCustomFilters && (
+                    <div className="mt-3 flex flex-wrap gap-2">
+                      {activeFilters.map((filter) => (
+                        <button
+                          key={filter.key}
+                          type="button"
+                          onClick={() => handleFilterRemoval(filter.key)}
+                          className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1.5 text-sm font-medium text-emerald-900 transition-colors hover:border-emerald-300 hover:bg-emerald-100"
+                        >
+                          <span>{filter.label}</span>
+                          <X className="h-3.5 w-3.5" />
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                <div className="flex flex-wrap gap-3">
+                  {hasCustomFilters && (
+                    <Button
+                      variant="outline"
+                      className="rounded-full border-stone-300 bg-white px-5 text-slate-700 hover:bg-stone-100"
+                      onClick={resetFilters}
+                    >
+                      Reset filters
+                    </Button>
+                  )}
+                  <Button
+                    variant="outline"
+                    className="rounded-full border-stone-300 bg-white px-5 text-slate-700 hover:bg-stone-100"
+                    onClick={handleCopyLink}
+                  >
+                    {copyState === 'copied' ? (
+                      <Check className="h-4 w-4 text-emerald-700" />
+                    ) : (
+                      <Copy className="h-4 w-4" />
+                    )}
+                    {copyState === 'copied' ? 'Link copied' : copyState === 'error' ? 'Copy failed' : 'Copy filtered link'}
+                  </Button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -362,8 +560,8 @@ export default function DirectoryClient() {
                   location={formatLocation(farm.location, farm.region, farm.country)}
                   flockSize={farm.flock_size}
                   breed={farm.breed}
-                  experience={5}
-                  description={`${farm.grazing_type} specialist. Available for solar grazing partnerships.`}
+                  grazingType={farm.grazing_type}
+                  description="Public grazing partner record within the current Ombaa coverage dataset."
                   country={farm.country}
                 />
               ))}
@@ -382,6 +580,10 @@ export default function DirectoryClient() {
                 Review solar park records in the public directory and use them as supporting coverage proof for future
                 outreach and assessment work.
               </p>
+              <p className="mt-4 text-sm leading-6 text-slate-500">
+                Grazing status labels reflect the current public directory record. They are not a substitute for a site
+                assessment.
+              </p>
             </div>
 
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
@@ -393,6 +595,7 @@ export default function DirectoryClient() {
                   size={park.total_hectares}
                   vegetationType={park.vegetation_type}
                   description={`Solar park record with ${park.total_hectares} hectares of panels and vegetation management needs.`}
+                  grazingStatus={park.grazing_status}
                   country={park.country}
                 />
               ))}
@@ -413,18 +616,7 @@ export default function DirectoryClient() {
               <Button
                 variant="outline"
                 className="mt-6 rounded-full border-stone-300 bg-stone-50 px-6 hover:bg-stone-100"
-                onClick={() =>
-                  setState((previous) => ({
-                    ...previous,
-                    filters: {
-                      country: 'netherlands',
-                      region: 'all',
-                      search: '',
-                      listingType: 'all',
-                      grazingStatus: 'all',
-                    },
-                  }))
-                }
+                onClick={resetFilters}
               >
                 Reset to Netherlands
               </Button>
