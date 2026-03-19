@@ -72,7 +72,7 @@ export default function AssessmentRequestForm({
     return (
       <div
         className={cn(
-          "rounded-3xl border border-emerald-200 bg-white p-8 shadow-[0_24px_60px_-32px_rgba(20,83,45,0.45)]",
+          "rounded-[32px] border border-emerald-200 bg-white/95 p-8 shadow-[0_28px_70px_-34px_rgba(20,83,45,0.4)] backdrop-blur-sm",
           className,
         )}
       >
@@ -100,11 +100,11 @@ export default function AssessmentRequestForm({
     <form
       onSubmit={handleSubmit}
       className={cn(
-        "rounded-3xl border border-slate-200 bg-white p-6 shadow-[0_24px_60px_-32px_rgba(15,23,42,0.28)] sm:p-8",
+        "rounded-[32px] border border-white/70 bg-white/92 p-6 shadow-[0_30px_80px_-38px_rgba(15,23,42,0.28)] backdrop-blur-sm sm:p-8",
         className,
       )}
     >
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="grid gap-5 sm:grid-cols-2">
         <div className="space-y-2">
           <label htmlFor="companyName" className="text-sm font-medium text-slate-700">
             Company or asset owner
@@ -115,6 +115,7 @@ export default function AssessmentRequestForm({
             value={formState.companyName}
             onChange={handleChange}
             placeholder="Your company"
+            className="h-12 rounded-2xl border-stone-300 bg-stone-50/80 px-4"
             required
           />
         </div>
@@ -128,6 +129,7 @@ export default function AssessmentRequestForm({
             value={formState.contactName}
             onChange={handleChange}
             placeholder="Your name"
+            className="h-12 rounded-2xl border-stone-300 bg-stone-50/80 px-4"
             required
           />
         </div>
@@ -142,6 +144,7 @@ export default function AssessmentRequestForm({
             value={formState.email}
             onChange={handleChange}
             placeholder="name@company.com"
+            className="h-12 rounded-2xl border-stone-300 bg-stone-50/80 px-4"
             required
           />
         </div>
@@ -156,6 +159,7 @@ export default function AssessmentRequestForm({
             value={formState.phone}
             onChange={handleChange}
             placeholder="+31 ..."
+            className="h-12 rounded-2xl border-stone-300 bg-stone-50/80 px-4"
           />
         </div>
         <div className="space-y-2">
@@ -168,6 +172,7 @@ export default function AssessmentRequestForm({
             value={formState.siteLocation}
             onChange={handleChange}
             placeholder="Region, municipality, or address"
+            className="h-12 rounded-2xl border-stone-300 bg-stone-50/80 px-4"
             required
           />
         </div>
@@ -184,11 +189,12 @@ export default function AssessmentRequestForm({
             value={formState.approximateHectares}
             onChange={handleChange}
             placeholder="20"
+            className="h-12 rounded-2xl border-stone-300 bg-stone-50/80 px-4"
           />
         </div>
       </div>
 
-      <div className="mt-4 space-y-2">
+      <div className="mt-5 space-y-2">
         <label htmlFor="currentVegetationMethod" className="text-sm font-medium text-slate-700">
           Current vegetation management
         </label>
@@ -198,10 +204,11 @@ export default function AssessmentRequestForm({
           value={formState.currentVegetationMethod}
           onChange={handleChange}
           placeholder="Mowing, mixed maintenance, existing grazing, other"
+          className="h-12 rounded-2xl border-stone-300 bg-stone-50/80 px-4"
         />
       </div>
 
-      <div className="mt-4 space-y-2">
+      <div className="mt-5 space-y-2">
         <label htmlFor="notes" className="text-sm font-medium text-slate-700">
           Notes
         </label>
@@ -211,6 +218,7 @@ export default function AssessmentRequestForm({
           value={formState.notes}
           onChange={handleChange}
           placeholder="Share any site constraints, grazing goals, or timing requirements."
+          className="min-h-[132px] rounded-[24px] border-stone-300 bg-stone-50/80 px-4 py-3"
           rows={5}
         />
       </div>
@@ -221,11 +229,16 @@ export default function AssessmentRequestForm({
         </div>
       ) : null}
 
-      <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <div className="mt-8 flex flex-col gap-4 border-t border-stone-200 pt-6 sm:flex-row sm:items-center sm:justify-between">
         <p className="max-w-md text-sm leading-6 text-slate-500">
           This goes to Ombaa for manual review. No marketplace account is required to start the conversation.
         </p>
-        <Button type="submit" size="lg" className="bg-emerald-800 text-white hover:bg-emerald-700" disabled={isSubmitting}>
+        <Button
+          type="submit"
+          size="lg"
+          className="rounded-full bg-emerald-800 px-6 text-white shadow-[0_18px_40px_-24px_rgba(6,78,59,0.68)] hover:bg-emerald-700"
+          disabled={isSubmitting}
+        >
           {isSubmitting ? (
             <>
               <Loader2 className="h-4 w-4 animate-spin" />

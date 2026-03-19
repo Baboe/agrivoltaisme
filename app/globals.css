@@ -56,7 +56,47 @@
   html {
     scroll-behavior: smooth;
   }
+  ::selection {
+    background: hsl(145 55% 82%);
+    color: hsl(158 42% 16%);
+  }
   body {
     @apply bg-background text-foreground antialiased;
+    background-image:
+      radial-gradient(circle at top, rgba(167, 243, 208, 0.14), transparent 30%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(245, 241, 228, 0.68));
+  }
+}
+
+@layer components {
+  .section-kicker {
+    @apply text-[0.72rem] font-semibold uppercase tracking-[0.22em] text-emerald-700;
+  }
+
+  .section-title {
+    @apply mt-4 text-3xl font-semibold tracking-[-0.04em] text-slate-950 md:text-4xl;
+  }
+
+  .section-copy {
+    @apply mt-5 text-base leading-8 text-slate-600;
+  }
+
+  .surface-card {
+    @apply rounded-[30px] border border-stone-200/90 bg-white shadow-[0_24px_70px_-44px_rgba(15,23,42,0.28)];
+  }
+
+  .surface-card-soft {
+    @apply rounded-[30px] border border-stone-200/80 bg-stone-50/85 shadow-[0_24px_70px_-48px_rgba(15,23,42,0.22)];
+  }
+
+  .metric-pill {
+    @apply inline-flex items-center rounded-full border border-white/15 bg-white/10 px-3 py-1.5 text-sm font-medium text-emerald-50/90 backdrop-blur-sm;
+  }
+
+  .soft-grid {
+    background-image:
+      linear-gradient(rgba(15, 23, 42, 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(15, 23, 42, 0.035) 1px, transparent 1px);
+    background-size: 28px 28px;
   }
 }
