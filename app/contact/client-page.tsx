@@ -33,8 +33,8 @@ export default function ContactPageClient() {
               <h2 className="mt-5 text-xl font-semibold text-slate-900">Email</h2>
               <p className="mt-3 text-sm leading-7 text-slate-600">
                 For direct questions, email{" "}
-                <a href="mailto:info@ombaa.eu" className="font-medium text-emerald-800 hover:text-emerald-700">
-                  info@ombaa.eu
+                <a href="mailto:info@ombaa.com" className="font-medium text-emerald-800 hover:text-emerald-700">
+                  info@ombaa.com
                 </a>
                 .
               </p>

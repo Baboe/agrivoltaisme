@@ -24,8 +24,8 @@ export default function SiteFooter() {
           </p>
           <p className="mt-6 text-sm text-emerald-100/80">
             Contact:{" "}
-            <a href="mailto:info@ombaa.eu" className="font-medium text-white hover:text-emerald-200">
-              info@ombaa.eu
+            <a href="mailto:info@ombaa.com" className="font-medium text-white hover:text-emerald-200">
+              info@ombaa.com
             </a>
           </p>
         </div>
