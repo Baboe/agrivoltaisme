@@ -10,7 +10,13 @@ const BASE_URL = 'https://ombaa.com';
 // Static pages that should be included in sitemaps
 const STATIC_PAGES = [
   '',
-  '/directory',
+  '/guides',
+  '/equipment',
+  '/agrivoltaics',
+  '/solar-grazing',
+  '/find-solar-grazing-partner',
+  '/agrivoltaic-income-estimate',
+  '/find-land-for-solar',
   '/about',
   '/contact',
 ];

@@ -11,9 +11,9 @@ import SiteFooter from "@/components/site-footer"
 const manrope = Manrope({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Ombaa | Grazing Solutions for Solar Parks",
+  title: "Ombaa | Agrivoltaics and Solar Grazing",
   description:
-    "Ombaa helps solar park operators reduce vegetation management costs through sheep grazing, site assessment, and managed partner matching.",
+    "Ombaa is a lead generation and content platform for agrivoltaics, solar grazing, and land use with sheep.",
 }
 
 export default function RootLayout({
